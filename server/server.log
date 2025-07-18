@@ -1,0 +1,3523 @@
+
+> server@1.0.0 dev
+> node index.js
+
+[dotenv@17.2.0] injecting env (1) from .env (tip: ⚙️  specify custom .env file path with { path: '/custom/path/.env' })
+🚀 Soooounds backend server running on http://localhost:3001
+🎨 OpenAI API Key: Found
+🎨 Image transformation request received
+📊 Image details: { originalSize: 24480, fileType: 'image/jpeg', fileName: 'image.png' }
+🎵 Audio features: {
+  volume: 0.0020198073670423156,
+  pitch: 9,
+  energy: 0.0007875568412994356,
+  mode: 'realtime'
+}
+🎵 Audio-reactive parameters: {
+  volumePercent: 0,
+  energyPercent: 0,
+  pitchValue: 9,
+  centroidValue: 11
+}
+🎯 Generated prompt: Create a digital artwork inspired by audio visualization and sound reactive effects. 
+  
+  AUDIO PARAMETERS driving the visual: Vol:0% Energy:0% Pitch:9Hz Cent:11%
+  
+  Visual style: MINIMAL EFFECTS, very subtle changes, peaceful with SMOOTH GRADIENTS, soft transitions, minimal patterns and HEAVY TEXTURES, grounded elements, solid foundations
+  Color scheme: DEEP COOL: midnight blues, rich purples, metallic silvers
+  
+  Create a dynamic, futuristic composition that embodies these audio characteristics.
+  Style: Advanced digital art, cyberpunk aesthetics, electronic music visualization, holographic effects
+  Make it look like sound made visible - EXTREMELY responsive to the audio parameters above.
+  Ultra high quality, dramatic lighting, cutting-edge visual effects.
+  Seed: 00911
+🔄 Converting image to PNG format
+✅ Image converted to PNG
+📏 Final image dimensions: { width: 512, height: 343 }
+objc[9342]: Class GNotificationCenterDelegate is implemented in both /Users/billy/code/soooounds/server/node_modules/@img/sharp-libvips-darwin-arm64/lib/libvips-cpp.8.17.1.dylib (0x1290d1af0) and /Users/billy/code/soooounds/server/node_modules/canvas/build/Release/libgio-2.0.0.dylib (0x1081744b8). This may cause spurious casting failures and mysterious crashes. One of the duplicates must be removed or renamed.
+🎭 Creating strategic audio-reactive mask
+🎭 Mask saved for debugging: /tmp/debug_mask_1752782324061.png
+📏 Image file size: 304574
+📏 Mask file size: 3908
+🚀 Using DALL-E 3 for cutting-edge audio-reactive generation...
+🎵 Audio parameters driving DALL-E 3 generation: {
+  volume: 0.0020198073670423156,
+  energy: 0.0007875568412994356,
+  pitch: 9,
+  centroid: 0.11152762578122517
+}
+✅ OpenAI transformation complete
+🌐 Image URL from OpenAI: https://oaidalleapiprodscus.blob.core.windows.net/private/org-aWRt1ujnznk5CtQ0ykEkXjur/user-vYEZcYN1KCW4dgOtD0ShyJgA/img-ruq3Ms1nIVijHrbavYfCrHoF.png?st=2025-07-17T18%3A59%3A11Z&se=2025-07-17T20%3A59%3A11Z&sp=r&sv=2024-08-04&sr=b&rscd=inline&rsct=image/png&skoid=475fd488-6c59-44a5-9aa9-31c4db451bea&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-07-17T06%3A18%3A20Z&ske=2025-07-18T06%3A18%3A20Z&sks=b&skv=2024-08-04&sig=ywkbEoWDlamAO9JKRg4ulmgSjHEr6GIUq4pCwytwyUo%3D
+📤 Sending DALL-E 3 generated image back to frontend, size: 2461948
+🔍 Data URL preview: data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAABAAAAAQACAIAAADwf7zUAAA3BmNhQlgAADcGanVtYgAAAB5qdW1kYz...
+📦 Response object keys: [ 'success', 'imageData', 'prompt' ]
+📦 Response success: true
+📦 Response imageData length: 2461970
+🎨 Image transformation request received
+📊 Image details: { originalSize: 24480, fileType: 'image/jpeg', fileName: 'image.png' }
+🎵 Audio features: {
+  volume: 0.002020230039013947,
+  pitch: 5,
+  energy: 0.0008545180178696275,
+  mode: 'realtime'
+}
+🎵 Audio-reactive parameters: {
+  volumePercent: 0,
+  energyPercent: 0,
+  pitchValue: 5,
+  centroidValue: 12
+}
+🎯 Generated prompt: Create a digital artwork inspired by audio visualization and sound reactive effects. 
+  
+  AUDIO PARAMETERS driving the visual: Vol:0% Energy:0% Pitch:5Hz Cent:12%
+  
+  Visual style: MINIMAL EFFECTS, very subtle changes, peaceful with SMOOTH GRADIENTS, soft transitions, minimal patterns and HEAVY TEXTURES, grounded elements, solid foundations
+  Color scheme: DEEP COOL: midnight blues, rich purples, metallic silvers
+  
+  Create a dynamic, futuristic composition that embodies these audio characteristics.
+  Style: Advanced digital art, cyberpunk aesthetics, electronic music visualization, holographic effects
+  Make it look like sound made visible - EXTREMELY responsive to the audio parameters above.
+  Ultra high quality, dramatic lighting, cutting-edge visual effects.
+  Seed: 00512
+🔄 Converting image to PNG format
+✅ Image converted to PNG
+📏 Final image dimensions: { width: 512, height: 343 }
+🎭 Creating strategic audio-reactive mask
+🎭 Mask saved for debugging: /tmp/debug_mask_1752782354009.png
+📏 Image file size: 304574
+📏 Mask file size: 4090
+🚀 Using DALL-E 3 for cutting-edge audio-reactive generation...
+🎵 Audio parameters driving DALL-E 3 generation: {
+  volume: 0.002020230039013947,
+  energy: 0.0008545180178696275,
+  pitch: 5,
+  centroid: 0.12137816271066876
+}
+✅ OpenAI transformation complete
+🌐 Image URL from OpenAI: https://oaidalleapiprodscus.blob.core.windows.net/private/org-aWRt1ujnznk5CtQ0ykEkXjur/user-vYEZcYN1KCW4dgOtD0ShyJgA/img-yRSqZM4yVCzfA7JUaY5xaWE0.png?st=2025-07-17T18%3A59%3A40Z&se=2025-07-17T20%3A59%3A40Z&sp=r&sv=2024-08-04&sr=b&rscd=inline&rsct=image/png&skoid=475fd488-6c59-44a5-9aa9-31c4db451bea&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-07-17T10%3A54%3A21Z&ske=2025-07-18T10%3A54%3A21Z&sks=b&skv=2024-08-04&sig=VLjLp7%2Bwj4%2BHdzD4I45LS/NPTMrWdD4O/%2B13d9ikXVs%3D
+📤 Sending DALL-E 3 generated image back to frontend, size: 2679460
+🔍 Data URL preview: data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAABAAAAAQACAIAAADwf7zUAAA3BmNhQlgAADcGanVtYgAAAB5qdW1kYz...
+📦 Response object keys: [ 'success', 'imageData', 'prompt' ]
+📦 Response success: true
+📦 Response imageData length: 2679482
+🎨 Image transformation request received
+📊 Image details: { originalSize: 24480, fileType: 'image/jpeg', fileName: 'image.png' }
+🎵 Audio features: {
+  volume: 0.0016801507660353244,
+  pitch: 13,
+  energy: 0.0007400533338585629,
+  mode: 'realtime'
+}
+🎵 Audio-reactive parameters: {
+  volumePercent: 0,
+  energyPercent: 0,
+  pitchValue: 13,
+  centroidValue: 11
+}
+🎯 Generated prompt: Create a digital artwork inspired by audio visualization and sound reactive effects. 
+  
+  AUDIO PARAMETERS driving the visual: Vol:0% Energy:0% Pitch:13Hz Cent:11%
+  
+  Visual style: MINIMAL EFFECTS, very subtle changes, peaceful with SMOOTH GRADIENTS, soft transitions, minimal patterns and HEAVY TEXTURES, grounded elements, solid foundations
+  Color scheme: DEEP COOL: midnight blues, rich purples, metallic silvers
+  
+  Create a dynamic, futuristic composition that embodies these audio characteristics.
+  Style: Advanced digital art, cyberpunk aesthetics, electronic music visualization, holographic effects
+  Make it look like sound made visible - EXTREMELY responsive to the audio parameters above.
+  Ultra high quality, dramatic lighting, cutting-edge visual effects.
+  Seed: 001311
+🔄 Converting image to PNG format
+✅ Image converted to PNG
+📏 Final image dimensions: { width: 512, height: 343 }
+🎭 Creating strategic audio-reactive mask
+🎭 Mask saved for debugging: /tmp/debug_mask_1752782382220.png
+📏 Image file size: 304574
+📏 Mask file size: 4023
+🚀 Using DALL-E 3 for cutting-edge audio-reactive generation...
+🎵 Audio parameters driving DALL-E 3 generation: {
+  volume: 0.0016801507660353244,
+  energy: 0.0007400533338585629,
+  pitch: 13,
+  centroid: 0.11451425781993378
+}
+✅ OpenAI transformation complete
+🌐 Image URL from OpenAI: https://oaidalleapiprodscus.blob.core.windows.net/private/org-aWRt1ujnznk5CtQ0ykEkXjur/user-vYEZcYN1KCW4dgOtD0ShyJgA/img-DTEjdEtUUjnfZiP2T4yOg2nr.png?st=2025-07-17T19%3A00%3A12Z&se=2025-07-17T21%3A00%3A12Z&sp=r&sv=2024-08-04&sr=b&rscd=inline&rsct=image/png&skoid=475fd488-6c59-44a5-9aa9-31c4db451bea&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-07-17T05%3A19%3A21Z&ske=2025-07-18T05%3A19%3A21Z&sks=b&skv=2024-08-04&sig=xR98RbqhkfZTju7El71oPhPZf1fHwbE4GWwZcocOyKY%3D
+📤 Sending DALL-E 3 generated image back to frontend, size: 2097264
+🔍 Data URL preview: data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAABAAAAAQACAIAAADwf7zUAAA3BmNhQlgAADcGanVtYgAAAB5qdW1kYz...
+📦 Response object keys: [ 'success', 'imageData', 'prompt' ]
+📦 Response success: true
+📦 Response imageData length: 2097286
+🎨 Image transformation request received
+📊 Image details: { originalSize: 24480, fileType: 'image/jpeg', fileName: 'image.png' }
+🎵 Audio features: {
+  volume: 0.0018683044070814036,
+  pitch: 5,
+  energy: 0.0007224542179809023,
+  mode: 'realtime'
+}
+🎵 Audio-reactive parameters: {
+  volumePercent: 0,
+  energyPercent: 0,
+  pitchValue: 5,
+  centroidValue: 12
+}
+🎯 Generated prompt: Create a digital artwork inspired by audio visualization and sound reactive effects. 
+  
+  AUDIO PARAMETERS driving the visual: Vol:0% Energy:0% Pitch:5Hz Cent:12%
+  
+  Visual style: MINIMAL EFFECTS, very subtle changes, peaceful with SMOOTH GRADIENTS, soft transitions, minimal patterns and HEAVY TEXTURES, grounded elements, solid foundations
+  Color scheme: DEEP COOL: midnight blues, rich purples, metallic silvers
+  
+  Create a dynamic, futuristic composition that embodies these audio characteristics.
+  Style: Advanced digital art, cyberpunk aesthetics, electronic music visualization, holographic effects
+  Make it look like sound made visible - EXTREMELY responsive to the audio parameters above.
+  Ultra high quality, dramatic lighting, cutting-edge visual effects.
+  Seed: 00512
+🔄 Converting image to PNG format
+✅ Image converted to PNG
+📏 Final image dimensions: { width: 512, height: 343 }
+🎭 Creating strategic audio-reactive mask
+🎭 Mask saved for debugging: /tmp/debug_mask_1752782413893.png
+📏 Image file size: 304574
+📏 Mask file size: 4107
+🚀 Using DALL-E 3 for cutting-edge audio-reactive generation...
+🎵 Audio parameters driving DALL-E 3 generation: {
+  volume: 0.0018683044070814036,
+  energy: 0.0007224542179809023,
+  pitch: 5,
+  centroid: 0.11622562688447877
+}
+✅ OpenAI transformation complete
+🌐 Image URL from OpenAI: https://oaidalleapiprodscus.blob.core.windows.net/private/org-aWRt1ujnznk5CtQ0ykEkXjur/user-vYEZcYN1KCW4dgOtD0ShyJgA/img-ToN2Gwxa5Tdxcq5hB2j5hOlm.png?st=2025-07-17T19%3A00%3A47Z&se=2025-07-17T21%3A00%3A47Z&sp=r&sv=2024-08-04&sr=b&rscd=inline&rsct=image/png&skoid=475fd488-6c59-44a5-9aa9-31c4db451bea&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-07-17T09%3A13%3A02Z&ske=2025-07-18T09%3A13%3A02Z&sks=b&skv=2024-08-04&sig=3aiHtloUgFQ93nWaflPWL5TNoIeAv1F1Oe8fjtpo9Ts%3D
+📤 Sending DALL-E 3 generated image back to frontend, size: 2337544
+🔍 Data URL preview: data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAABAAAAAQACAIAAADwf7zUAAA3BmNhQlgAADcGanVtYgAAAB5qdW1kYz...
+📦 Response object keys: [ 'success', 'imageData', 'prompt' ]
+📦 Response success: true
+📦 Response imageData length: 2337566
+🎨 Image transformation request received
+📊 Image details: { originalSize: 24480, fileType: 'image/jpeg', fileName: 'image.png' }
+🎵 Audio features: {
+  volume: 0.0018966266178490167,
+  pitch: 5,
+  energy: 0.0007371073901927776,
+  mode: 'realtime'
+}
+🎵 Audio-reactive parameters: {
+  volumePercent: 0,
+  energyPercent: 0,
+  pitchValue: 5,
+  centroidValue: 12
+}
+🎯 Generated prompt: Create a digital artwork inspired by audio visualization and sound reactive effects. 
+  
+  AUDIO PARAMETERS driving the visual: Vol:0% Energy:0% Pitch:5Hz Cent:12%
+  
+  Visual style: MINIMAL EFFECTS, very subtle changes, peaceful with SMOOTH GRADIENTS, soft transitions, minimal patterns and HEAVY TEXTURES, grounded elements, solid foundations
+  Color scheme: DEEP COOL: midnight blues, rich purples, metallic silvers
+  
+  Create a dynamic, futuristic composition that embodies these audio characteristics.
+  Style: Advanced digital art, cyberpunk aesthetics, electronic music visualization, holographic effects
+  Make it look like sound made visible - EXTREMELY responsive to the audio parameters above.
+  Ultra high quality, dramatic lighting, cutting-edge visual effects.
+  Seed: 00512
+🔄 Converting image to PNG format
+✅ Image converted to PNG
+📏 Final image dimensions: { width: 512, height: 343 }
+🎭 Creating strategic audio-reactive mask
+🎭 Mask saved for debugging: /tmp/debug_mask_1752782449862.png
+📏 Image file size: 304574
+📏 Mask file size: 3967
+🚀 Using DALL-E 3 for cutting-edge audio-reactive generation...
+🎵 Audio parameters driving DALL-E 3 generation: {
+  volume: 0.0018966266178490167,
+  energy: 0.0007371073901927776,
+  pitch: 5,
+  centroid: 0.11531248195561547
+}
+✅ OpenAI transformation complete
+🌐 Image URL from OpenAI: https://oaidalleapiprodscus.blob.core.windows.net/private/org-aWRt1ujnznk5CtQ0ykEkXjur/user-vYEZcYN1KCW4dgOtD0ShyJgA/img-3zCId8D2z9bsTrUn4g3XEwsb.png?st=2025-07-17T19%3A01%3A18Z&se=2025-07-17T21%3A01%3A18Z&sp=r&sv=2024-08-04&sr=b&rscd=inline&rsct=image/png&skoid=475fd488-6c59-44a5-9aa9-31c4db451bea&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-07-17T04%3A41%3A08Z&ske=2025-07-18T04%3A41%3A08Z&sks=b&skv=2024-08-04&sig=NIF5rqvN6Tj7UgnWdL2KZMfYZAIpR9LnIEZ35JxOgc0%3D
+📤 Sending DALL-E 3 generated image back to frontend, size: 2862324
+🔍 Data URL preview: data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAABAAAAAQACAIAAADwf7zUAAA3BmNhQlgAADcGanVtYgAAAB5qdW1kYz...
+📦 Response object keys: [ 'success', 'imageData', 'prompt' ]
+📦 Response success: true
+📦 Response imageData length: 2862346
+🎨 Image transformation request received
+📊 Image details: { originalSize: 24480, fileType: 'image/jpeg', fileName: 'image.png' }
+🎵 Audio features: {
+  volume: 0.0015052024334268753,
+  pitch: 9,
+  energy: 0.0012407549817264234,
+  mode: 'realtime'
+}
+🎵 Audio-reactive parameters: {
+  volumePercent: 0,
+  energyPercent: 0,
+  pitchValue: 9,
+  centroidValue: 14
+}
+🎯 Generated prompt: Create a digital artwork inspired by audio visualization and sound reactive effects. 
+  
+  AUDIO PARAMETERS driving the visual: Vol:0% Energy:0% Pitch:9Hz Cent:14%
+  
+  Visual style: MINIMAL EFFECTS, very subtle changes, peaceful with SMOOTH GRADIENTS, soft transitions, minimal patterns and HEAVY TEXTURES, grounded elements, solid foundations
+  Color scheme: DEEP COOL: midnight blues, rich purples, metallic silvers
+  
+  Create a dynamic, futuristic composition that embodies these audio characteristics.
+  Style: Advanced digital art, cyberpunk aesthetics, electronic music visualization, holographic effects
+  Make it look like sound made visible - EXTREMELY responsive to the audio parameters above.
+  Ultra high quality, dramatic lighting, cutting-edge visual effects.
+  Seed: 00914
+🔄 Converting image to PNG format
+✅ Image converted to PNG
+📏 Final image dimensions: { width: 512, height: 343 }
+🎭 Creating strategic audio-reactive mask
+🎭 Mask saved for debugging: /tmp/debug_mask_1752782479853.png
+📏 Image file size: 304574
+📏 Mask file size: 3961
+🚀 Using DALL-E 3 for cutting-edge audio-reactive generation...
+🎵 Audio parameters driving DALL-E 3 generation: {
+  volume: 0.0015052024334268753,
+  energy: 0.0012407549817264234,
+  pitch: 9,
+  centroid: 0.1375525794709796
+}
+✅ OpenAI transformation complete
+🌐 Image URL from OpenAI: https://oaidalleapiprodscus.blob.core.windows.net/private/org-aWRt1ujnznk5CtQ0ykEkXjur/user-vYEZcYN1KCW4dgOtD0ShyJgA/img-EUIreB8iwA3B4JSevP27L2XS.png?st=2025-07-17T19%3A01%3A51Z&se=2025-07-17T21%3A01%3A51Z&sp=r&sv=2024-08-04&sr=b&rscd=inline&rsct=image/png&skoid=475fd488-6c59-44a5-9aa9-31c4db451bea&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-07-17T08%3A40%3A09Z&ske=2025-07-18T08%3A40%3A09Z&sks=b&skv=2024-08-04&sig=C9H%2B9sru1xp824hvIT8ENW5tTHCq3EYDhJ1JIP2r%2BYo%3D
+📤 Sending DALL-E 3 generated image back to frontend, size: 2853720
+🔍 Data URL preview: data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAABAAAAAQACAIAAADwf7zUAAA3BmNhQlgAADcGanVtYgAAAB5qdW1kYz...
+📦 Response object keys: [ 'success', 'imageData', 'prompt' ]
+📦 Response success: true
+📦 Response imageData length: 2853742
+🎨 Image transformation request received
+📊 Image details: { originalSize: 24480, fileType: 'image/jpeg', fileName: 'image.png' }
+🎵 Audio features: {
+  volume: 0.0017968199321021171,
+  pitch: 8,
+  energy: 0.0007385610738789807,
+  mode: 'realtime'
+}
+🎵 Audio-reactive parameters: {
+  volumePercent: 0,
+  energyPercent: 0,
+  pitchValue: 8,
+  centroidValue: 11
+}
+🎯 Generated prompt: Create a digital artwork inspired by audio visualization and sound reactive effects. 
+  
+  AUDIO PARAMETERS driving the visual: Vol:0% Energy:0% Pitch:8Hz Cent:11%
+  
+  Visual style: MINIMAL EFFECTS, very subtle changes, peaceful with SMOOTH GRADIENTS, soft transitions, minimal patterns and HEAVY TEXTURES, grounded elements, solid foundations
+  Color scheme: DEEP COOL: midnight blues, rich purples, metallic silvers
+  
+  Create a dynamic, futuristic composition that embodies these audio characteristics.
+  Style: Advanced digital art, cyberpunk aesthetics, electronic music visualization, holographic effects
+  Make it look like sound made visible - EXTREMELY responsive to the audio parameters above.
+  Ultra high quality, dramatic lighting, cutting-edge visual effects.
+  Seed: 00811
+🔄 Converting image to PNG format
+✅ Image converted to PNG
+📏 Final image dimensions: { width: 512, height: 343 }
+🎭 Creating strategic audio-reactive mask
+🎭 Mask saved for debugging: /tmp/debug_mask_1752782519469.png
+📏 Image file size: 304574
+📏 Mask file size: 3945
+🚀 Using DALL-E 3 for cutting-edge audio-reactive generation...
+🎵 Audio parameters driving DALL-E 3 generation: {
+  volume: 0.0017968199321021171,
+  energy: 0.0007385610738789807,
+  pitch: 8,
+  centroid: 0.1059041713325039
+}
+✅ OpenAI transformation complete
+🌐 Image URL from OpenAI: https://oaidalleapiprodscus.blob.core.windows.net/private/org-aWRt1ujnznk5CtQ0ykEkXjur/user-vYEZcYN1KCW4dgOtD0ShyJgA/img-e8DbMGBzIniQQNi7FFMUjj5e.png?st=2025-07-17T19%3A03%3A33Z&se=2025-07-17T21%3A03%3A33Z&sp=r&sv=2024-08-04&sr=b&rscd=inline&rsct=image/png&skoid=475fd488-6c59-44a5-9aa9-31c4db451bea&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-07-17T20%3A03%3A33Z&ske=2025-07-18T20%3A03%3A33Z&sks=b&skv=2024-08-04&sig=L9f0XT5LlAGK4CpaIB6ngJt%2BtN0Y7/2hxEa2qstBl7c%3D
+📤 Sending DALL-E 3 generated image back to frontend, size: 2672532
+🔍 Data URL preview: data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAABAAAAAQACAIAAADwf7zUAAA3BmNhQlgAADcGanVtYgAAAB5qdW1kYz...
+📦 Response object keys: [ 'success', 'imageData', 'prompt' ]
+📦 Response success: true
+📦 Response imageData length: 2672554
+🎨 Image transformation request received
+📊 Image details: { originalSize: 24480, fileType: 'image/jpeg', fileName: 'image.png' }
+🎵 Audio features: {
+  volume: 0.0014052018103100188,
+  pitch: 6,
+  energy: 0.000965566510072243,
+  mode: 'realtime'
+}
+🎵 Audio-reactive parameters: {
+  volumePercent: 0,
+  energyPercent: 0,
+  pitchValue: 6,
+  centroidValue: 11
+}
+🎯 Generated prompt: Create a digital artwork inspired by audio visualization and sound reactive effects. 
+  
+  AUDIO PARAMETERS driving the visual: Vol:0% Energy:0% Pitch:6Hz Cent:11%
+  
+  Visual style: MINIMAL EFFECTS, very subtle changes, peaceful with SMOOTH GRADIENTS, soft transitions, minimal patterns and HEAVY TEXTURES, grounded elements, solid foundations
+  Color scheme: DEEP COOL: midnight blues, rich purples, metallic silvers
+  
+  Create a dynamic, futuristic composition that embodies these audio characteristics.
+  Style: Advanced digital art, cyberpunk aesthetics, electronic music visualization, holographic effects
+  Make it look like sound made visible - EXTREMELY responsive to the audio parameters above.
+  Ultra high quality, dramatic lighting, cutting-edge visual effects.
+  Seed: 00611
+🔄 Converting image to PNG format
+✅ Image converted to PNG
+📏 Final image dimensions: { width: 512, height: 343 }
+🎭 Creating strategic audio-reactive mask
+🎭 Mask saved for debugging: /tmp/debug_mask_1752782614815.png
+📏 Image file size: 304574
+📏 Mask file size: 4015
+🚀 Using DALL-E 3 for cutting-edge audio-reactive generation...
+🎵 Audio parameters driving DALL-E 3 generation: {
+  volume: 0.0014052018103100188,
+  energy: 0.000965566510072243,
+  pitch: 6,
+  centroid: 0.11434443195218406
+}
+✅ OpenAI transformation complete
+🌐 Image URL from OpenAI: https://oaidalleapiprodscus.blob.core.windows.net/private/org-aWRt1ujnznk5CtQ0ykEkXjur/user-vYEZcYN1KCW4dgOtD0ShyJgA/img-ufYZBN7VoAeuZFOpW63qV9FN.png?st=2025-07-17T19%3A04%3A06Z&se=2025-07-17T21%3A04%3A06Z&sp=r&sv=2024-08-04&sr=b&rscd=inline&rsct=image/png&skoid=475fd488-6c59-44a5-9aa9-31c4db451bea&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-07-17T05%3A56%3A03Z&ske=2025-07-18T05%3A56%3A03Z&sks=b&skv=2024-08-04&sig=qY6JXJUN22WtdE7mKb5xDVG/PBWCe9G4/G7EKFy/fHk%3D
+📤 Sending DALL-E 3 generated image back to frontend, size: 2311872
+🔍 Data URL preview: data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAABAAAAAQACAIAAADwf7zUAAA3BmNhQlgAADcGanVtYgAAAB5qdW1kYz...
+📦 Response object keys: [ 'success', 'imageData', 'prompt' ]
+📦 Response success: true
+📦 Response imageData length: 2311894
+🎨 Image transformation request received
+📊 Image details: { originalSize: 24480, fileType: 'image/jpeg', fileName: 'image.png' }
+🎵 Audio features: {
+  volume: 0.0014679900438621255,
+  pitch: 6,
+  energy: 0.0009417054913425914,
+  mode: 'realtime'
+}
+🎵 Audio-reactive parameters: {
+  volumePercent: 0,
+  energyPercent: 0,
+  pitchValue: 6,
+  centroidValue: 12
+}
+🎯 Generated prompt: Create a digital artwork inspired by audio visualization and sound reactive effects. 
+  
+  AUDIO PARAMETERS driving the visual: Vol:0% Energy:0% Pitch:6Hz Cent:12%
+  
+  Visual style: MINIMAL EFFECTS, very subtle changes, peaceful with SMOOTH GRADIENTS, soft transitions, minimal patterns and HEAVY TEXTURES, grounded elements, solid foundations
+  Color scheme: DEEP COOL: midnight blues, rich purples, metallic silvers
+  
+  Create a dynamic, futuristic composition that embodies these audio characteristics.
+  Style: Advanced digital art, cyberpunk aesthetics, electronic music visualization, holographic effects
+  Make it look like sound made visible - EXTREMELY responsive to the audio parameters above.
+  Ultra high quality, dramatic lighting, cutting-edge visual effects.
+  Seed: 00612
+🔄 Converting image to PNG format
+✅ Image converted to PNG
+📏 Final image dimensions: { width: 512, height: 343 }
+🎭 Creating strategic audio-reactive mask
+🎭 Mask saved for debugging: /tmp/debug_mask_1752782647946.png
+📏 Image file size: 304574
+📏 Mask file size: 3810
+🚀 Using DALL-E 3 for cutting-edge audio-reactive generation...
+🎵 Audio parameters driving DALL-E 3 generation: {
+  volume: 0.0014679900438621255,
+  energy: 0.0009417054913425914,
+  pitch: 6,
+  centroid: 0.12237317213100285
+}
+✅ OpenAI transformation complete
+🌐 Image URL from OpenAI: https://oaidalleapiprodscus.blob.core.windows.net/private/org-aWRt1ujnznk5CtQ0ykEkXjur/user-vYEZcYN1KCW4dgOtD0ShyJgA/img-NKIl1sOhMLDqE9hrb145oHD8.png?st=2025-07-17T19%3A04%3A41Z&se=2025-07-17T21%3A04%3A41Z&sp=r&sv=2024-08-04&sr=b&rscd=inline&rsct=image/png&skoid=475fd488-6c59-44a5-9aa9-31c4db451bea&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-07-17T12%3A39%3A46Z&ske=2025-07-18T12%3A39%3A46Z&sks=b&skv=2024-08-04&sig=2HZCpcP8WuhYvWSwwT1QaXrGc6aV8NIxEVEt1SrNgTo%3D
+📤 Sending DALL-E 3 generated image back to frontend, size: 2847904
+🔍 Data URL preview: data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAABAAAAAQACAIAAADwf7zUAAA3BmNhQlgAADcGanVtYgAAAB5qdW1kYz...
+📦 Response object keys: [ 'success', 'imageData', 'prompt' ]
+📦 Response success: true
+📦 Response imageData length: 2847926
+🎨 Image transformation request received
+📊 Image details: { originalSize: 24480, fileType: 'image/jpeg', fileName: 'image.png' }
+🎵 Audio features: {
+  volume: 0.0014679900438621255,
+  pitch: 6,
+  energy: 0.0009417054913425914,
+  mode: 'realtime'
+}
+🎵 Audio-reactive parameters: {
+  volumePercent: 0,
+  energyPercent: 0,
+  pitchValue: 6,
+  centroidValue: 12
+}
+🎯 Generated prompt: Create a digital artwork inspired by audio visualization and sound reactive effects. 
+  
+  AUDIO PARAMETERS driving the visual: Vol:0% Energy:0% Pitch:6Hz Cent:12%
+  
+  Visual style: MINIMAL EFFECTS, very subtle changes, peaceful with SMOOTH GRADIENTS, soft transitions, minimal patterns and HEAVY TEXTURES, grounded elements, solid foundations
+  Color scheme: DEEP COOL: midnight blues, rich purples, metallic silvers
+  
+  Create a dynamic, futuristic composition that embodies these audio characteristics.
+  Style: Advanced digital art, cyberpunk aesthetics, electronic music visualization, holographic effects
+  Make it look like sound made visible - EXTREMELY responsive to the audio parameters above.
+  Ultra high quality, dramatic lighting, cutting-edge visual effects.
+  Seed: 00612
+🔄 Converting image to PNG format
+✅ Image converted to PNG
+📏 Final image dimensions: { width: 512, height: 343 }
+🎭 Creating strategic audio-reactive mask
+🎭 Mask saved for debugging: /tmp/debug_mask_1752782683151.png
+📏 Image file size: 304574
+📏 Mask file size: 3961
+🚀 Using DALL-E 3 for cutting-edge audio-reactive generation...
+🎵 Audio parameters driving DALL-E 3 generation: {
+  volume: 0.0014679900438621255,
+  energy: 0.0009417054913425914,
+  pitch: 6,
+  centroid: 0.12237317213100285
+}
+✅ OpenAI transformation complete
+🌐 Image URL from OpenAI: https://oaidalleapiprodscus.blob.core.windows.net/private/org-aWRt1ujnznk5CtQ0ykEkXjur/user-vYEZcYN1KCW4dgOtD0ShyJgA/img-dW44vwELqLln00Ah8cXjecQP.png?st=2025-07-17T19%3A05%3A10Z&se=2025-07-17T21%3A05%3A10Z&sp=r&sv=2024-08-04&sr=b&rscd=inline&rsct=image/png&skoid=475fd488-6c59-44a5-9aa9-31c4db451bea&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-07-17T16%3A37%3A05Z&ske=2025-07-18T16%3A37%3A05Z&sks=b&skv=2024-08-04&sig=UQz3K0nmJpO3WXo/11ckROvkZeNuN638RcXECMCJw%2B8%3D
+📤 Sending DALL-E 3 generated image back to frontend, size: 2355428
+🔍 Data URL preview: data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAABAAAAAQACAIAAADwf7zUAAA3BmNhQlgAADcGanVtYgAAAB5qdW1kYz...
+📦 Response object keys: [ 'success', 'imageData', 'prompt' ]
+📦 Response success: true
+📦 Response imageData length: 2355450
+🎨 Image transformation request received
+📊 Image details: { originalSize: 24480, fileType: 'image/jpeg', fileName: 'image.png' }
+🎵 Audio features: {
+  volume: 0.05005143866276626,
+  pitch: 4,
+  energy: 0.005513452221731899,
+  mode: 'realtime'
+}
+🎵 Audio-reactive parameters: {
+  volumePercent: 5,
+  energyPercent: 1,
+  pitchValue: 4,
+  centroidValue: 10
+}
+🎯 Generated prompt: Create a digital artwork inspired by audio visualization and sound reactive effects. 
+  
+  AUDIO PARAMETERS driving the visual: Vol:5% Energy:1% Pitch:4Hz Cent:10%
+  
+  Visual style: MINIMAL EFFECTS, very subtle changes, peaceful with SMOOTH GRADIENTS, soft transitions, minimal patterns and HEAVY TEXTURES, grounded elements, solid foundations
+  Color scheme: DEEP COOL: midnight blues, rich purples, metallic silvers
+  
+  Create a dynamic, futuristic composition that embodies these audio characteristics.
+  Style: Advanced digital art, cyberpunk aesthetics, electronic music visualization, holographic effects
+  Make it look like sound made visible - EXTREMELY responsive to the audio parameters above.
+  Ultra high quality, dramatic lighting, cutting-edge visual effects.
+  Seed: 51410
+🔄 Converting image to PNG format
+✅ Image converted to PNG
+📏 Final image dimensions: { width: 512, height: 343 }
+🎭 Creating strategic audio-reactive mask
+🎭 Mask saved for debugging: /tmp/debug_mask_1752782712787.png
+📏 Image file size: 304574
+📏 Mask file size: 3928
+🚀 Using DALL-E 3 for cutting-edge audio-reactive generation...
+🎵 Audio parameters driving DALL-E 3 generation: {
+  volume: 0.05005143866276626,
+  energy: 0.005513452221731899,
+  pitch: 4,
+  centroid: 0.09773595381017286
+}
+✅ OpenAI transformation complete
+🌐 Image URL from OpenAI: https://oaidalleapiprodscus.blob.core.windows.net/private/org-aWRt1ujnznk5CtQ0ykEkXjur/user-vYEZcYN1KCW4dgOtD0ShyJgA/img-V24Nzri2UN2SgJncRRXe3hh1.png?st=2025-07-17T19%3A05%3A44Z&se=2025-07-17T21%3A05%3A44Z&sp=r&sv=2024-08-04&sr=b&rscd=inline&rsct=image/png&skoid=475fd488-6c59-44a5-9aa9-31c4db451bea&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-07-17T08%3A25%3A41Z&ske=2025-07-18T08%3A25%3A41Z&sks=b&skv=2024-08-04&sig=ZImCgKSuvuIdmPKuXnSmPg5oAgxP8i12tY2G26aqeCc%3D
+📤 Sending DALL-E 3 generated image back to frontend, size: 2884980
+🔍 Data URL preview: data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAABAAAAAQACAIAAADwf7zUAAA3BmNhQlgAADcGanVtYgAAAB5qdW1kYz...
+📦 Response object keys: [ 'success', 'imageData', 'prompt' ]
+📦 Response success: true
+📦 Response imageData length: 2885002
+🎨 Image transformation request received
+📊 Image details: { originalSize: 24480, fileType: 'image/jpeg', fileName: 'image.png' }
+🎵 Audio features: {
+  volume: 0.032992487143984416,
+  pitch: 6,
+  energy: 0.013564645085533244,
+  mode: 'realtime'
+}
+🎵 Audio-reactive parameters: { volumePercent: 3, energyPercent: 1, pitchValue: 6, centroidValue: 9 }
+🎯 Generated prompt: Create a digital artwork inspired by audio visualization and sound reactive effects. 
+  
+  AUDIO PARAMETERS driving the visual: Vol:3% Energy:1% Pitch:6Hz Cent:9%
+  
+  Visual style: MINIMAL EFFECTS, very subtle changes, peaceful with SMOOTH GRADIENTS, soft transitions, minimal patterns and HEAVY TEXTURES, grounded elements, solid foundations
+  Color scheme: DEEP COOL: midnight blues, rich purples, metallic silvers
+  
+  Create a dynamic, futuristic composition that embodies these audio characteristics.
+  Style: Advanced digital art, cyberpunk aesthetics, electronic music visualization, holographic effects
+  Make it look like sound made visible - EXTREMELY responsive to the audio parameters above.
+  Ultra high quality, dramatic lighting, cutting-edge visual effects.
+  Seed: 3169
+🔄 Converting image to PNG format
+✅ Image converted to PNG
+📏 Final image dimensions: { width: 512, height: 343 }
+🎭 Creating strategic audio-reactive mask
+🎭 Mask saved for debugging: /tmp/debug_mask_1752782761040.png
+📏 Image file size: 304574
+📏 Mask file size: 4066
+🚀 Using DALL-E 3 for cutting-edge audio-reactive generation...
+🎵 Audio parameters driving DALL-E 3 generation: {
+  volume: 0.032992487143984416,
+  energy: 0.013564645085533244,
+  pitch: 6,
+  centroid: 0.09024050015874413
+}
+✅ OpenAI transformation complete
+🌐 Image URL from OpenAI: https://oaidalleapiprodscus.blob.core.windows.net/private/org-aWRt1ujnznk5CtQ0ykEkXjur/user-vYEZcYN1KCW4dgOtD0ShyJgA/img-YVnPSPp6QfNbHbrrmQGffkIm.png?st=2025-07-17T19%3A06%3A29Z&se=2025-07-17T21%3A06%3A29Z&sp=r&sv=2024-08-04&sr=b&rscd=inline&rsct=image/png&skoid=475fd488-6c59-44a5-9aa9-31c4db451bea&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-07-16T23%3A12%3A24Z&ske=2025-07-17T23%3A12%3A24Z&sks=b&skv=2024-08-04&sig=n3Enk6RcFFfzpcbYUEkKdFxjpsmsbVDSPUimEsSlcPo%3D
+📤 Sending DALL-E 3 generated image back to frontend, size: 2647036
+🔍 Data URL preview: data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAABAAAAAQACAIAAADwf7zUAAA3BmNhQlgAADcGanVtYgAAAB5qdW1kYz...
+📦 Response object keys: [ 'success', 'imageData', 'prompt' ]
+📦 Response success: true
+📦 Response imageData length: 2647058
+🎨 Image transformation request received
+📊 Image details: { originalSize: 24480, fileType: 'image/jpeg', fileName: 'image.png' }
+🎵 Audio features: {
+  volume: 0.6402179105681032,
+  pitch: 5,
+  energy: 0.10552696452434099,
+  mode: 'realtime'
+}
+🎵 Audio-reactive parameters: {
+  volumePercent: 64,
+  energyPercent: 11,
+  pitchValue: 5,
+  centroidValue: 4
+}
+🎯 Generated prompt: Create a digital artwork inspired by audio visualization and sound reactive effects. 
+  
+  AUDIO PARAMETERS driving the visual: Vol:64% Energy:11% Pitch:5Hz Cent:4%
+  
+  Visual style: INTENSE ENERGY, heavy distortion, dramatic transforms with SWIRLING VORTEXES, rippling waves, pulsing rhythms and HEAVY TEXTURES, grounded elements, solid foundations
+  Color scheme: DEEP COOL: midnight blues, rich purples, metallic silvers
+  
+  Create a dynamic, futuristic composition that embodies these audio characteristics.
+  Style: Advanced digital art, cyberpunk aesthetics, electronic music visualization, holographic effects
+  Make it look like sound made visible - EXTREMELY responsive to the audio parameters above.
+  Ultra high quality, dramatic lighting, cutting-edge visual effects.
+  Seed: 641154
+🔄 Converting image to PNG format
+✅ Image converted to PNG
+📏 Final image dimensions: { width: 512, height: 343 }
+🎭 Creating strategic audio-reactive mask
+🎭 Mask saved for debugging: /tmp/debug_mask_1752782791265.png
+📏 Image file size: 304574
+📏 Mask file size: 5727
+🚀 Using DALL-E 3 for cutting-edge audio-reactive generation...
+🎵 Audio parameters driving DALL-E 3 generation: {
+  volume: 0.6402179105681032,
+  energy: 0.10552696452434099,
+  pitch: 5,
+  centroid: 0.035632844330498625
+}
+✅ OpenAI transformation complete
+🌐 Image URL from OpenAI: https://oaidalleapiprodscus.blob.core.windows.net/private/org-aWRt1ujnznk5CtQ0ykEkXjur/user-vYEZcYN1KCW4dgOtD0ShyJgA/img-x00xfsBBuc0a3OfuQJohnYo8.png?st=2025-07-17T19%3A07%3A01Z&se=2025-07-17T21%3A07%3A01Z&sp=r&sv=2024-08-04&sr=b&rscd=inline&rsct=image/png&skoid=475fd488-6c59-44a5-9aa9-31c4db451bea&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-07-17T20%3A07%3A01Z&ske=2025-07-18T20%3A07%3A01Z&sks=b&skv=2024-08-04&sig=zqDxsZTxDOIvfjX7vI5yPOEXqN9B7EFNJWr4Ws0DqWE%3D
+📤 Sending DALL-E 3 generated image back to frontend, size: 3057352
+🔍 Data URL preview: data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAABAAAAAQACAIAAADwf7zUAAA3BmNhQlgAADcGanVtYgAAAB5qdW1kYz...
+📦 Response object keys: [ 'success', 'imageData', 'prompt' ]
+📦 Response success: true
+📦 Response imageData length: 3057374
+🎨 Image transformation request received
+📊 Image details: { originalSize: 24480, fileType: 'image/jpeg', fileName: 'image.png' }
+🎵 Audio features: {
+  volume: 0.03209077614917029,
+  pitch: 10,
+  energy: 0.02902503965231127,
+  mode: 'realtime'
+}
+🎵 Audio-reactive parameters: {
+  volumePercent: 3,
+  energyPercent: 3,
+  pitchValue: 10,
+  centroidValue: 3
+}
+🎯 Generated prompt: Create a digital artwork inspired by audio visualization and sound reactive effects. 
+  
+  AUDIO PARAMETERS driving the visual: Vol:3% Energy:3% Pitch:10Hz Cent:3%
+  
+  Visual style: MINIMAL EFFECTS, very subtle changes, peaceful with SMOOTH GRADIENTS, soft transitions, minimal patterns and HEAVY TEXTURES, grounded elements, solid foundations
+  Color scheme: DEEP COOL: midnight blues, rich purples, metallic silvers
+  
+  Create a dynamic, futuristic composition that embodies these audio characteristics.
+  Style: Advanced digital art, cyberpunk aesthetics, electronic music visualization, holographic effects
+  Make it look like sound made visible - EXTREMELY responsive to the audio parameters above.
+  Ultra high quality, dramatic lighting, cutting-edge visual effects.
+  Seed: 33103
+🔄 Converting image to PNG format
+✅ Image converted to PNG
+📏 Final image dimensions: { width: 512, height: 343 }
+🎭 Creating strategic audio-reactive mask
+🎭 Mask saved for debugging: /tmp/debug_mask_1752841209577.png
+📏 Image file size: 304574
+📏 Mask file size: 3888
+🚀 Using DALL-E 3 for cutting-edge audio-reactive generation...
+🎵 Audio parameters driving DALL-E 3 generation: {
+  volume: 0.03209077614917029,
+  energy: 0.02902503965231127,
+  pitch: 10,
+  centroid: 0.03266789161679914
+}
+✅ OpenAI transformation complete
+🌐 Image URL from OpenAI: https://oaidalleapiprodscus.blob.core.windows.net/private/org-aWRt1ujnznk5CtQ0ykEkXjur/user-vYEZcYN1KCW4dgOtD0ShyJgA/img-svtJaMt4R4u9wH6GnoXDbfyN.png?st=2025-07-18T11%3A20%3A37Z&se=2025-07-18T13%3A20%3A37Z&sp=r&sv=2024-08-04&sr=b&rscd=inline&rsct=image/png&skoid=475fd488-6c59-44a5-9aa9-31c4db451bea&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-07-17T16%3A43%3A31Z&ske=2025-07-18T16%3A43%3A31Z&sks=b&skv=2024-08-04&sig=Q9U7VGf6q/4rLDVOm%2BsaCR19fPwzXrB1HyGUR8kSOBc%3D
+📤 Sending DALL-E 3 generated image back to frontend, size: 2513052
+🔍 Data URL preview: data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAABAAAAAQACAIAAADwf7zUAAA3BmNhQlgAADcGanVtYgAAAB5qdW1kYz...
+📦 Response object keys: [ 'success', 'imageData', 'prompt' ]
+📦 Response success: true
+📦 Response imageData length: 2513074
+🎨 Image transformation request received
+📊 Image details: { originalSize: 24480, fileType: 'image/jpeg', fileName: 'image.png' }
+🎵 Audio features: { volume: 1, pitch: 8, energy: 0.17212364061226074, mode: 'realtime' }
+🎵 Audio-reactive parameters: {
+  volumePercent: 100,
+  energyPercent: 17,
+  pitchValue: 8,
+  centroidValue: 2
+}
+🎯 Generated prompt: Create a digital artwork inspired by audio visualization and sound reactive effects. 
+  
+  AUDIO PARAMETERS driving the visual: Vol:100% Energy:17% Pitch:8Hz Cent:2%
+  
+  Visual style: EXPLOSIVE CHAOS, maximum distortion, reality-breaking with CHAOTIC FRACTALS, lightning patterns, explosive bursts and HEAVY TEXTURES, grounded elements, solid foundations
+  Color scheme: DEEP COOL: midnight blues, rich purples, metallic silvers
+  
+  Create a dynamic, futuristic composition that embodies these audio characteristics.
+  Style: Advanced digital art, cyberpunk aesthetics, electronic music visualization, holographic effects
+  Make it look like sound made visible - EXTREMELY responsive to the audio parameters above.
+  Ultra high quality, dramatic lighting, cutting-edge visual effects.
+  Seed: 1001782
+🔄 Converting image to PNG format
+✅ Image converted to PNG
+📏 Final image dimensions: { width: 512, height: 343 }
+🎭 Creating strategic audio-reactive mask
+🎭 Mask saved for debugging: /tmp/debug_mask_1752841239016.png
+📏 Image file size: 304574
+📏 Mask file size: 7368
+🚀 Using DALL-E 3 for cutting-edge audio-reactive generation...
+🎵 Audio parameters driving DALL-E 3 generation: {
+  volume: 1,
+  energy: 0.17212364061226074,
+  pitch: 8,
+  centroid: 0.024079148925715676
+}
+✅ OpenAI transformation complete
+🌐 Image URL from OpenAI: https://oaidalleapiprodscus.blob.core.windows.net/private/org-aWRt1ujnznk5CtQ0ykEkXjur/user-vYEZcYN1KCW4dgOtD0ShyJgA/img-ILdUnWwc8yBl0l6JuwzF8IcF.png?st=2025-07-18T11%3A21%3A10Z&se=2025-07-18T13%3A21%3A10Z&sp=r&sv=2024-08-04&sr=b&rscd=inline&rsct=image/png&skoid=475fd488-6c59-44a5-9aa9-31c4db451bea&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-07-17T17%3A03%3A15Z&ske=2025-07-18T17%3A03%3A15Z&sks=b&skv=2024-08-04&sig=U%2Bj7hISQ57U%2B0MVYPaxPoTRKfLSobAwZ4AdcLZi/A0s%3D
+📤 Sending DALL-E 3 generated image back to frontend, size: 2978748
+🔍 Data URL preview: data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAABAAAAAQACAIAAADwf7zUAAA3BmNhQlgAADcGanVtYgAAAB5qdW1kYz...
+📦 Response object keys: [ 'success', 'imageData', 'prompt' ]
+📦 Response success: true
+📦 Response imageData length: 2978770
+🎨 Image transformation request received
+📊 Image details: { originalSize: 24480, fileType: 'image/jpeg', fileName: 'image.png' }
+🎵 Audio features: {
+  volume: 0.002430836344186047,
+  pitch: 12,
+  energy: 0.0008400861867561805,
+  mode: 'realtime'
+}
+🎵 Audio-reactive parameters: {
+  volumePercent: 0,
+  energyPercent: 0,
+  pitchValue: 12,
+  centroidValue: 10
+}
+🎯 Generated prompt: Create a digital artwork inspired by audio visualization and sound reactive effects. 
+  
+  AUDIO PARAMETERS driving the visual: Vol:0% Energy:0% Pitch:12Hz Cent:10%
+  
+  Visual style: MINIMAL EFFECTS, very subtle changes, peaceful with SMOOTH GRADIENTS, soft transitions, minimal patterns and HEAVY TEXTURES, grounded elements, solid foundations
+  Color scheme: DEEP COOL: midnight blues, rich purples, metallic silvers
+  
+  Create a dynamic, futuristic composition that embodies these audio characteristics.
+  Style: Advanced digital art, cyberpunk aesthetics, electronic music visualization, holographic effects
+  Make it look like sound made visible - EXTREMELY responsive to the audio parameters above.
+  Ultra high quality, dramatic lighting, cutting-edge visual effects.
+  Seed: 001210
+🔄 Converting image to PNG format
+✅ Image converted to PNG
+📏 Final image dimensions: { width: 512, height: 343 }
+🎭 Creating strategic audio-reactive mask
+🎭 Mask saved for debugging: /tmp/debug_mask_1752841272398.png
+📏 Image file size: 304574
+📏 Mask file size: 3773
+🚀 Using DALL-E 3 for cutting-edge audio-reactive generation...
+🎵 Audio parameters driving DALL-E 3 generation: {
+  volume: 0.002430836344186047,
+  energy: 0.0008400861867561805,
+  pitch: 12,
+  centroid: 0.10216999776135174
+}
+✅ OpenAI transformation complete
+🌐 Image URL from OpenAI: https://oaidalleapiprodscus.blob.core.windows.net/private/org-aWRt1ujnznk5CtQ0ykEkXjur/user-vYEZcYN1KCW4dgOtD0ShyJgA/img-m79nqBeQsTBomn1MyHznuIQP.png?st=2025-07-18T11%3A22%3A08Z&se=2025-07-18T13%3A22%3A08Z&sp=r&sv=2024-08-04&sr=b&rscd=inline&rsct=image/png&skoid=475fd488-6c59-44a5-9aa9-31c4db451bea&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-07-17T14%3A04%3A37Z&ske=2025-07-18T14%3A04%3A37Z&sks=b&skv=2024-08-04&sig=dOsVIvhccr5QdI6l9eBGp%2BHSpZKf9rsGLYqDr08ZDYM%3D
+📤 Sending DALL-E 3 generated image back to frontend, size: 2640760
+🔍 Data URL preview: data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAABAAAAAQACAIAAADwf7zUAAA3BmNhQlgAADcGanVtYgAAAB5qdW1kYz...
+📦 Response object keys: [ 'success', 'imageData', 'prompt' ]
+📦 Response success: true
+📦 Response imageData length: 2640782
+🎨 Image transformation request received
+📊 Image details: { originalSize: 24480, fileType: 'image/jpeg', fileName: 'image.png' }
+🎵 Audio features: {
+  volume: 0.0016996035057655937,
+  pitch: 11,
+  energy: 0.0009216762037089485,
+  mode: 'realtime'
+}
+🎵 Audio-reactive parameters: {
+  volumePercent: 0,
+  energyPercent: 0,
+  pitchValue: 11,
+  centroidValue: 10
+}
+🎯 Generated prompt: Create a digital artwork inspired by audio visualization and sound reactive effects. 
+  
+  AUDIO PARAMETERS driving the visual: Vol:0% Energy:0% Pitch:11Hz Cent:10%
+  
+  Visual style: MINIMAL EFFECTS, very subtle changes, peaceful with SMOOTH GRADIENTS, soft transitions, minimal patterns and HEAVY TEXTURES, grounded elements, solid foundations
+  Color scheme: DEEP COOL: midnight blues, rich purples, metallic silvers
+  
+  Create a dynamic, futuristic composition that embodies these audio characteristics.
+  Style: Advanced digital art, cyberpunk aesthetics, electronic music visualization, holographic effects
+  Make it look like sound made visible - EXTREMELY responsive to the audio parameters above.
+  Ultra high quality, dramatic lighting, cutting-edge visual effects.
+  Seed: 001110
+🔄 Converting image to PNG format
+✅ Image converted to PNG
+📏 Final image dimensions: { width: 512, height: 343 }
+🎭 Creating strategic audio-reactive mask
+🎭 Mask saved for debugging: /tmp/debug_mask_1752841329660.png
+📏 Image file size: 304574
+📏 Mask file size: 3911
+🚀 Using DALL-E 3 for cutting-edge audio-reactive generation...
+🎵 Audio parameters driving DALL-E 3 generation: {
+  volume: 0.0016996035057655937,
+  energy: 0.0009216762037089485,
+  pitch: 11,
+  centroid: 0.09844228345589395
+}
+✅ OpenAI transformation complete
+🌐 Image URL from OpenAI: https://oaidalleapiprodscus.blob.core.windows.net/private/org-aWRt1ujnznk5CtQ0ykEkXjur/user-vYEZcYN1KCW4dgOtD0ShyJgA/img-xGovi9Brp8By6ylqU3oZ9yIi.png?st=2025-07-18T11%3A22%3A33Z&se=2025-07-18T13%3A22%3A33Z&sp=r&sv=2024-08-04&sr=b&rscd=inline&rsct=image/png&skoid=475fd488-6c59-44a5-9aa9-31c4db451bea&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-07-18T12%3A22%3A33Z&ske=2025-07-19T12%3A22%3A33Z&sks=b&skv=2024-08-04&sig=/rt4osMJQIO7FI7DqJDQXQpjunLoMm6/bHwg7nYoUPs%3D
+📤 Sending DALL-E 3 generated image back to frontend, size: 2490388
+🔍 Data URL preview: data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAABAAAAAQACAIAAADwf7zUAAA3BmNhQlgAADcGanVtYgAAAB5qdW1kYz...
+📦 Response object keys: [ 'success', 'imageData', 'prompt' ]
+📦 Response success: true
+📦 Response imageData length: 2490410
+🎨 Image transformation request received
+📊 Image details: { originalSize: 24480, fileType: 'image/jpeg', fileName: 'image.png' }
+🎵 Audio features: {
+  volume: 0.0021109165378403166,
+  pitch: 5,
+  energy: 0.0008894488979512874,
+  mode: 'realtime'
+}
+🎵 Audio-reactive parameters: {
+  volumePercent: 0,
+  energyPercent: 0,
+  pitchValue: 5,
+  centroidValue: 10
+}
+🎯 Generated prompt: Create a digital artwork inspired by audio visualization and sound reactive effects. 
+  
+  AUDIO PARAMETERS driving the visual: Vol:0% Energy:0% Pitch:5Hz Cent:10%
+  
+  Visual style: MINIMAL EFFECTS, very subtle changes, peaceful with SMOOTH GRADIENTS, soft transitions, minimal patterns and HEAVY TEXTURES, grounded elements, solid foundations
+  Color scheme: DEEP COOL: midnight blues, rich purples, metallic silvers
+  
+  Create a dynamic, futuristic composition that embodies these audio characteristics.
+  Style: Advanced digital art, cyberpunk aesthetics, electronic music visualization, holographic effects
+  Make it look like sound made visible - EXTREMELY responsive to the audio parameters above.
+  Ultra high quality, dramatic lighting, cutting-edge visual effects.
+  Seed: 00510
+🔄 Converting image to PNG format
+✅ Image converted to PNG
+📏 Final image dimensions: { width: 512, height: 343 }
+🎭 Creating strategic audio-reactive mask
+🎭 Mask saved for debugging: /tmp/debug_mask_1752841355714.png
+📏 Image file size: 304574
+📏 Mask file size: 3864
+🚀 Using DALL-E 3 for cutting-edge audio-reactive generation...
+🎵 Audio parameters driving DALL-E 3 generation: {
+  volume: 0.0021109165378403166,
+  energy: 0.0008894488979512874,
+  pitch: 5,
+  centroid: 0.09592398345196992
+}
+✅ OpenAI transformation complete
+🌐 Image URL from OpenAI: https://oaidalleapiprodscus.blob.core.windows.net/private/org-aWRt1ujnznk5CtQ0ykEkXjur/user-vYEZcYN1KCW4dgOtD0ShyJgA/img-QG6Q8q03PTpT4DuTUWkLdH0z.png?st=2025-07-18T11%3A23%3A03Z&se=2025-07-18T13%3A23%3A03Z&sp=r&sv=2024-08-04&sr=b&rscd=inline&rsct=image/png&skoid=475fd488-6c59-44a5-9aa9-31c4db451bea&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-07-18T07%3A49%3A36Z&ske=2025-07-19T07%3A49%3A36Z&sks=b&skv=2024-08-04&sig=PPN5IQF0U%2BWfPJcxjT0Eecd4enymXlX/f%2BRj5rC5QZI%3D
+📤 Sending DALL-E 3 generated image back to frontend, size: 2711368
+🔍 Data URL preview: data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAABAAAAAQACAIAAADwf7zUAAA3BmNhQlgAADcGanVtYgAAAB5qdW1kYz...
+📦 Response object keys: [ 'success', 'imageData', 'prompt' ]
+📦 Response success: true
+📦 Response imageData length: 2711390
+🎨 Image transformation request received
+📊 Image details: { originalSize: 24480, fileType: 'image/jpeg', fileName: 'image.png' }
+🎵 Audio features: {
+  volume: 0.05097225657932944,
+  pitch: 91,
+  energy: 0.011068004766412055,
+  mode: 'realtime'
+}
+🎵 Audio-reactive parameters: {
+  volumePercent: 5,
+  energyPercent: 1,
+  pitchValue: 91,
+  centroidValue: 12
+}
+🎯 Generated prompt: Create a digital artwork inspired by audio visualization and sound reactive effects. 
+  
+  AUDIO PARAMETERS driving the visual: Vol:5% Energy:1% Pitch:91Hz Cent:12%
+  
+  Visual style: MINIMAL EFFECTS, very subtle changes, peaceful with SMOOTH GRADIENTS, soft transitions, minimal patterns and ORGANIC CURVES, flowing shapes, harmonic patterns
+  Color scheme: DEEP COOL: midnight blues, rich purples, metallic silvers
+  
+  Create a dynamic, futuristic composition that embodies these audio characteristics.
+  Style: Advanced digital art, cyberpunk aesthetics, electronic music visualization, holographic effects
+  Make it look like sound made visible - EXTREMELY responsive to the audio parameters above.
+  Ultra high quality, dramatic lighting, cutting-edge visual effects.
+  Seed: 519112
+🔄 Converting image to PNG format
+✅ Image converted to PNG
+📏 Final image dimensions: { width: 512, height: 343 }
+🎭 Creating strategic audio-reactive mask
+🎭 Mask saved for debugging: /tmp/debug_mask_1752841385290.png
+📏 Image file size: 304574
+📏 Mask file size: 4006
+🚀 Using DALL-E 3 for cutting-edge audio-reactive generation...
+🎵 Audio parameters driving DALL-E 3 generation: {
+  volume: 0.05097225657932944,
+  energy: 0.011068004766412055,
+  pitch: 91,
+  centroid: 0.12176758311276244
+}
+✅ OpenAI transformation complete
+🌐 Image URL from OpenAI: https://oaidalleapiprodscus.blob.core.windows.net/private/org-aWRt1ujnznk5CtQ0ykEkXjur/user-vYEZcYN1KCW4dgOtD0ShyJgA/img-6aqI19C9e11RHePG05CNIrP6.png?st=2025-07-18T11%3A23%3A39Z&se=2025-07-18T13%3A23%3A39Z&sp=r&sv=2024-08-04&sr=b&rscd=inline&rsct=image/png&skoid=475fd488-6c59-44a5-9aa9-31c4db451bea&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-07-18T12%3A23%3A39Z&ske=2025-07-19T12%3A23%3A39Z&sks=b&skv=2024-08-04&sig=7KgVOvzESjWHcndRsoeA%2BDmu0rKttsl%2BohuHcv/eEJw%3D
+📤 Sending DALL-E 3 generated image back to frontend, size: 2270184
+🔍 Data URL preview: data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAABAAAAAQACAIAAADwf7zUAAA3BmNhQlgAADcGanVtYgAAAB5qdW1kYz...
+📦 Response object keys: [ 'success', 'imageData', 'prompt' ]
+📦 Response success: true
+📦 Response imageData length: 2270206
+🎨 Image transformation request received
+📊 Image details: { originalSize: 24480, fileType: 'image/jpeg', fileName: 'image.png' }
+🎵 Audio features: {
+  volume: 0.0021990204534983993,
+  pitch: 11,
+  energy: 0.0009819091878924726,
+  mode: 'realtime'
+}
+🎵 Audio-reactive parameters: {
+  volumePercent: 0,
+  energyPercent: 0,
+  pitchValue: 11,
+  centroidValue: 12
+}
+🎯 Generated prompt: Create a digital artwork inspired by audio visualization and sound reactive effects. 
+  
+  AUDIO PARAMETERS driving the visual: Vol:0% Energy:0% Pitch:11Hz Cent:12%
+  
+  Visual style: MINIMAL EFFECTS, very subtle changes, peaceful with SMOOTH GRADIENTS, soft transitions, minimal patterns and HEAVY TEXTURES, grounded elements, solid foundations
+  Color scheme: DEEP COOL: midnight blues, rich purples, metallic silvers
+  
+  Create a dynamic, futuristic composition that embodies these audio characteristics.
+  Style: Advanced digital art, cyberpunk aesthetics, electronic music visualization, holographic effects
+  Make it look like sound made visible - EXTREMELY responsive to the audio parameters above.
+  Ultra high quality, dramatic lighting, cutting-edge visual effects.
+  Seed: 001112
+🔄 Converting image to PNG format
+✅ Image converted to PNG
+📏 Final image dimensions: { width: 512, height: 343 }
+🎭 Creating strategic audio-reactive mask
+🎭 Mask saved for debugging: /tmp/debug_mask_1752841421456.png
+📏 Image file size: 304574
+📏 Mask file size: 3872
+🚀 Using DALL-E 3 for cutting-edge audio-reactive generation...
+🎵 Audio parameters driving DALL-E 3 generation: {
+  volume: 0.0021990204534983993,
+  energy: 0.0009819091878924726,
+  pitch: 11,
+  centroid: 0.1159281468422005
+}
+✅ OpenAI transformation complete
+🌐 Image URL from OpenAI: https://oaidalleapiprodscus.blob.core.windows.net/private/org-aWRt1ujnznk5CtQ0ykEkXjur/user-vYEZcYN1KCW4dgOtD0ShyJgA/img-0wmPj4YFDjpSvbr9DZdyZbuy.png?st=2025-07-18T11%3A24%3A07Z&se=2025-07-18T13%3A24%3A07Z&sp=r&sv=2024-08-04&sr=b&rscd=inline&rsct=image/png&skoid=475fd488-6c59-44a5-9aa9-31c4db451bea&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-07-18T09%3A01%3A17Z&ske=2025-07-19T09%3A01%3A17Z&sks=b&skv=2024-08-04&sig=FvzI03UkB09/25jNvrHzHZ/EpKSCs67Aixl0MgSdWtQ%3D
+📤 Sending DALL-E 3 generated image back to frontend, size: 2441812
+🔍 Data URL preview: data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAABAAAAAQACAIAAADwf7zUAAA3BmNhQlgAADcGanVtYgAAAB5qdW1kYz...
+📦 Response object keys: [ 'success', 'imageData', 'prompt' ]
+📦 Response success: true
+📦 Response imageData length: 2441834
+🎨 Image transformation request received
+📊 Image details: { originalSize: 24480, fileType: 'image/jpeg', fileName: 'image.png' }
+🎵 Audio features: {
+  volume: 0.0025985639570901696,
+  pitch: 4,
+  energy: 0.0021763443350262673,
+  mode: 'realtime'
+}
+🎵 Audio-reactive parameters: {
+  volumePercent: 0,
+  energyPercent: 0,
+  pitchValue: 4,
+  centroidValue: 14
+}
+🎯 Generated prompt: Create a digital artwork inspired by audio visualization and sound reactive effects. 
+  
+  AUDIO PARAMETERS driving the visual: Vol:0% Energy:0% Pitch:4Hz Cent:14%
+  
+  Visual style: MINIMAL EFFECTS, very subtle changes, peaceful with SMOOTH GRADIENTS, soft transitions, minimal patterns and HEAVY TEXTURES, grounded elements, solid foundations
+  Color scheme: DEEP COOL: midnight blues, rich purples, metallic silvers
+  
+  Create a dynamic, futuristic composition that embodies these audio characteristics.
+  Style: Advanced digital art, cyberpunk aesthetics, electronic music visualization, holographic effects
+  Make it look like sound made visible - EXTREMELY responsive to the audio parameters above.
+  Ultra high quality, dramatic lighting, cutting-edge visual effects.
+  Seed: 00414
+🔄 Converting image to PNG format
+✅ Image converted to PNG
+📏 Final image dimensions: { width: 512, height: 343 }
+🎭 Creating strategic audio-reactive mask
+🎭 Mask saved for debugging: /tmp/debug_mask_1752841449508.png
+📏 Image file size: 304574
+📏 Mask file size: 3934
+🚀 Using DALL-E 3 for cutting-edge audio-reactive generation...
+🎵 Audio parameters driving DALL-E 3 generation: {
+  volume: 0.0025985639570901696,
+  energy: 0.0021763443350262673,
+  pitch: 4,
+  centroid: 0.13503738776486376
+}
+✅ OpenAI transformation complete
+🌐 Image URL from OpenAI: https://oaidalleapiprodscus.blob.core.windows.net/private/org-aWRt1ujnznk5CtQ0ykEkXjur/user-vYEZcYN1KCW4dgOtD0ShyJgA/img-izFaPYLrLRxNAG3vwLNDu5sl.png?st=2025-07-18T11%3A24%3A41Z&se=2025-07-18T13%3A24%3A41Z&sp=r&sv=2024-08-04&sr=b&rscd=inline&rsct=image/png&skoid=475fd488-6c59-44a5-9aa9-31c4db451bea&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-07-18T08%3A55%3A35Z&ske=2025-07-19T08%3A55%3A35Z&sks=b&skv=2024-08-04&sig=BoVI8HfuaKTKxYVzVgQa1SPGdltZnT868Z5B9ZiAW04%3D
+📤 Sending DALL-E 3 generated image back to frontend, size: 2345100
+🔍 Data URL preview: data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAABAAAAAQACAIAAADwf7zUAAA3BmNhQlgAADcGanVtYgAAAB5qdW1kYz...
+📦 Response object keys: [ 'success', 'imageData', 'prompt' ]
+📦 Response success: true
+📦 Response imageData length: 2345122
+🎨 Image transformation request received
+📊 Image details: { originalSize: 24480, fileType: 'image/jpeg', fileName: 'image.png' }
+🎵 Audio features: {
+  volume: 0.0023389934001791317,
+  pitch: 11,
+  energy: 0.0008685382784155556,
+  mode: 'realtime'
+}
+🎵 Audio-reactive parameters: {
+  volumePercent: 0,
+  energyPercent: 0,
+  pitchValue: 11,
+  centroidValue: 10
+}
+🎯 Generated prompt: Create a digital artwork inspired by audio visualization and sound reactive effects. 
+  
+  AUDIO PARAMETERS driving the visual: Vol:0% Energy:0% Pitch:11Hz Cent:10%
+  
+  Visual style: MINIMAL EFFECTS, very subtle changes, peaceful with SMOOTH GRADIENTS, soft transitions, minimal patterns and HEAVY TEXTURES, grounded elements, solid foundations
+  Color scheme: DEEP COOL: midnight blues, rich purples, metallic silvers
+  
+  Create a dynamic, futuristic composition that embodies these audio characteristics.
+  Style: Advanced digital art, cyberpunk aesthetics, electronic music visualization, holographic effects
+  Make it look like sound made visible - EXTREMELY responsive to the audio parameters above.
+  Ultra high quality, dramatic lighting, cutting-edge visual effects.
+  Seed: 001110
+🔄 Converting image to PNG format
+✅ Image converted to PNG
+📏 Final image dimensions: { width: 512, height: 343 }
+🎭 Creating strategic audio-reactive mask
+🎭 Mask saved for debugging: /tmp/debug_mask_1752841482986.png
+📏 Image file size: 304574
+📏 Mask file size: 4205
+🚀 Using DALL-E 3 for cutting-edge audio-reactive generation...
+🎵 Audio parameters driving DALL-E 3 generation: {
+  volume: 0.0023389934001791317,
+  energy: 0.0008685382784155556,
+  pitch: 11,
+  centroid: 0.10248653330019633
+}
+✅ OpenAI transformation complete
+🌐 Image URL from OpenAI: https://oaidalleapiprodscus.blob.core.windows.net/private/org-aWRt1ujnznk5CtQ0ykEkXjur/user-vYEZcYN1KCW4dgOtD0ShyJgA/img-Ugwi3MEsKcdGFqBp2lEA2ye8.png?st=2025-07-18T11%3A25%3A09Z&se=2025-07-18T13%3A25%3A09Z&sp=r&sv=2024-08-04&sr=b&rscd=inline&rsct=image/png&skoid=475fd488-6c59-44a5-9aa9-31c4db451bea&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-07-18T00%3A37%3A03Z&ske=2025-07-19T00%3A37%3A03Z&sks=b&skv=2024-08-04&sig=xCTGWKWiQk8oipQ1tFXCRljSwtJmiHUvnNCTjq/XLCQ%3D
+📤 Sending DALL-E 3 generated image back to frontend, size: 2610108
+🔍 Data URL preview: data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAABAAAAAQACAIAAADwf7zUAAA3BmNhQlgAADcGanVtYgAAAB5qdW1kYz...
+📦 Response object keys: [ 'success', 'imageData', 'prompt' ]
+📦 Response success: true
+📦 Response imageData length: 2610130
+🎨 Image transformation request received
+📊 Image details: { originalSize: 24480, fileType: 'image/jpeg', fileName: 'image.png' }
+🎵 Audio features: {
+  volume: 0.019117210337287686,
+  pitch: 51,
+  energy: 0.01429634319833319,
+  mode: 'realtime'
+}
+🎵 Audio-reactive parameters: {
+  volumePercent: 2,
+  energyPercent: 1,
+  pitchValue: 51,
+  centroidValue: 22
+}
+🎯 Generated prompt: Create a digital artwork inspired by audio visualization and sound reactive effects. 
+  
+  AUDIO PARAMETERS driving the visual: Vol:2% Energy:1% Pitch:51Hz Cent:22%
+  
+  Visual style: MINIMAL EFFECTS, very subtle changes, peaceful with SMOOTH GRADIENTS, soft transitions, minimal patterns and ORGANIC CURVES, flowing shapes, harmonic patterns
+  Color scheme: DEEP COOL: midnight blues, rich purples, metallic silvers
+  
+  Create a dynamic, futuristic composition that embodies these audio characteristics.
+  Style: Advanced digital art, cyberpunk aesthetics, electronic music visualization, holographic effects
+  Make it look like sound made visible - EXTREMELY responsive to the audio parameters above.
+  Ultra high quality, dramatic lighting, cutting-edge visual effects.
+  Seed: 215122
+🔄 Converting image to PNG format
+✅ Image converted to PNG
+📏 Final image dimensions: { width: 512, height: 343 }
+🎭 Creating strategic audio-reactive mask
+🎭 Mask saved for debugging: /tmp/debug_mask_1752841511293.png
+📏 Image file size: 304574
+📏 Mask file size: 3924
+🚀 Using DALL-E 3 for cutting-edge audio-reactive generation...
+🎵 Audio parameters driving DALL-E 3 generation: {
+  volume: 0.019117210337287686,
+  energy: 0.01429634319833319,
+  pitch: 51,
+  centroid: 0.2207086288110497
+}
+✅ OpenAI transformation complete
+🌐 Image URL from OpenAI: https://oaidalleapiprodscus.blob.core.windows.net/private/org-aWRt1ujnznk5CtQ0ykEkXjur/user-vYEZcYN1KCW4dgOtD0ShyJgA/img-zwVoGK758SDBWuNhDFYv5jtC.png?st=2025-07-18T11%3A25%3A37Z&se=2025-07-18T13%3A25%3A37Z&sp=r&sv=2024-08-04&sr=b&rscd=inline&rsct=image/png&skoid=475fd488-6c59-44a5-9aa9-31c4db451bea&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-07-18T07%3A31%3A19Z&ske=2025-07-19T07%3A31%3A19Z&sks=b&skv=2024-08-04&sig=ZH0f9D5BsgJrv6IAChAwkwYDLPH6FuF6sUwfV3WulkY%3D
+📤 Sending DALL-E 3 generated image back to frontend, size: 2120228
+🔍 Data URL preview: data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAABAAAAAQACAIAAADwf7zUAAA3BmNhQlgAADcGanVtYgAAAB5qdW1kYz...
+📦 Response object keys: [ 'success', 'imageData', 'prompt' ]
+📦 Response success: true
+📦 Response imageData length: 2120250
+🎨 Image transformation request received
+📊 Image details: { originalSize: 24480, fileType: 'image/jpeg', fileName: 'image.png' }
+🎵 Audio features: {
+  volume: 0.005211716630687925,
+  pitch: 5,
+  energy: 0.0034877806736086075,
+  mode: 'realtime'
+}
+🎵 Audio-reactive parameters: {
+  volumePercent: 1,
+  energyPercent: 0,
+  pitchValue: 5,
+  centroidValue: 17
+}
+🎯 Generated prompt: Create a digital artwork inspired by audio visualization and sound reactive effects. 
+  
+  AUDIO PARAMETERS driving the visual: Vol:1% Energy:0% Pitch:5Hz Cent:17%
+  
+  Visual style: MINIMAL EFFECTS, very subtle changes, peaceful with SMOOTH GRADIENTS, soft transitions, minimal patterns and HEAVY TEXTURES, grounded elements, solid foundations
+  Color scheme: DEEP COOL: midnight blues, rich purples, metallic silvers
+  
+  Create a dynamic, futuristic composition that embodies these audio characteristics.
+  Style: Advanced digital art, cyberpunk aesthetics, electronic music visualization, holographic effects
+  Make it look like sound made visible - EXTREMELY responsive to the audio parameters above.
+  Ultra high quality, dramatic lighting, cutting-edge visual effects.
+  Seed: 10517
+🔄 Converting image to PNG format
+✅ Image converted to PNG
+📏 Final image dimensions: { width: 512, height: 343 }
+🎭 Creating strategic audio-reactive mask
+🎭 Mask saved for debugging: /tmp/debug_mask_1752841538617.png
+📏 Image file size: 304574
+📏 Mask file size: 4131
+🚀 Using DALL-E 3 for cutting-edge audio-reactive generation...
+🎵 Audio parameters driving DALL-E 3 generation: {
+  volume: 0.005211716630687925,
+  energy: 0.0034877806736086075,
+  pitch: 5,
+  centroid: 0.16907583708056442
+}
+✅ OpenAI transformation complete
+🌐 Image URL from OpenAI: https://oaidalleapiprodscus.blob.core.windows.net/private/org-aWRt1ujnznk5CtQ0ykEkXjur/user-vYEZcYN1KCW4dgOtD0ShyJgA/img-jLf2Hk1bYIUYpOoc30P6TE1S.png?st=2025-07-18T11%3A26%3A05Z&se=2025-07-18T13%3A26%3A05Z&sp=r&sv=2024-08-04&sr=b&rscd=inline&rsct=image/png&skoid=475fd488-6c59-44a5-9aa9-31c4db451bea&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-07-18T09%3A53%3A24Z&ske=2025-07-19T09%3A53%3A24Z&sks=b&skv=2024-08-04&sig=36GEcrc%2Bsv%2BZXyBaAK1lx88KSaSdvo/LArFwjMtlnUM%3D
+📤 Sending DALL-E 3 generated image back to frontend, size: 2004184
+🔍 Data URL preview: data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAABAAAAAQACAIAAADwf7zUAAA3BmNhQlgAADcGanVtYgAAAB5qdW1kYz...
+📦 Response object keys: [ 'success', 'imageData', 'prompt' ]
+📦 Response success: true
+📦 Response imageData length: 2004206
+🎨 Image transformation request received
+📊 Image details: { originalSize: 24480, fileType: 'image/jpeg', fileName: 'image.png' }
+🎵 Audio features: {
+  volume: 0.004393542123608281,
+  pitch: 4,
+  energy: 0.002931801060477097,
+  mode: 'realtime'
+}
+🎵 Audio-reactive parameters: {
+  volumePercent: 0,
+  energyPercent: 0,
+  pitchValue: 4,
+  centroidValue: 20
+}
+🎯 Generated prompt: Create a digital artwork inspired by audio visualization and sound reactive effects. 
+  
+  AUDIO PARAMETERS driving the visual: Vol:0% Energy:0% Pitch:4Hz Cent:20%
+  
+  Visual style: MINIMAL EFFECTS, very subtle changes, peaceful with SMOOTH GRADIENTS, soft transitions, minimal patterns and HEAVY TEXTURES, grounded elements, solid foundations
+  Color scheme: DEEP COOL: midnight blues, rich purples, metallic silvers
+  
+  Create a dynamic, futuristic composition that embodies these audio characteristics.
+  Style: Advanced digital art, cyberpunk aesthetics, electronic music visualization, holographic effects
+  Make it look like sound made visible - EXTREMELY responsive to the audio parameters above.
+  Ultra high quality, dramatic lighting, cutting-edge visual effects.
+  Seed: 00420
+🔄 Converting image to PNG format
+✅ Image converted to PNG
+📏 Final image dimensions: { width: 512, height: 343 }
+🎭 Creating strategic audio-reactive mask
+🎭 Mask saved for debugging: /tmp/debug_mask_1752841566901.png
+📏 Image file size: 304574
+📏 Mask file size: 4158
+🚀 Using DALL-E 3 for cutting-edge audio-reactive generation...
+🎵 Audio parameters driving DALL-E 3 generation: {
+  volume: 0.004393542123608281,
+  energy: 0.002931801060477097,
+  pitch: 4,
+  centroid: 0.1957825345950936
+}
+✅ OpenAI transformation complete
+🌐 Image URL from OpenAI: https://oaidalleapiprodscus.blob.core.windows.net/private/org-aWRt1ujnznk5CtQ0ykEkXjur/user-vYEZcYN1KCW4dgOtD0ShyJgA/img-bM9lgClD2w3lfpCpVL7ZqE9a.png?st=2025-07-18T11%3A26%3A33Z&se=2025-07-18T13%3A26%3A33Z&sp=r&sv=2024-08-04&sr=b&rscd=inline&rsct=image/png&skoid=475fd488-6c59-44a5-9aa9-31c4db451bea&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-07-17T16%3A28%3A08Z&ske=2025-07-18T16%3A28%3A08Z&sks=b&skv=2024-08-04&sig=2bmGw9YcUTeeJYMwsHoSsFGiZKJqH2UhLe87WKfEbR4%3D
+📤 Sending DALL-E 3 generated image back to frontend, size: 2313300
+🔍 Data URL preview: data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAABAAAAAQACAIAAADwf7zUAAA3BmNhQlgAADcGanVtYgAAAB5qdW1kYz...
+📦 Response object keys: [ 'success', 'imageData', 'prompt' ]
+📦 Response success: true
+📦 Response imageData length: 2313322
+🎨 Image transformation request received
+📊 Image details: { originalSize: 24480, fileType: 'image/jpeg', fileName: 'image.png' }
+🎵 Audio features: {
+  volume: 0.003947975600322584,
+  pitch: 10,
+  energy: 0.001796291811580764,
+  mode: 'realtime'
+}
+🎵 Audio-reactive parameters: {
+  volumePercent: 0,
+  energyPercent: 0,
+  pitchValue: 10,
+  centroidValue: 16
+}
+🎯 Generated prompt: Create a digital artwork inspired by audio visualization and sound reactive effects. 
+  
+  AUDIO PARAMETERS driving the visual: Vol:0% Energy:0% Pitch:10Hz Cent:16%
+  
+  Visual style: MINIMAL EFFECTS, very subtle changes, peaceful with SMOOTH GRADIENTS, soft transitions, minimal patterns and HEAVY TEXTURES, grounded elements, solid foundations
+  Color scheme: DEEP COOL: midnight blues, rich purples, metallic silvers
+  
+  Create a dynamic, futuristic composition that embodies these audio characteristics.
+  Style: Advanced digital art, cyberpunk aesthetics, electronic music visualization, holographic effects
+  Make it look like sound made visible - EXTREMELY responsive to the audio parameters above.
+  Ultra high quality, dramatic lighting, cutting-edge visual effects.
+  Seed: 001016
+🔄 Converting image to PNG format
+✅ Image converted to PNG
+📏 Final image dimensions: { width: 512, height: 343 }
+🎭 Creating strategic audio-reactive mask
+🎭 Mask saved for debugging: /tmp/debug_mask_1752841595047.png
+📏 Image file size: 304574
+📏 Mask file size: 3969
+🚀 Using DALL-E 3 for cutting-edge audio-reactive generation...
+🎵 Audio parameters driving DALL-E 3 generation: {
+  volume: 0.003947975600322584,
+  energy: 0.001796291811580764,
+  pitch: 10,
+  centroid: 0.15831473997553513
+}
+✅ OpenAI transformation complete
+🌐 Image URL from OpenAI: https://oaidalleapiprodscus.blob.core.windows.net/private/org-aWRt1ujnznk5CtQ0ykEkXjur/user-vYEZcYN1KCW4dgOtD0ShyJgA/img-bm5mAu3KXq2N3egmxlWgyDNC.png?st=2025-07-18T11%3A27%3A09Z&se=2025-07-18T13%3A27%3A09Z&sp=r&sv=2024-08-04&sr=b&rscd=inline&rsct=image/png&skoid=475fd488-6c59-44a5-9aa9-31c4db451bea&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-07-17T16%3A35%3A51Z&ske=2025-07-18T16%3A35%3A51Z&sks=b&skv=2024-08-04&sig=y4ZRq9RPOziBd7ib1WRGdZxnjRsW4Qcq7A0rWBvL41s%3D
+📤 Sending DALL-E 3 generated image back to frontend, size: 2439256
+🔍 Data URL preview: data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAABAAAAAQACAIAAADwf7zUAAA3BmNhQlgAADcGanVtYgAAAB5qdW1kYz...
+📦 Response object keys: [ 'success', 'imageData', 'prompt' ]
+📦 Response success: true
+📦 Response imageData length: 2439278
+🎨 Image transformation request received
+📊 Image details: { originalSize: 24480, fileType: 'image/jpeg', fileName: 'image.png' }
+🎵 Audio features: {
+  volume: 0.0030952129415932456,
+  pitch: 5,
+  energy: 0.0023010386921732237,
+  mode: 'realtime'
+}
+🎵 Audio-reactive parameters: {
+  volumePercent: 0,
+  energyPercent: 0,
+  pitchValue: 5,
+  centroidValue: 16
+}
+🎯 Generated prompt: Create a digital artwork inspired by audio visualization and sound reactive effects. 
+  
+  AUDIO PARAMETERS driving the visual: Vol:0% Energy:0% Pitch:5Hz Cent:16%
+  
+  Visual style: MINIMAL EFFECTS, very subtle changes, peaceful with SMOOTH GRADIENTS, soft transitions, minimal patterns and HEAVY TEXTURES, grounded elements, solid foundations
+  Color scheme: DEEP COOL: midnight blues, rich purples, metallic silvers
+  
+  Create a dynamic, futuristic composition that embodies these audio characteristics.
+  Style: Advanced digital art, cyberpunk aesthetics, electronic music visualization, holographic effects
+  Make it look like sound made visible - EXTREMELY responsive to the audio parameters above.
+  Ultra high quality, dramatic lighting, cutting-edge visual effects.
+  Seed: 00516
+🔄 Converting image to PNG format
+✅ Image converted to PNG
+📏 Final image dimensions: { width: 512, height: 343 }
+🎭 Creating strategic audio-reactive mask
+🎭 Mask saved for debugging: /tmp/debug_mask_1752841630841.png
+📏 Image file size: 304574
+📏 Mask file size: 3929
+🚀 Using DALL-E 3 for cutting-edge audio-reactive generation...
+🎵 Audio parameters driving DALL-E 3 generation: {
+  volume: 0.0030952129415932456,
+  energy: 0.0023010386921732237,
+  pitch: 5,
+  centroid: 0.16383258601665487
+}
+✅ OpenAI transformation complete
+🌐 Image URL from OpenAI: https://oaidalleapiprodscus.blob.core.windows.net/private/org-aWRt1ujnznk5CtQ0ykEkXjur/user-vYEZcYN1KCW4dgOtD0ShyJgA/img-ssn2RcYvixefDN22ViNQ3CDE.png?st=2025-07-18T11%3A27%3A38Z&se=2025-07-18T13%3A27%3A38Z&sp=r&sv=2024-08-04&sr=b&rscd=inline&rsct=image/png&skoid=475fd488-6c59-44a5-9aa9-31c4db451bea&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-07-17T18%3A19%3A24Z&ske=2025-07-18T18%3A19%3A24Z&sks=b&skv=2024-08-04&sig=Z36ww8aDggEOCGpv0Me1gV7QaYjBq9NnPdPZZZY7pmw%3D
+📤 Sending DALL-E 3 generated image back to frontend, size: 2591648
+🔍 Data URL preview: data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAABAAAAAQACAIAAADwf7zUAAA3BmNhQlgAADcGanVtYgAAAB5qdW1kYz...
+📦 Response object keys: [ 'success', 'imageData', 'prompt' ]
+📦 Response success: true
+📦 Response imageData length: 2591670
+🎨 Image transformation request received
+📊 Image details: { originalSize: 24480, fileType: 'image/jpeg', fileName: 'image.png' }
+🎵 Audio features: {
+  volume: 0.005602916741116056,
+  pitch: 9,
+  energy: 0.0027925166493053912,
+  mode: 'realtime'
+}
+🎵 Audio-reactive parameters: {
+  volumePercent: 1,
+  energyPercent: 0,
+  pitchValue: 9,
+  centroidValue: 19
+}
+🎯 Generated prompt: Create a digital artwork inspired by audio visualization and sound reactive effects. 
+  
+  AUDIO PARAMETERS driving the visual: Vol:1% Energy:0% Pitch:9Hz Cent:19%
+  
+  Visual style: MINIMAL EFFECTS, very subtle changes, peaceful with SMOOTH GRADIENTS, soft transitions, minimal patterns and HEAVY TEXTURES, grounded elements, solid foundations
+  Color scheme: DEEP COOL: midnight blues, rich purples, metallic silvers
+  
+  Create a dynamic, futuristic composition that embodies these audio characteristics.
+  Style: Advanced digital art, cyberpunk aesthetics, electronic music visualization, holographic effects
+  Make it look like sound made visible - EXTREMELY responsive to the audio parameters above.
+  Ultra high quality, dramatic lighting, cutting-edge visual effects.
+  Seed: 10919
+🔄 Converting image to PNG format
+✅ Image converted to PNG
+📏 Final image dimensions: { width: 512, height: 343 }
+🎭 Creating strategic audio-reactive mask
+🎭 Mask saved for debugging: /tmp/debug_mask_1752841659890.png
+📏 Image file size: 304574
+📏 Mask file size: 4154
+🚀 Using DALL-E 3 for cutting-edge audio-reactive generation...
+🎵 Audio parameters driving DALL-E 3 generation: {
+  volume: 0.005602916741116056,
+  energy: 0.0027925166493053912,
+  pitch: 9,
+  centroid: 0.1895672209174643
+}
+✅ OpenAI transformation complete
+🌐 Image URL from OpenAI: https://oaidalleapiprodscus.blob.core.windows.net/private/org-aWRt1ujnznk5CtQ0ykEkXjur/user-vYEZcYN1KCW4dgOtD0ShyJgA/img-hCVFoC5pzel9jiQ10lylyEaD.png?st=2025-07-18T11%3A28%3A07Z&se=2025-07-18T13%3A28%3A07Z&sp=r&sv=2024-08-04&sr=b&rscd=inline&rsct=image/png&skoid=475fd488-6c59-44a5-9aa9-31c4db451bea&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-07-18T09%3A50%3A06Z&ske=2025-07-19T09%3A50%3A06Z&sks=b&skv=2024-08-04&sig=mb6xdkHva8bn5bBtOGyOgSMB9sa9qVCqY1k%2BH2alkqA%3D
+📤 Sending DALL-E 3 generated image back to frontend, size: 2193544
+🔍 Data URL preview: data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAABAAAAAQACAIAAADwf7zUAAA3BmNhQlgAADcGanVtYgAAAB5qdW1kYz...
+📦 Response object keys: [ 'success', 'imageData', 'prompt' ]
+📦 Response success: true
+📦 Response imageData length: 2193566
+🎨 Image transformation request received
+📊 Image details: { originalSize: 24480, fileType: 'image/jpeg', fileName: 'image.png' }
+🎵 Audio features: {
+  volume: 0.0035341459965007897,
+  pitch: 48,
+  energy: 0.0025121564361733294,
+  mode: 'realtime'
+}
+🎵 Audio-reactive parameters: {
+  volumePercent: 0,
+  energyPercent: 0,
+  pitchValue: 48,
+  centroidValue: 18
+}
+🎯 Generated prompt: Create a digital artwork inspired by audio visualization and sound reactive effects. 
+  
+  AUDIO PARAMETERS driving the visual: Vol:0% Energy:0% Pitch:48Hz Cent:18%
+  
+  Visual style: MINIMAL EFFECTS, very subtle changes, peaceful with SMOOTH GRADIENTS, soft transitions, minimal patterns and BALANCED FORMS, moderate geometry, smooth transitions
+  Color scheme: DEEP COOL: midnight blues, rich purples, metallic silvers
+  
+  Create a dynamic, futuristic composition that embodies these audio characteristics.
+  Style: Advanced digital art, cyberpunk aesthetics, electronic music visualization, holographic effects
+  Make it look like sound made visible - EXTREMELY responsive to the audio parameters above.
+  Ultra high quality, dramatic lighting, cutting-edge visual effects.
+  Seed: 004818
+🔄 Converting image to PNG format
+✅ Image converted to PNG
+📏 Final image dimensions: { width: 512, height: 343 }
+🎭 Creating strategic audio-reactive mask
+🎭 Mask saved for debugging: /tmp/debug_mask_1752841689713.png
+📏 Image file size: 304574
+📏 Mask file size: 4030
+🚀 Using DALL-E 3 for cutting-edge audio-reactive generation...
+🎵 Audio parameters driving DALL-E 3 generation: {
+  volume: 0.0035341459965007897,
+  energy: 0.0025121564361733294,
+  pitch: 48,
+  centroid: 0.18055605717209885
+}
+✅ OpenAI transformation complete
+🌐 Image URL from OpenAI: https://oaidalleapiprodscus.blob.core.windows.net/private/org-aWRt1ujnznk5CtQ0ykEkXjur/user-vYEZcYN1KCW4dgOtD0ShyJgA/img-XFMA9i136VbIBQjjg0pS0mP5.png?st=2025-07-18T11%3A28%3A33Z&se=2025-07-18T13%3A28%3A33Z&sp=r&sv=2024-08-04&sr=b&rscd=inline&rsct=image/png&skoid=475fd488-6c59-44a5-9aa9-31c4db451bea&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-07-18T09%3A55%3A53Z&ske=2025-07-19T09%3A55%3A53Z&sks=b&skv=2024-08-04&sig=6ghBZgnnEH0GN%2BKLy5syTXtNfD4y8Xigj4GsfF1LOTs%3D
+📤 Sending DALL-E 3 generated image back to frontend, size: 2255708
+🔍 Data URL preview: data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAABAAAAAQACAIAAADwf7zUAAA3BmNhQlgAADcGanVtYgAAAB5qdW1kYz...
+📦 Response object keys: [ 'success', 'imageData', 'prompt' ]
+📦 Response success: true
+📦 Response imageData length: 2255730
+🎨 Image transformation request received
+📊 Image details: { originalSize: 24480, fileType: 'image/jpeg', fileName: 'image.png' }
+🎵 Audio features: {
+  volume: 0.006457535055622117,
+  pitch: 7,
+  energy: 0.004574532165232157,
+  mode: 'realtime'
+}
+🎵 Audio-reactive parameters: {
+  volumePercent: 1,
+  energyPercent: 0,
+  pitchValue: 7,
+  centroidValue: 22
+}
+🎯 Generated prompt: Create a digital artwork inspired by audio visualization and sound reactive effects. 
+  
+  AUDIO PARAMETERS driving the visual: Vol:1% Energy:0% Pitch:7Hz Cent:22%
+  
+  Visual style: MINIMAL EFFECTS, very subtle changes, peaceful with SMOOTH GRADIENTS, soft transitions, minimal patterns and HEAVY TEXTURES, grounded elements, solid foundations
+  Color scheme: DEEP COOL: midnight blues, rich purples, metallic silvers
+  
+  Create a dynamic, futuristic composition that embodies these audio characteristics.
+  Style: Advanced digital art, cyberpunk aesthetics, electronic music visualization, holographic effects
+  Make it look like sound made visible - EXTREMELY responsive to the audio parameters above.
+  Ultra high quality, dramatic lighting, cutting-edge visual effects.
+  Seed: 10722
+🔄 Converting image to PNG format
+✅ Image converted to PNG
+📏 Final image dimensions: { width: 512, height: 343 }
+🎭 Creating strategic audio-reactive mask
+🎭 Mask saved for debugging: /tmp/debug_mask_1752841715173.png
+📏 Image file size: 304574
+📏 Mask file size: 4037
+🚀 Using DALL-E 3 for cutting-edge audio-reactive generation...
+🎵 Audio parameters driving DALL-E 3 generation: {
+  volume: 0.006457535055622117,
+  energy: 0.004574532165232157,
+  pitch: 7,
+  centroid: 0.21524566502915268
+}
+✅ OpenAI transformation complete
+🌐 Image URL from OpenAI: https://oaidalleapiprodscus.blob.core.windows.net/private/org-aWRt1ujnznk5CtQ0ykEkXjur/user-vYEZcYN1KCW4dgOtD0ShyJgA/img-ezLzFHBR8skIMboEn4W4ADcH.png?st=2025-07-18T11%3A29%3A06Z&se=2025-07-18T13%3A29%3A06Z&sp=r&sv=2024-08-04&sr=b&rscd=inline&rsct=image/png&skoid=475fd488-6c59-44a5-9aa9-31c4db451bea&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-07-18T06%3A36%3A20Z&ske=2025-07-19T06%3A36%3A20Z&sks=b&skv=2024-08-04&sig=JwuQC4vtmSTHO5I121/r%2BvCq0rWMDH0E5VE0l727yJQ%3D
+📤 Sending DALL-E 3 generated image back to frontend, size: 2486916
+🔍 Data URL preview: data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAABAAAAAQACAIAAADwf7zUAAA3BmNhQlgAADcGanVtYgAAAB5qdW1kYz...
+📦 Response object keys: [ 'success', 'imageData', 'prompt' ]
+📦 Response success: true
+📦 Response imageData length: 2486938
+🎨 Image transformation request received
+📊 Image details: { originalSize: 24480, fileType: 'image/jpeg', fileName: 'image.png' }
+🎵 Audio features: {
+  volume: 0.0031871751506983357,
+  pitch: 11,
+  energy: 0.0025431273398542863,
+  mode: 'realtime'
+}
+🎵 Audio-reactive parameters: {
+  volumePercent: 0,
+  energyPercent: 0,
+  pitchValue: 11,
+  centroidValue: 19
+}
+🎯 Generated prompt: Create a digital artwork inspired by audio visualization and sound reactive effects. 
+  
+  AUDIO PARAMETERS driving the visual: Vol:0% Energy:0% Pitch:11Hz Cent:19%
+  
+  Visual style: MINIMAL EFFECTS, very subtle changes, peaceful with SMOOTH GRADIENTS, soft transitions, minimal patterns and HEAVY TEXTURES, grounded elements, solid foundations
+  Color scheme: DEEP COOL: midnight blues, rich purples, metallic silvers
+  
+  Create a dynamic, futuristic composition that embodies these audio characteristics.
+  Style: Advanced digital art, cyberpunk aesthetics, electronic music visualization, holographic effects
+  Make it look like sound made visible - EXTREMELY responsive to the audio parameters above.
+  Ultra high quality, dramatic lighting, cutting-edge visual effects.
+  Seed: 001119
+🔄 Converting image to PNG format
+✅ Image converted to PNG
+📏 Final image dimensions: { width: 512, height: 343 }
+🎭 Creating strategic audio-reactive mask
+🎭 Mask saved for debugging: /tmp/debug_mask_1752841748390.png
+📏 Image file size: 304574
+📏 Mask file size: 3859
+🚀 Using DALL-E 3 for cutting-edge audio-reactive generation...
+🎵 Audio parameters driving DALL-E 3 generation: {
+  volume: 0.0031871751506983357,
+  energy: 0.0025431273398542863,
+  pitch: 11,
+  centroid: 0.18725423736602478
+}
+✅ OpenAI transformation complete
+🌐 Image URL from OpenAI: https://oaidalleapiprodscus.blob.core.windows.net/private/org-aWRt1ujnznk5CtQ0ykEkXjur/user-vYEZcYN1KCW4dgOtD0ShyJgA/img-V43OZSBYWuxFd6Kn7g4YVKOZ.png?st=2025-07-18T11%3A29%3A36Z&se=2025-07-18T13%3A29%3A36Z&sp=r&sv=2024-08-04&sr=b&rscd=inline&rsct=image/png&skoid=475fd488-6c59-44a5-9aa9-31c4db451bea&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-07-18T12%3A29%3A36Z&ske=2025-07-19T12%3A29%3A36Z&sks=b&skv=2024-08-04&sig=cQIrfXLfrEgpYN/rbUKC01QhqcnwuCHqLqqLyqv%2BESs%3D
+📤 Sending DALL-E 3 generated image back to frontend, size: 2568708
+🔍 Data URL preview: data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAABAAAAAQACAIAAADwf7zUAAA3BmNhQlgAADcGanVtYgAAAB5qdW1kYz...
+📦 Response object keys: [ 'success', 'imageData', 'prompt' ]
+📦 Response success: true
+📦 Response imageData length: 2568730
+🎨 Image transformation request received
+📊 Image details: { originalSize: 24480, fileType: 'image/jpeg', fileName: 'image.png' }
+🎵 Audio features: {
+  volume: 0.0037591003347019177,
+  pitch: 48,
+  energy: 0.0021387742491895028,
+  mode: 'realtime'
+}
+🎵 Audio-reactive parameters: {
+  volumePercent: 0,
+  energyPercent: 0,
+  pitchValue: 48,
+  centroidValue: 18
+}
+🎯 Generated prompt: Create a digital artwork inspired by audio visualization and sound reactive effects. 
+  
+  AUDIO PARAMETERS driving the visual: Vol:0% Energy:0% Pitch:48Hz Cent:18%
+  
+  Visual style: MINIMAL EFFECTS, very subtle changes, peaceful with SMOOTH GRADIENTS, soft transitions, minimal patterns and BALANCED FORMS, moderate geometry, smooth transitions
+  Color scheme: DEEP COOL: midnight blues, rich purples, metallic silvers
+  
+  Create a dynamic, futuristic composition that embodies these audio characteristics.
+  Style: Advanced digital art, cyberpunk aesthetics, electronic music visualization, holographic effects
+  Make it look like sound made visible - EXTREMELY responsive to the audio parameters above.
+  Ultra high quality, dramatic lighting, cutting-edge visual effects.
+  Seed: 004818
+🔄 Converting image to PNG format
+✅ Image converted to PNG
+📏 Final image dimensions: { width: 512, height: 343 }
+🎭 Creating strategic audio-reactive mask
+🎭 Mask saved for debugging: /tmp/debug_mask_1752841778899.png
+📏 Image file size: 304574
+📏 Mask file size: 3907
+🚀 Using DALL-E 3 for cutting-edge audio-reactive generation...
+🎵 Audio parameters driving DALL-E 3 generation: {
+  volume: 0.0037591003347019177,
+  energy: 0.0021387742491895028,
+  pitch: 48,
+  centroid: 0.1779294238215954
+}
+✅ OpenAI transformation complete
+🌐 Image URL from OpenAI: https://oaidalleapiprodscus.blob.core.windows.net/private/org-aWRt1ujnznk5CtQ0ykEkXjur/user-vYEZcYN1KCW4dgOtD0ShyJgA/img-t8aPLa1xWO1aL9KgqFbcFl0k.png?st=2025-07-18T11%3A30%3A01Z&se=2025-07-18T13%3A30%3A01Z&sp=r&sv=2024-08-04&sr=b&rscd=inline&rsct=image/png&skoid=475fd488-6c59-44a5-9aa9-31c4db451bea&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-07-18T07%3A18%3A44Z&ske=2025-07-19T07%3A18%3A44Z&sks=b&skv=2024-08-04&sig=LdsWRXmq5hA0Qd2RiyRMSr0g0ds/gyPXMsRdO73ssT0%3D
+📤 Sending DALL-E 3 generated image back to frontend, size: 2671648
+🔍 Data URL preview: data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAABAAAAAQACAIAAADwf7zUAAA3BmNhQlgAADcGanVtYgAAAB5qdW1kYz...
+📦 Response object keys: [ 'success', 'imageData', 'prompt' ]
+📦 Response success: true
+📦 Response imageData length: 2671670
+🎨 Image transformation request received
+📊 Image details: { originalSize: 24480, fileType: 'image/jpeg', fileName: 'image.png' }
+🎵 Audio features: {
+  volume: 0.003504164329498235,
+  pitch: 9,
+  energy: 0.003144141886663905,
+  mode: 'realtime'
+}
+🎵 Audio-reactive parameters: {
+  volumePercent: 0,
+  energyPercent: 0,
+  pitchValue: 9,
+  centroidValue: 20
+}
+🎯 Generated prompt: Create a digital artwork inspired by audio visualization and sound reactive effects. 
+  
+  AUDIO PARAMETERS driving the visual: Vol:0% Energy:0% Pitch:9Hz Cent:20%
+  
+  Visual style: MINIMAL EFFECTS, very subtle changes, peaceful with SMOOTH GRADIENTS, soft transitions, minimal patterns and HEAVY TEXTURES, grounded elements, solid foundations
+  Color scheme: DEEP COOL: midnight blues, rich purples, metallic silvers
+  
+  Create a dynamic, futuristic composition that embodies these audio characteristics.
+  Style: Advanced digital art, cyberpunk aesthetics, electronic music visualization, holographic effects
+  Make it look like sound made visible - EXTREMELY responsive to the audio parameters above.
+  Ultra high quality, dramatic lighting, cutting-edge visual effects.
+  Seed: 00920
+🔄 Converting image to PNG format
+✅ Image converted to PNG
+📏 Final image dimensions: { width: 512, height: 343 }
+🎭 Creating strategic audio-reactive mask
+🎭 Mask saved for debugging: /tmp/debug_mask_1752841802853.png
+📏 Image file size: 304574
+📏 Mask file size: 4159
+🚀 Using DALL-E 3 for cutting-edge audio-reactive generation...
+🎵 Audio parameters driving DALL-E 3 generation: {
+  volume: 0.003504164329498235,
+  energy: 0.003144141886663905,
+  pitch: 9,
+  centroid: 0.201280427095516
+}
+✅ OpenAI transformation complete
+🌐 Image URL from OpenAI: https://oaidalleapiprodscus.blob.core.windows.net/private/org-aWRt1ujnznk5CtQ0ykEkXjur/user-vYEZcYN1KCW4dgOtD0ShyJgA/img-EfyWVLGmyHkIMAHQk1aA8XVD.png?st=2025-07-18T11%3A30%3A31Z&se=2025-07-18T13%3A30%3A31Z&sp=r&sv=2024-08-04&sr=b&rscd=inline&rsct=image/png&skoid=475fd488-6c59-44a5-9aa9-31c4db451bea&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-07-18T12%3A30%3A31Z&ske=2025-07-19T12%3A30%3A31Z&sks=b&skv=2024-08-04&sig=IrbRm0O8Az8IES%2Bts/IVGTl2J2CYkxI8PUL8sGnDDI4%3D
+📤 Sending DALL-E 3 generated image back to frontend, size: 2676444
+🔍 Data URL preview: data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAABAAAAAQACAIAAADwf7zUAAA3BmNhQlgAADcGanVtYgAAAB5qdW1kYz...
+📦 Response object keys: [ 'success', 'imageData', 'prompt' ]
+📦 Response success: true
+📦 Response imageData length: 2676466
+🎨 Image transformation request received
+📊 Image details: { originalSize: 24480, fileType: 'image/jpeg', fileName: 'image.png' }
+🎵 Audio features: {
+  volume: 0.003217698337760956,
+  pitch: 48,
+  energy: 0.0021740450805108487,
+  mode: 'realtime'
+}
+🎵 Audio-reactive parameters: {
+  volumePercent: 0,
+  energyPercent: 0,
+  pitchValue: 48,
+  centroidValue: 18
+}
+🎯 Generated prompt: Create a digital artwork inspired by audio visualization and sound reactive effects. 
+  
+  AUDIO PARAMETERS driving the visual: Vol:0% Energy:0% Pitch:48Hz Cent:18%
+  
+  Visual style: MINIMAL EFFECTS, very subtle changes, peaceful with SMOOTH GRADIENTS, soft transitions, minimal patterns and BALANCED FORMS, moderate geometry, smooth transitions
+  Color scheme: DEEP COOL: midnight blues, rich purples, metallic silvers
+  
+  Create a dynamic, futuristic composition that embodies these audio characteristics.
+  Style: Advanced digital art, cyberpunk aesthetics, electronic music visualization, holographic effects
+  Make it look like sound made visible - EXTREMELY responsive to the audio parameters above.
+  Ultra high quality, dramatic lighting, cutting-edge visual effects.
+  Seed: 004818
+🔄 Converting image to PNG format
+✅ Image converted to PNG
+📏 Final image dimensions: { width: 512, height: 343 }
+🎭 Creating strategic audio-reactive mask
+🎭 Mask saved for debugging: /tmp/debug_mask_1752841833759.png
+📏 Image file size: 304574
+📏 Mask file size: 4036
+🚀 Using DALL-E 3 for cutting-edge audio-reactive generation...
+🎵 Audio parameters driving DALL-E 3 generation: {
+  volume: 0.003217698337760956,
+  energy: 0.0021740450805108487,
+  pitch: 48,
+  centroid: 0.1788442062761903
+}
+✅ OpenAI transformation complete
+🌐 Image URL from OpenAI: https://oaidalleapiprodscus.blob.core.windows.net/private/org-aWRt1ujnznk5CtQ0ykEkXjur/user-vYEZcYN1KCW4dgOtD0ShyJgA/img-JpzLoUc5Ri3eP5OQjpgn2ihV.png?st=2025-07-18T11%3A31%3A02Z&se=2025-07-18T13%3A31%3A02Z&sp=r&sv=2024-08-04&sr=b&rscd=inline&rsct=image/png&skoid=475fd488-6c59-44a5-9aa9-31c4db451bea&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-07-18T09%3A28%3A26Z&ske=2025-07-19T09%3A28%3A26Z&sks=b&skv=2024-08-04&sig=pEtR0kQiZETwEzJt3Hiz2oUXz%2BYFRgD1O4sfMMP%2BwY4%3D
+📤 Sending DALL-E 3 generated image back to frontend, size: 2425060
+🔍 Data URL preview: data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAABAAAAAQACAIAAADwf7zUAAA3BmNhQlgAADcGanVtYgAAAB5qdW1kYz...
+📦 Response object keys: [ 'success', 'imageData', 'prompt' ]
+📦 Response success: true
+📦 Response imageData length: 2425082
+🎨 Image transformation request received
+📊 Image details: { originalSize: 24480, fileType: 'image/jpeg', fileName: 'image.png' }
+🎵 Audio features: {
+  volume: 0.003363600197757409,
+  pitch: 48,
+  energy: 0.0021954427552199787,
+  mode: 'realtime'
+}
+🎵 Audio-reactive parameters: {
+  volumePercent: 0,
+  energyPercent: 0,
+  pitchValue: 48,
+  centroidValue: 18
+}
+🎯 Generated prompt: Create a digital artwork inspired by audio visualization and sound reactive effects. 
+  
+  AUDIO PARAMETERS driving the visual: Vol:0% Energy:0% Pitch:48Hz Cent:18%
+  
+  Visual style: MINIMAL EFFECTS, very subtle changes, peaceful with SMOOTH GRADIENTS, soft transitions, minimal patterns and BALANCED FORMS, moderate geometry, smooth transitions
+  Color scheme: DEEP COOL: midnight blues, rich purples, metallic silvers
+  
+  Create a dynamic, futuristic composition that embodies these audio characteristics.
+  Style: Advanced digital art, cyberpunk aesthetics, electronic music visualization, holographic effects
+  Make it look like sound made visible - EXTREMELY responsive to the audio parameters above.
+  Ultra high quality, dramatic lighting, cutting-edge visual effects.
+  Seed: 004818
+🔄 Converting image to PNG format
+✅ Image converted to PNG
+📏 Final image dimensions: { width: 512, height: 343 }
+🎭 Creating strategic audio-reactive mask
+🎭 Mask saved for debugging: /tmp/debug_mask_1752841864659.png
+📏 Image file size: 304574
+📏 Mask file size: 3935
+🚀 Using DALL-E 3 for cutting-edge audio-reactive generation...
+🎵 Audio parameters driving DALL-E 3 generation: {
+  volume: 0.003363600197757409,
+  energy: 0.0021954427552199787,
+  pitch: 48,
+  centroid: 0.17564510370548017
+}
+✅ OpenAI transformation complete
+🌐 Image URL from OpenAI: https://oaidalleapiprodscus.blob.core.windows.net/private/org-aWRt1ujnznk5CtQ0ykEkXjur/user-vYEZcYN1KCW4dgOtD0ShyJgA/img-QInQ9sdDuaR4woje0pQN8oEU.png?st=2025-07-18T11%3A31%3A31Z&se=2025-07-18T13%3A31%3A31Z&sp=r&sv=2024-08-04&sr=b&rscd=inline&rsct=image/png&skoid=475fd488-6c59-44a5-9aa9-31c4db451bea&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-07-18T02%3A12%3A23Z&ske=2025-07-19T02%3A12%3A23Z&sks=b&skv=2024-08-04&sig=rh5lcL77kWSinGjXUyNBqdgPizvIYaaIInhVEXceSQc%3D
+📤 Sending DALL-E 3 generated image back to frontend, size: 2622096
+🔍 Data URL preview: data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAABAAAAAQACAIAAADwf7zUAAA3BmNhQlgAADcGanVtYgAAAB5qdW1kYz...
+📦 Response object keys: [ 'success', 'imageData', 'prompt' ]
+📦 Response success: true
+📦 Response imageData length: 2622118
+🎨 Image transformation request received
+📊 Image details: { originalSize: 24480, fileType: 'image/jpeg', fileName: 'image.png' }
+🎵 Audio features: {
+  volume: 0.0038178610895876724,
+  pitch: 5,
+  energy: 0.003699388992731532,
+  mode: 'realtime'
+}
+🎵 Audio-reactive parameters: {
+  volumePercent: 0,
+  energyPercent: 0,
+  pitchValue: 5,
+  centroidValue: 22
+}
+🎯 Generated prompt: Create a digital artwork inspired by audio visualization and sound reactive effects. 
+  
+  AUDIO PARAMETERS driving the visual: Vol:0% Energy:0% Pitch:5Hz Cent:22%
+  
+  Visual style: MINIMAL EFFECTS, very subtle changes, peaceful with SMOOTH GRADIENTS, soft transitions, minimal patterns and HEAVY TEXTURES, grounded elements, solid foundations
+  Color scheme: DEEP COOL: midnight blues, rich purples, metallic silvers
+  
+  Create a dynamic, futuristic composition that embodies these audio characteristics.
+  Style: Advanced digital art, cyberpunk aesthetics, electronic music visualization, holographic effects
+  Make it look like sound made visible - EXTREMELY responsive to the audio parameters above.
+  Ultra high quality, dramatic lighting, cutting-edge visual effects.
+  Seed: 00522
+🔄 Converting image to PNG format
+✅ Image converted to PNG
+📏 Final image dimensions: { width: 512, height: 343 }
+🎭 Creating strategic audio-reactive mask
+🎭 Mask saved for debugging: /tmp/debug_mask_1752841892971.png
+📏 Image file size: 304574
+📏 Mask file size: 4017
+🚀 Using DALL-E 3 for cutting-edge audio-reactive generation...
+🎵 Audio parameters driving DALL-E 3 generation: {
+  volume: 0.0038178610895876724,
+  energy: 0.003699388992731532,
+  pitch: 5,
+  centroid: 0.22091520155290895
+}
+✅ OpenAI transformation complete
+🌐 Image URL from OpenAI: https://oaidalleapiprodscus.blob.core.windows.net/private/org-aWRt1ujnznk5CtQ0ykEkXjur/user-vYEZcYN1KCW4dgOtD0ShyJgA/img-A92sBmLxhh1HH4CvdZX0t7SV.png?st=2025-07-18T11%3A32%3A54Z&se=2025-07-18T13%3A32%3A54Z&sp=r&sv=2024-08-04&sr=b&rscd=inline&rsct=image/png&skoid=475fd488-6c59-44a5-9aa9-31c4db451bea&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-07-18T11%3A56%3A54Z&ske=2025-07-19T11%3A56%3A54Z&sks=b&skv=2024-08-04&sig=9GJ6U860nWPeprZqvEmC6M/7yT4Tq7Hlayv/pWa1eag%3D
+📤 Sending DALL-E 3 generated image back to frontend, size: 2749376
+🔍 Data URL preview: data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAABAAAAAQACAIAAADwf7zUAAA3BmNhQlgAADcGanVtYgAAAB5qdW1kYz...
+📦 Response object keys: [ 'success', 'imageData', 'prompt' ]
+📦 Response success: true
+📦 Response imageData length: 2749398
+🎨 Image transformation request received
+📊 Image details: { originalSize: 24480, fileType: 'image/jpeg', fileName: 'image.png' }
+🎵 Audio features: {
+  volume: 0.0033075462205917902,
+  pitch: 7,
+  energy: 0.00223176206185597,
+  mode: 'realtime'
+}
+🎵 Audio-reactive parameters: {
+  volumePercent: 0,
+  energyPercent: 0,
+  pitchValue: 7,
+  centroidValue: 18
+}
+🎯 Generated prompt: Create a digital artwork inspired by audio visualization and sound reactive effects. 
+  
+  AUDIO PARAMETERS driving the visual: Vol:0% Energy:0% Pitch:7Hz Cent:18%
+  
+  Visual style: MINIMAL EFFECTS, very subtle changes, peaceful with SMOOTH GRADIENTS, soft transitions, minimal patterns and HEAVY TEXTURES, grounded elements, solid foundations
+  Color scheme: DEEP COOL: midnight blues, rich purples, metallic silvers
+  
+  Create a dynamic, futuristic composition that embodies these audio characteristics.
+  Style: Advanced digital art, cyberpunk aesthetics, electronic music visualization, holographic effects
+  Make it look like sound made visible - EXTREMELY responsive to the audio parameters above.
+  Ultra high quality, dramatic lighting, cutting-edge visual effects.
+  Seed: 00718
+🔄 Converting image to PNG format
+✅ Image converted to PNG
+📏 Final image dimensions: { width: 512, height: 343 }
+🎭 Creating strategic audio-reactive mask
+🎭 Mask saved for debugging: /tmp/debug_mask_1752841976780.png
+📏 Image file size: 304574
+📏 Mask file size: 3875
+🚀 Using DALL-E 3 for cutting-edge audio-reactive generation...
+🎵 Audio parameters driving DALL-E 3 generation: {
+  volume: 0.0033075462205917902,
+  energy: 0.00223176206185597,
+  pitch: 7,
+  centroid: 0.1752688966574362
+}
+✅ OpenAI transformation complete
+🌐 Image URL from OpenAI: https://oaidalleapiprodscus.blob.core.windows.net/private/org-aWRt1ujnznk5CtQ0ykEkXjur/user-vYEZcYN1KCW4dgOtD0ShyJgA/img-boLk5Jwak4aeUtoyKDyoYhA3.png?st=2025-07-18T11%3A33%3A23Z&se=2025-07-18T13%3A33%3A23Z&sp=r&sv=2024-08-04&sr=b&rscd=inline&rsct=image/png&skoid=475fd488-6c59-44a5-9aa9-31c4db451bea&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-07-18T12%3A33%3A23Z&ske=2025-07-19T12%3A33%3A23Z&sks=b&skv=2024-08-04&sig=wwEk8qHeDoC%2B3JRJYZJ%2BMDENYAeInV0r2bOxx5AhCeM%3D
+📤 Sending DALL-E 3 generated image back to frontend, size: 2255428
+🔍 Data URL preview: data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAABAAAAAQACAIAAADwf7zUAAA3BmNhQlgAADcGanVtYgAAAB5qdW1kYz...
+📦 Response object keys: [ 'success', 'imageData', 'prompt' ]
+📦 Response success: true
+📦 Response imageData length: 2255450
+🎨 Image transformation request received
+📊 Image details: { originalSize: 24480, fileType: 'image/jpeg', fileName: 'image.png' }
+🎵 Audio features: {
+  volume: 0.006511712335278563,
+  pitch: 7,
+  energy: 0.004212869318124821,
+  mode: 'realtime'
+}
+🎵 Audio-reactive parameters: {
+  volumePercent: 1,
+  energyPercent: 0,
+  pitchValue: 7,
+  centroidValue: 22
+}
+🎯 Generated prompt: Create a digital artwork inspired by audio visualization and sound reactive effects. 
+  
+  AUDIO PARAMETERS driving the visual: Vol:1% Energy:0% Pitch:7Hz Cent:22%
+  
+  Visual style: MINIMAL EFFECTS, very subtle changes, peaceful with SMOOTH GRADIENTS, soft transitions, minimal patterns and HEAVY TEXTURES, grounded elements, solid foundations
+  Color scheme: DEEP COOL: midnight blues, rich purples, metallic silvers
+  
+  Create a dynamic, futuristic composition that embodies these audio characteristics.
+  Style: Advanced digital art, cyberpunk aesthetics, electronic music visualization, holographic effects
+  Make it look like sound made visible - EXTREMELY responsive to the audio parameters above.
+  Ultra high quality, dramatic lighting, cutting-edge visual effects.
+  Seed: 10722
+🔄 Converting image to PNG format
+✅ Image converted to PNG
+📏 Final image dimensions: { width: 512, height: 343 }
+🎭 Creating strategic audio-reactive mask
+🎭 Mask saved for debugging: /tmp/debug_mask_1752842010596.png
+📏 Image file size: 304574
+📏 Mask file size: 3905
+🚀 Using DALL-E 3 for cutting-edge audio-reactive generation...
+🎵 Audio parameters driving DALL-E 3 generation: {
+  volume: 0.006511712335278563,
+  energy: 0.004212869318124821,
+  pitch: 7,
+  centroid: 0.2158550546320065
+}
+✅ OpenAI transformation complete
+🌐 Image URL from OpenAI: https://oaidalleapiprodscus.blob.core.windows.net/private/org-aWRt1ujnznk5CtQ0ykEkXjur/user-vYEZcYN1KCW4dgOtD0ShyJgA/img-IjTrrE15VKyRZ8X7Q5ZtgiGi.png?st=2025-07-18T11%3A33%3A58Z&se=2025-07-18T13%3A33%3A58Z&sp=r&sv=2024-08-04&sr=b&rscd=inline&rsct=image/png&skoid=475fd488-6c59-44a5-9aa9-31c4db451bea&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-07-17T14%3A34%3A48Z&ske=2025-07-18T14%3A34%3A48Z&sks=b&skv=2024-08-04&sig=/6dvHujvDH5wjVo0Nh3cY1kDgh0xe05GhZA8lljRIdE%3D
+📤 Sending DALL-E 3 generated image back to frontend, size: 1995900
+🔍 Data URL preview: data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAABAAAAAQACAIAAADwf7zUAAA3BmNhQlgAADcGanVtYgAAAB5qdW1kYz...
+📦 Response object keys: [ 'success', 'imageData', 'prompt' ]
+📦 Response success: true
+📦 Response imageData length: 1995922
+🎨 Image transformation request received
+📊 Image details: { originalSize: 24480, fileType: 'image/jpeg', fileName: 'image.png' }
+🎵 Audio features: {
+  volume: 0.004396980206003474,
+  pitch: 6,
+  energy: 0.0027655420346641645,
+  mode: 'realtime'
+}
+🎵 Audio-reactive parameters: {
+  volumePercent: 0,
+  energyPercent: 0,
+  pitchValue: 6,
+  centroidValue: 20
+}
+🎯 Generated prompt: Create a digital artwork inspired by audio visualization and sound reactive effects. 
+  
+  AUDIO PARAMETERS driving the visual: Vol:0% Energy:0% Pitch:6Hz Cent:20%
+  
+  Visual style: MINIMAL EFFECTS, very subtle changes, peaceful with SMOOTH GRADIENTS, soft transitions, minimal patterns and HEAVY TEXTURES, grounded elements, solid foundations
+  Color scheme: DEEP COOL: midnight blues, rich purples, metallic silvers
+  
+  Create a dynamic, futuristic composition that embodies these audio characteristics.
+  Style: Advanced digital art, cyberpunk aesthetics, electronic music visualization, holographic effects
+  Make it look like sound made visible - EXTREMELY responsive to the audio parameters above.
+  Ultra high quality, dramatic lighting, cutting-edge visual effects.
+  Seed: 00620
+🔄 Converting image to PNG format
+✅ Image converted to PNG
+📏 Final image dimensions: { width: 512, height: 343 }
+🎭 Creating strategic audio-reactive mask
+🎭 Mask saved for debugging: /tmp/debug_mask_1752842040506.png
+📏 Image file size: 304574
+📏 Mask file size: 3910
+🚀 Using DALL-E 3 for cutting-edge audio-reactive generation...
+🎵 Audio parameters driving DALL-E 3 generation: {
+  volume: 0.004396980206003474,
+  energy: 0.0027655420346641645,
+  pitch: 6,
+  centroid: 0.1998982060456356
+}
+✅ OpenAI transformation complete
+🌐 Image URL from OpenAI: https://oaidalleapiprodscus.blob.core.windows.net/private/org-aWRt1ujnznk5CtQ0ykEkXjur/user-vYEZcYN1KCW4dgOtD0ShyJgA/img-kWtjIxEFjGCKMnkR0DhplKjm.png?st=2025-07-18T11%3A34%3A28Z&se=2025-07-18T13%3A34%3A28Z&sp=r&sv=2024-08-04&sr=b&rscd=inline&rsct=image/png&skoid=475fd488-6c59-44a5-9aa9-31c4db451bea&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-07-18T06%3A50%3A51Z&ske=2025-07-19T06%3A50%3A51Z&sks=b&skv=2024-08-04&sig=pDBsmOKF/ebWffKmXZBIQiCfzdRlibDSzyqNTdJovug%3D
+📤 Sending DALL-E 3 generated image back to frontend, size: 2330536
+🔍 Data URL preview: data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAABAAAAAQACAIAAADwf7zUAAA3BmNhQlgAADcGanVtYgAAAB5qdW1kYz...
+📦 Response object keys: [ 'success', 'imageData', 'prompt' ]
+📦 Response success: true
+📦 Response imageData length: 2330558
+🎨 Image transformation request received
+📊 Image details: { originalSize: 24480, fileType: 'image/jpeg', fileName: 'image.png' }
+🎵 Audio features: {
+  volume: 0.0033131865237254433,
+  pitch: 6,
+  energy: 0.00291624157764354,
+  mode: 'realtime'
+}
+🎵 Audio-reactive parameters: {
+  volumePercent: 0,
+  energyPercent: 0,
+  pitchValue: 6,
+  centroidValue: 21
+}
+🎯 Generated prompt: Create a digital artwork inspired by audio visualization and sound reactive effects. 
+  
+  AUDIO PARAMETERS driving the visual: Vol:0% Energy:0% Pitch:6Hz Cent:21%
+  
+  Visual style: MINIMAL EFFECTS, very subtle changes, peaceful with SMOOTH GRADIENTS, soft transitions, minimal patterns and HEAVY TEXTURES, grounded elements, solid foundations
+  Color scheme: DEEP COOL: midnight blues, rich purples, metallic silvers
+  
+  Create a dynamic, futuristic composition that embodies these audio characteristics.
+  Style: Advanced digital art, cyberpunk aesthetics, electronic music visualization, holographic effects
+  Make it look like sound made visible - EXTREMELY responsive to the audio parameters above.
+  Ultra high quality, dramatic lighting, cutting-edge visual effects.
+  Seed: 00621
+🔄 Converting image to PNG format
+✅ Image converted to PNG
+📏 Final image dimensions: { width: 512, height: 343 }
+🎭 Creating strategic audio-reactive mask
+🎭 Mask saved for debugging: /tmp/debug_mask_1752842070469.png
+📏 Image file size: 304574
+📏 Mask file size: 3909
+🚀 Using DALL-E 3 for cutting-edge audio-reactive generation...
+🎵 Audio parameters driving DALL-E 3 generation: {
+  volume: 0.0033131865237254433,
+  energy: 0.00291624157764354,
+  pitch: 6,
+  centroid: 0.20771470495304029
+}
+✅ OpenAI transformation complete
+🌐 Image URL from OpenAI: https://oaidalleapiprodscus.blob.core.windows.net/private/org-aWRt1ujnznk5CtQ0ykEkXjur/user-vYEZcYN1KCW4dgOtD0ShyJgA/img-IuTadETkFyyHq5zifYSZnJBu.png?st=2025-07-18T11%3A34%3A58Z&se=2025-07-18T13%3A34%3A58Z&sp=r&sv=2024-08-04&sr=b&rscd=inline&rsct=image/png&skoid=475fd488-6c59-44a5-9aa9-31c4db451bea&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-07-18T06%3A34%3A58Z&ske=2025-07-19T06%3A34%3A58Z&sks=b&skv=2024-08-04&sig=cEA2xVxHwx30ngmjWGpuYImXSODo%2BptgME2xcGuhQu4%3D
+📤 Sending DALL-E 3 generated image back to frontend, size: 2382048
+🔍 Data URL preview: data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAABAAAAAQACAIAAADwf7zUAAA3BmNhQlgAADcGanVtYgAAAB5qdW1kYz...
+📦 Response object keys: [ 'success', 'imageData', 'prompt' ]
+📦 Response success: true
+📦 Response imageData length: 2382070
+🎨 Image transformation request received
+📊 Image details: { originalSize: 24480, fileType: 'image/jpeg', fileName: 'image.png' }
+🎵 Audio features: {
+  volume: 0.003847925266915057,
+  pitch: 7,
+  energy: 0.0027891109590770626,
+  mode: 'realtime'
+}
+🎵 Audio-reactive parameters: {
+  volumePercent: 0,
+  energyPercent: 0,
+  pitchValue: 7,
+  centroidValue: 20
+}
+🎯 Generated prompt: Create a digital artwork inspired by audio visualization and sound reactive effects. 
+  
+  AUDIO PARAMETERS driving the visual: Vol:0% Energy:0% Pitch:7Hz Cent:20%
+  
+  Visual style: MINIMAL EFFECTS, very subtle changes, peaceful with SMOOTH GRADIENTS, soft transitions, minimal patterns and HEAVY TEXTURES, grounded elements, solid foundations
+  Color scheme: DEEP COOL: midnight blues, rich purples, metallic silvers
+  
+  Create a dynamic, futuristic composition that embodies these audio characteristics.
+  Style: Advanced digital art, cyberpunk aesthetics, electronic music visualization, holographic effects
+  Make it look like sound made visible - EXTREMELY responsive to the audio parameters above.
+  Ultra high quality, dramatic lighting, cutting-edge visual effects.
+  Seed: 00720
+🔄 Converting image to PNG format
+✅ Image converted to PNG
+📏 Final image dimensions: { width: 512, height: 343 }
+🎭 Creating strategic audio-reactive mask
+🎭 Mask saved for debugging: /tmp/debug_mask_1752842101709.png
+📏 Image file size: 304574
+📏 Mask file size: 3798
+🚀 Using DALL-E 3 for cutting-edge audio-reactive generation...
+🎵 Audio parameters driving DALL-E 3 generation: {
+  volume: 0.003847925266915057,
+  energy: 0.0027891109590770626,
+  pitch: 7,
+  centroid: 0.20452906807241047
+}
+✅ OpenAI transformation complete
+🌐 Image URL from OpenAI: https://oaidalleapiprodscus.blob.core.windows.net/private/org-aWRt1ujnznk5CtQ0ykEkXjur/user-vYEZcYN1KCW4dgOtD0ShyJgA/img-WgA3XgWMozW49mwL0CdT76tX.png?st=2025-07-18T11%3A35%3A34Z&se=2025-07-18T13%3A35%3A34Z&sp=r&sv=2024-08-04&sr=b&rscd=inline&rsct=image/png&skoid=475fd488-6c59-44a5-9aa9-31c4db451bea&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-07-18T09%3A53%3A50Z&ske=2025-07-19T09%3A53%3A50Z&sks=b&skv=2024-08-04&sig=FwP5xHeEy9iTwi8lAOPZpeUdVa5MoFFvVzUo2LUWBac%3D
+📤 Sending DALL-E 3 generated image back to frontend, size: 2696804
+🔍 Data URL preview: data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAABAAAAAQACAIAAADwf7zUAAA3BmNhQlgAADcGanVtYgAAAB5qdW1kYz...
+📦 Response object keys: [ 'success', 'imageData', 'prompt' ]
+📦 Response success: true
+📦 Response imageData length: 2696826
+🎨 Image transformation request received
+📊 Image details: { originalSize: 24480, fileType: 'image/jpeg', fileName: 'image.png' }
+🎵 Audio features: {
+  volume: 0.003847925266915057,
+  pitch: 7,
+  energy: 0.0027891109590770626,
+  mode: 'realtime'
+}
+🎵 Audio-reactive parameters: {
+  volumePercent: 0,
+  energyPercent: 0,
+  pitchValue: 7,
+  centroidValue: 20
+}
+🎯 Generated prompt: Create a digital artwork inspired by audio visualization and sound reactive effects. 
+  
+  AUDIO PARAMETERS driving the visual: Vol:0% Energy:0% Pitch:7Hz Cent:20%
+  
+  Visual style: MINIMAL EFFECTS, very subtle changes, peaceful with SMOOTH GRADIENTS, soft transitions, minimal patterns and HEAVY TEXTURES, grounded elements, solid foundations
+  Color scheme: DEEP COOL: midnight blues, rich purples, metallic silvers
+  
+  Create a dynamic, futuristic composition that embodies these audio characteristics.
+  Style: Advanced digital art, cyberpunk aesthetics, electronic music visualization, holographic effects
+  Make it look like sound made visible - EXTREMELY responsive to the audio parameters above.
+  Ultra high quality, dramatic lighting, cutting-edge visual effects.
+  Seed: 00720
+🔄 Converting image to PNG format
+✅ Image converted to PNG
+📏 Final image dimensions: { width: 512, height: 343 }
+🎭 Creating strategic audio-reactive mask
+🎭 Mask saved for debugging: /tmp/debug_mask_1752842136547.png
+📏 Image file size: 304574
+📏 Mask file size: 4038
+🚀 Using DALL-E 3 for cutting-edge audio-reactive generation...
+🎵 Audio parameters driving DALL-E 3 generation: {
+  volume: 0.003847925266915057,
+  energy: 0.0027891109590770626,
+  pitch: 7,
+  centroid: 0.20452906807241047
+}
+✅ OpenAI transformation complete
+🌐 Image URL from OpenAI: https://oaidalleapiprodscus.blob.core.windows.net/private/org-aWRt1ujnznk5CtQ0ykEkXjur/user-vYEZcYN1KCW4dgOtD0ShyJgA/img-EOKzvQGJuN0lcymXRj39IkEs.png?st=2025-07-18T11%3A36%3A01Z&se=2025-07-18T13%3A36%3A01Z&sp=r&sv=2024-08-04&sr=b&rscd=inline&rsct=image/png&skoid=475fd488-6c59-44a5-9aa9-31c4db451bea&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-07-17T13%3A52%3A06Z&ske=2025-07-18T13%3A52%3A06Z&sks=b&skv=2024-08-04&sig=30HAIiLeUdmKZufKlZZcbaVKNgNG4oCvwQauxH2TbD0%3D
+📤 Sending DALL-E 3 generated image back to frontend, size: 2741340
+🔍 Data URL preview: data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAABAAAAAQACAIAAADwf7zUAAA3BmNhQlgAADcGanVtYgAAAB5qdW1kYz...
+📦 Response object keys: [ 'success', 'imageData', 'prompt' ]
+📦 Response success: true
+📦 Response imageData length: 2741362
+🎨 Image transformation request received
+📊 Image details: { originalSize: 24480, fileType: 'image/jpeg', fileName: 'image.png' }
+🎵 Audio features: {
+  volume: 0.0013264918251588464,
+  pitch: 7,
+  energy: 0.0023567460243160915,
+  mode: 'realtime'
+}
+🎵 Audio-reactive parameters: {
+  volumePercent: 0,
+  energyPercent: 0,
+  pitchValue: 7,
+  centroidValue: 20
+}
+🎯 Generated prompt: Create a digital artwork inspired by audio visualization and sound reactive effects. 
+  
+  AUDIO PARAMETERS driving the visual: Vol:0% Energy:0% Pitch:7Hz Cent:20%
+  
+  Visual style: MINIMAL EFFECTS, very subtle changes, peaceful with SMOOTH GRADIENTS, soft transitions, minimal patterns and HEAVY TEXTURES, grounded elements, solid foundations
+  Color scheme: DEEP COOL: midnight blues, rich purples, metallic silvers
+  
+  Create a dynamic, futuristic composition that embodies these audio characteristics.
+  Style: Advanced digital art, cyberpunk aesthetics, electronic music visualization, holographic effects
+  Make it look like sound made visible - EXTREMELY responsive to the audio parameters above.
+  Ultra high quality, dramatic lighting, cutting-edge visual effects.
+  Seed: 00720
+🔄 Converting image to PNG format
+✅ Image converted to PNG
+📏 Final image dimensions: { width: 512, height: 343 }
+🎭 Creating strategic audio-reactive mask
+🎭 Mask saved for debugging: /tmp/debug_mask_1752842163462.png
+📏 Image file size: 304574
+📏 Mask file size: 4011
+🚀 Using DALL-E 3 for cutting-edge audio-reactive generation...
+🎵 Audio parameters driving DALL-E 3 generation: {
+  volume: 0.0013264918251588464,
+  energy: 0.0023567460243160915,
+  pitch: 7,
+  centroid: 0.19987270929525694
+}
+✅ OpenAI transformation complete
+🌐 Image URL from OpenAI: https://oaidalleapiprodscus.blob.core.windows.net/private/org-aWRt1ujnznk5CtQ0ykEkXjur/user-vYEZcYN1KCW4dgOtD0ShyJgA/img-qJijYmBYfIZ9Py7vh7o8knUy.png?st=2025-07-18T11%3A36%3A32Z&se=2025-07-18T13%3A36%3A32Z&sp=r&sv=2024-08-04&sr=b&rscd=inline&rsct=image/png&skoid=475fd488-6c59-44a5-9aa9-31c4db451bea&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-07-18T07%3A53%3A03Z&ske=2025-07-19T07%3A53%3A03Z&sks=b&skv=2024-08-04&sig=Qc7Tr8yRQz3SwzbgjWSSKs%2BmjuvP%2BA%2ByjekFDgMM6ns%3D
+📤 Sending DALL-E 3 generated image back to frontend, size: 2854236
+🔍 Data URL preview: data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAABAAAAAQACAIAAADwf7zUAAA3BmNhQlgAADcGanVtYgAAAB5qdW1kYz...
+📦 Response object keys: [ 'success', 'imageData', 'prompt' ]
+📦 Response success: true
+📦 Response imageData length: 2854258
+🎨 Image transformation request received
+📊 Image details: { originalSize: 24480, fileType: 'image/jpeg', fileName: 'image.png' }
+🎵 Audio features: {
+  volume: 0.0013264918251588464,
+  pitch: 7,
+  energy: 0.0023567460243160915,
+  mode: 'realtime'
+}
+🎵 Audio-reactive parameters: {
+  volumePercent: 0,
+  energyPercent: 0,
+  pitchValue: 7,
+  centroidValue: 20
+}
+🎯 Generated prompt: Create a digital artwork inspired by audio visualization and sound reactive effects. 
+  
+  AUDIO PARAMETERS driving the visual: Vol:0% Energy:0% Pitch:7Hz Cent:20%
+  
+  Visual style: MINIMAL EFFECTS, very subtle changes, peaceful with SMOOTH GRADIENTS, soft transitions, minimal patterns and HEAVY TEXTURES, grounded elements, solid foundations
+  Color scheme: DEEP COOL: midnight blues, rich purples, metallic silvers
+  
+  Create a dynamic, futuristic composition that embodies these audio characteristics.
+  Style: Advanced digital art, cyberpunk aesthetics, electronic music visualization, holographic effects
+  Make it look like sound made visible - EXTREMELY responsive to the audio parameters above.
+  Ultra high quality, dramatic lighting, cutting-edge visual effects.
+  Seed: 00720
+🔄 Converting image to PNG format
+✅ Image converted to PNG
+📏 Final image dimensions: { width: 512, height: 343 }
+🎭 Creating strategic audio-reactive mask
+🎭 Mask saved for debugging: /tmp/debug_mask_1752842194317.png
+📏 Image file size: 304574
+📏 Mask file size: 3881
+🚀 Using DALL-E 3 for cutting-edge audio-reactive generation...
+🎵 Audio parameters driving DALL-E 3 generation: {
+  volume: 0.0013264918251588464,
+  energy: 0.0023567460243160915,
+  pitch: 7,
+  centroid: 0.19987270929525694
+}
+✅ OpenAI transformation complete
+🌐 Image URL from OpenAI: https://oaidalleapiprodscus.blob.core.windows.net/private/org-aWRt1ujnznk5CtQ0ykEkXjur/user-vYEZcYN1KCW4dgOtD0ShyJgA/img-k6F3D30lJL639zV8MKmMk4t7.png?st=2025-07-18T11%3A37%3A02Z&se=2025-07-18T13%3A37%3A02Z&sp=r&sv=2024-08-04&sr=b&rscd=inline&rsct=image/png&skoid=475fd488-6c59-44a5-9aa9-31c4db451bea&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-07-18T10%3A35%3A50Z&ske=2025-07-19T10%3A35%3A50Z&sks=b&skv=2024-08-04&sig=a65QkeRL0XWEixBgTcMaaUGbmqrd71Kg%2BZ99qSQ33Z4%3D
+📤 Sending DALL-E 3 generated image back to frontend, size: 2860756
+🔍 Data URL preview: data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAABAAAAAQACAIAAADwf7zUAAA3BmNhQlgAADcGanVtYgAAAB5qdW1kYz...
+📦 Response object keys: [ 'success', 'imageData', 'prompt' ]
+📦 Response success: true
+📦 Response imageData length: 2860778
+🎨 Image transformation request received
+📊 Image details: { originalSize: 24480, fileType: 'image/jpeg', fileName: 'image.png' }
+🎵 Audio features: {
+  volume: 0.0013264918251588464,
+  pitch: 7,
+  energy: 0.0023567460243160915,
+  mode: 'realtime'
+}
+🎵 Audio-reactive parameters: {
+  volumePercent: 0,
+  energyPercent: 0,
+  pitchValue: 7,
+  centroidValue: 20
+}
+🎯 Generated prompt: Create a digital artwork inspired by audio visualization and sound reactive effects. 
+  
+  AUDIO PARAMETERS driving the visual: Vol:0% Energy:0% Pitch:7Hz Cent:20%
+  
+  Visual style: MINIMAL EFFECTS, very subtle changes, peaceful with SMOOTH GRADIENTS, soft transitions, minimal patterns and HEAVY TEXTURES, grounded elements, solid foundations
+  Color scheme: DEEP COOL: midnight blues, rich purples, metallic silvers
+  
+  Create a dynamic, futuristic composition that embodies these audio characteristics.
+  Style: Advanced digital art, cyberpunk aesthetics, electronic music visualization, holographic effects
+  Make it look like sound made visible - EXTREMELY responsive to the audio parameters above.
+  Ultra high quality, dramatic lighting, cutting-edge visual effects.
+  Seed: 00720
+🔄 Converting image to PNG format
+✅ Image converted to PNG
+📏 Final image dimensions: { width: 512, height: 343 }
+🎭 Creating strategic audio-reactive mask
+🎭 Mask saved for debugging: /tmp/debug_mask_1752842223627.png
+📏 Image file size: 304574
+📏 Mask file size: 3917
+🚀 Using DALL-E 3 for cutting-edge audio-reactive generation...
+🎵 Audio parameters driving DALL-E 3 generation: {
+  volume: 0.0013264918251588464,
+  energy: 0.0023567460243160915,
+  pitch: 7,
+  centroid: 0.19987270929525694
+}
+✅ OpenAI transformation complete
+🌐 Image URL from OpenAI: https://oaidalleapiprodscus.blob.core.windows.net/private/org-aWRt1ujnznk5CtQ0ykEkXjur/user-vYEZcYN1KCW4dgOtD0ShyJgA/img-aw3yrFVrJaAPzQJaJPYeEtl9.png?st=2025-07-18T11%3A37%3A28Z&se=2025-07-18T13%3A37%3A28Z&sp=r&sv=2024-08-04&sr=b&rscd=inline&rsct=image/png&skoid=475fd488-6c59-44a5-9aa9-31c4db451bea&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-07-17T18%3A20%3A13Z&ske=2025-07-18T18%3A20%3A13Z&sks=b&skv=2024-08-04&sig=b239lG2fZXugY75uLZCXL2UnnOVdRj%2B6JSXGrZsdob4%3D
+📤 Sending DALL-E 3 generated image back to frontend, size: 2511728
+🔍 Data URL preview: data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAABAAAAAQACAIAAADwf7zUAAA3BmNhQlgAADcGanVtYgAAAB5qdW1kYz...
+📦 Response object keys: [ 'success', 'imageData', 'prompt' ]
+📦 Response success: true
+📦 Response imageData length: 2511750
+🎨 Image transformation request received
+📊 Image details: { originalSize: 24480, fileType: 'image/jpeg', fileName: 'image.png' }
+🎵 Audio features: {
+  volume: 0.0013264918251588464,
+  pitch: 7,
+  energy: 0.0023567460243160915,
+  mode: 'realtime'
+}
+🎵 Audio-reactive parameters: {
+  volumePercent: 0,
+  energyPercent: 0,
+  pitchValue: 7,
+  centroidValue: 20
+}
+🎯 Generated prompt: Create a digital artwork inspired by audio visualization and sound reactive effects. 
+  
+  AUDIO PARAMETERS driving the visual: Vol:0% Energy:0% Pitch:7Hz Cent:20%
+  
+  Visual style: MINIMAL EFFECTS, very subtle changes, peaceful with SMOOTH GRADIENTS, soft transitions, minimal patterns and HEAVY TEXTURES, grounded elements, solid foundations
+  Color scheme: DEEP COOL: midnight blues, rich purples, metallic silvers
+  
+  Create a dynamic, futuristic composition that embodies these audio characteristics.
+  Style: Advanced digital art, cyberpunk aesthetics, electronic music visualization, holographic effects
+  Make it look like sound made visible - EXTREMELY responsive to the audio parameters above.
+  Ultra high quality, dramatic lighting, cutting-edge visual effects.
+  Seed: 00720
+🔄 Converting image to PNG format
+✅ Image converted to PNG
+📏 Final image dimensions: { width: 512, height: 343 }
+🎭 Creating strategic audio-reactive mask
+🎭 Mask saved for debugging: /tmp/debug_mask_1752842250329.png
+📏 Image file size: 304574
+📏 Mask file size: 4152
+🚀 Using DALL-E 3 for cutting-edge audio-reactive generation...
+🎵 Audio parameters driving DALL-E 3 generation: {
+  volume: 0.0013264918251588464,
+  energy: 0.0023567460243160915,
+  pitch: 7,
+  centroid: 0.19987270929525694
+}
+✅ OpenAI transformation complete
+🌐 Image URL from OpenAI: https://oaidalleapiprodscus.blob.core.windows.net/private/org-aWRt1ujnznk5CtQ0ykEkXjur/user-vYEZcYN1KCW4dgOtD0ShyJgA/img-557mWUdytlYvMmDAaDiMT4EK.png?st=2025-07-18T11%3A37%3A56Z&se=2025-07-18T13%3A37%3A56Z&sp=r&sv=2024-08-04&sr=b&rscd=inline&rsct=image/png&skoid=475fd488-6c59-44a5-9aa9-31c4db451bea&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-07-18T11%3A54%3A03Z&ske=2025-07-19T11%3A54%3A03Z&sks=b&skv=2024-08-04&sig=kceXK3EnfbOkZl%2B5bPYdLRsnV2kVBfmgd6i63cyAewI%3D
+📤 Sending DALL-E 3 generated image back to frontend, size: 2540468
+🔍 Data URL preview: data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAABAAAAAQACAIAAADwf7zUAAA3BmNhQlgAADcGanVtYgAAAB5qdW1kYz...
+📦 Response object keys: [ 'success', 'imageData', 'prompt' ]
+📦 Response success: true
+📦 Response imageData length: 2540490
+🎨 Image transformation request received
+📊 Image details: { originalSize: 24480, fileType: 'image/jpeg', fileName: 'image.png' }
+🎵 Audio features: {
+  volume: 0.0013264918251588464,
+  pitch: 7,
+  energy: 0.0023567460243160915,
+  mode: 'realtime'
+}
+🎵 Audio-reactive parameters: {
+  volumePercent: 0,
+  energyPercent: 0,
+  pitchValue: 7,
+  centroidValue: 20
+}
+🎯 Generated prompt: Create a digital artwork inspired by audio visualization and sound reactive effects. 
+  
+  AUDIO PARAMETERS driving the visual: Vol:0% Energy:0% Pitch:7Hz Cent:20%
+  
+  Visual style: MINIMAL EFFECTS, very subtle changes, peaceful with SMOOTH GRADIENTS, soft transitions, minimal patterns and HEAVY TEXTURES, grounded elements, solid foundations
+  Color scheme: DEEP COOL: midnight blues, rich purples, metallic silvers
+  
+  Create a dynamic, futuristic composition that embodies these audio characteristics.
+  Style: Advanced digital art, cyberpunk aesthetics, electronic music visualization, holographic effects
+  Make it look like sound made visible - EXTREMELY responsive to the audio parameters above.
+  Ultra high quality, dramatic lighting, cutting-edge visual effects.
+  Seed: 00720
+🔄 Converting image to PNG format
+✅ Image converted to PNG
+📏 Final image dimensions: { width: 512, height: 343 }
+🎭 Creating strategic audio-reactive mask
+🎭 Mask saved for debugging: /tmp/debug_mask_1752842277565.png
+📏 Image file size: 304574
+📏 Mask file size: 4068
+🚀 Using DALL-E 3 for cutting-edge audio-reactive generation...
+🎵 Audio parameters driving DALL-E 3 generation: {
+  volume: 0.0013264918251588464,
+  energy: 0.0023567460243160915,
+  pitch: 7,
+  centroid: 0.19987270929525694
+}
+✅ OpenAI transformation complete
+🌐 Image URL from OpenAI: https://oaidalleapiprodscus.blob.core.windows.net/private/org-aWRt1ujnznk5CtQ0ykEkXjur/user-vYEZcYN1KCW4dgOtD0ShyJgA/img-VOu1leySKWw50u2FdKyTFbpL.png?st=2025-07-18T11%3A38%3A24Z&se=2025-07-18T13%3A38%3A24Z&sp=r&sv=2024-08-04&sr=b&rscd=inline&rsct=image/png&skoid=475fd488-6c59-44a5-9aa9-31c4db451bea&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-07-18T06%3A18%3A11Z&ske=2025-07-19T06%3A18%3A11Z&sks=b&skv=2024-08-04&sig=I4MFrICPEW8KuiVntY55EBwfiH3lN2WGIji3HYK0Luc%3D
+📤 Sending DALL-E 3 generated image back to frontend, size: 2610500
+🔍 Data URL preview: data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAABAAAAAQACAIAAADwf7zUAAA3BmNhQlgAADcGanVtYgAAAB5qdW1kYz...
+📦 Response object keys: [ 'success', 'imageData', 'prompt' ]
+📦 Response success: true
+📦 Response imageData length: 2610522
+🎨 Image transformation request received
+📊 Image details: { originalSize: 24480, fileType: 'image/jpeg', fileName: 'image.png' }
+🎵 Audio features: {
+  volume: 0.019327237340534074,
+  pitch: 69,
+  energy: 0.0036150794496532805,
+  mode: 'realtime'
+}
+🎵 Audio-reactive parameters: {
+  volumePercent: 2,
+  energyPercent: 0,
+  pitchValue: 69,
+  centroidValue: 15
+}
+🎯 Generated prompt: Create a digital artwork inspired by audio visualization and sound reactive effects. 
+  
+  AUDIO PARAMETERS driving the visual: Vol:2% Energy:0% Pitch:69Hz Cent:15%
+  
+  Visual style: MINIMAL EFFECTS, very subtle changes, peaceful with SMOOTH GRADIENTS, soft transitions, minimal patterns and ORGANIC CURVES, flowing shapes, harmonic patterns
+  Color scheme: DEEP COOL: midnight blues, rich purples, metallic silvers
+  
+  Create a dynamic, futuristic composition that embodies these audio characteristics.
+  Style: Advanced digital art, cyberpunk aesthetics, electronic music visualization, holographic effects
+  Make it look like sound made visible - EXTREMELY responsive to the audio parameters above.
+  Ultra high quality, dramatic lighting, cutting-edge visual effects.
+  Seed: 206915
+🔄 Converting image to PNG format
+✅ Image converted to PNG
+📏 Final image dimensions: { width: 512, height: 343 }
+🎭 Creating strategic audio-reactive mask
+🎭 Mask saved for debugging: /tmp/debug_mask_1752842305745.png
+📏 Image file size: 304574
+📏 Mask file size: 4069
+🚀 Using DALL-E 3 for cutting-edge audio-reactive generation...
+🎵 Audio parameters driving DALL-E 3 generation: {
+  volume: 0.019327237340534074,
+  energy: 0.0036150794496532805,
+  pitch: 69,
+  centroid: 0.1513734017774473
+}
+✅ OpenAI transformation complete
+🌐 Image URL from OpenAI: https://oaidalleapiprodscus.blob.core.windows.net/private/org-aWRt1ujnznk5CtQ0ykEkXjur/user-vYEZcYN1KCW4dgOtD0ShyJgA/img-ash7OwZOVoEyYOPcrX1rwAZn.png?st=2025-07-18T11%3A38%3A54Z&se=2025-07-18T13%3A38%3A54Z&sp=r&sv=2024-08-04&sr=b&rscd=inline&rsct=image/png&skoid=475fd488-6c59-44a5-9aa9-31c4db451bea&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-07-17T21%3A29%3A42Z&ske=2025-07-18T21%3A29%3A42Z&sks=b&skv=2024-08-04&sig=B%2B0q1DlnWT21FJuOxJ9DO5XyfgPtYJ%2Bz5yJVMLFl4iw%3D
+📤 Sending DALL-E 3 generated image back to frontend, size: 2414892
+🔍 Data URL preview: data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAABAAAAAQACAIAAADwf7zUAAA3BmNhQlgAADcGanVtYgAAAB5qdW1kYz...
+📦 Response object keys: [ 'success', 'imageData', 'prompt' ]
+📦 Response success: true
+📦 Response imageData length: 2414914
+🎨 Image transformation request received
+📊 Image details: { originalSize: 24480, fileType: 'image/jpeg', fileName: 'image.png' }
+🎵 Audio features: {
+  volume: 0.019327237340534074,
+  pitch: 69,
+  energy: 0.0036150794496532805,
+  mode: 'realtime'
+}
+🎵 Audio-reactive parameters: {
+  volumePercent: 2,
+  energyPercent: 0,
+  pitchValue: 69,
+  centroidValue: 15
+}
+🎯 Generated prompt: Create a digital artwork inspired by audio visualization and sound reactive effects. 
+  
+  AUDIO PARAMETERS driving the visual: Vol:2% Energy:0% Pitch:69Hz Cent:15%
+  
+  Visual style: MINIMAL EFFECTS, very subtle changes, peaceful with SMOOTH GRADIENTS, soft transitions, minimal patterns and ORGANIC CURVES, flowing shapes, harmonic patterns
+  Color scheme: DEEP COOL: midnight blues, rich purples, metallic silvers
+  
+  Create a dynamic, futuristic composition that embodies these audio characteristics.
+  Style: Advanced digital art, cyberpunk aesthetics, electronic music visualization, holographic effects
+  Make it look like sound made visible - EXTREMELY responsive to the audio parameters above.
+  Ultra high quality, dramatic lighting, cutting-edge visual effects.
+  Seed: 206915
+🔄 Converting image to PNG format
+✅ Image converted to PNG
+📏 Final image dimensions: { width: 512, height: 343 }
+🎭 Creating strategic audio-reactive mask
+🎭 Mask saved for debugging: /tmp/debug_mask_1752842335628.png
+📏 Image file size: 304574
+📏 Mask file size: 4176
+🚀 Using DALL-E 3 for cutting-edge audio-reactive generation...
+🎵 Audio parameters driving DALL-E 3 generation: {
+  volume: 0.019327237340534074,
+  energy: 0.0036150794496532805,
+  pitch: 69,
+  centroid: 0.1513734017774473
+}
+✅ OpenAI transformation complete
+🌐 Image URL from OpenAI: https://oaidalleapiprodscus.blob.core.windows.net/private/org-aWRt1ujnznk5CtQ0ykEkXjur/user-vYEZcYN1KCW4dgOtD0ShyJgA/img-YtZ79VRrabn1EeGRGo63DDNs.png?st=2025-07-18T11%3A39%3A27Z&se=2025-07-18T13%3A39%3A27Z&sp=r&sv=2024-08-04&sr=b&rscd=inline&rsct=image/png&skoid=475fd488-6c59-44a5-9aa9-31c4db451bea&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-07-18T12%3A32%3A57Z&ske=2025-07-19T12%3A32%3A57Z&sks=b&skv=2024-08-04&sig=zBBNrkjflk9ISnlO0zD%2BE5y3TtkrtPhGJh7LCpKf9wg%3D
+📤 Sending DALL-E 3 generated image back to frontend, size: 2389424
+🔍 Data URL preview: data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAABAAAAAQACAIAAADwf7zUAAA3BmNhQlgAADcGanVtYgAAAB5qdW1kYz...
+📦 Response object keys: [ 'success', 'imageData', 'prompt' ]
+📦 Response success: true
+📦 Response imageData length: 2389446
+🎨 Image transformation request received
+📊 Image details: { originalSize: 24480, fileType: 'image/jpeg', fileName: 'image.png' }
+🎵 Audio features: {
+  volume: 0.019327237340534074,
+  pitch: 69,
+  energy: 0.0036150794496532805,
+  mode: 'realtime'
+}
+🎵 Audio-reactive parameters: {
+  volumePercent: 2,
+  energyPercent: 0,
+  pitchValue: 69,
+  centroidValue: 15
+}
+🎯 Generated prompt: Create a digital artwork inspired by audio visualization and sound reactive effects. 
+  
+  AUDIO PARAMETERS driving the visual: Vol:2% Energy:0% Pitch:69Hz Cent:15%
+  
+  Visual style: MINIMAL EFFECTS, very subtle changes, peaceful with SMOOTH GRADIENTS, soft transitions, minimal patterns and ORGANIC CURVES, flowing shapes, harmonic patterns
+  Color scheme: DEEP COOL: midnight blues, rich purples, metallic silvers
+  
+  Create a dynamic, futuristic composition that embodies these audio characteristics.
+  Style: Advanced digital art, cyberpunk aesthetics, electronic music visualization, holographic effects
+  Make it look like sound made visible - EXTREMELY responsive to the audio parameters above.
+  Ultra high quality, dramatic lighting, cutting-edge visual effects.
+  Seed: 206915
+🔄 Converting image to PNG format
+✅ Image converted to PNG
+📏 Final image dimensions: { width: 512, height: 343 }
+🎭 Creating strategic audio-reactive mask
+🎭 Mask saved for debugging: /tmp/debug_mask_1752842368378.png
+📏 Image file size: 304574
+📏 Mask file size: 3928
+🚀 Using DALL-E 3 for cutting-edge audio-reactive generation...
+🎵 Audio parameters driving DALL-E 3 generation: {
+  volume: 0.019327237340534074,
+  energy: 0.0036150794496532805,
+  pitch: 69,
+  centroid: 0.1513734017774473
+}
+✅ OpenAI transformation complete
+🌐 Image URL from OpenAI: https://oaidalleapiprodscus.blob.core.windows.net/private/org-aWRt1ujnznk5CtQ0ykEkXjur/user-vYEZcYN1KCW4dgOtD0ShyJgA/img-AjX3BBpKoJiiiyT5kLGV0LKN.png?st=2025-07-18T11%3A39%3A55Z&se=2025-07-18T13%3A39%3A55Z&sp=r&sv=2024-08-04&sr=b&rscd=inline&rsct=image/png&skoid=475fd488-6c59-44a5-9aa9-31c4db451bea&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-07-18T09%3A57%3A40Z&ske=2025-07-19T09%3A57%3A40Z&sks=b&skv=2024-08-04&sig=lAbQlC6FlQ4Nhix4wXAkL7mAChAAobVo/l73xuqBW7s%3D
+📤 Sending DALL-E 3 generated image back to frontend, size: 2686192
+🔍 Data URL preview: data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAABAAAAAQACAIAAADwf7zUAAA3BmNhQlgAADcGanVtYgAAAB5qdW1kYz...
+📦 Response object keys: [ 'success', 'imageData', 'prompt' ]
+📦 Response success: true
+📦 Response imageData length: 2686214
+🎨 Image transformation request received
+📊 Image details: { originalSize: 24480, fileType: 'image/jpeg', fileName: 'image.png' }
+🎵 Audio features: {
+  volume: 0.019327237340534074,
+  pitch: 69,
+  energy: 0.0036150794496532805,
+  mode: 'realtime'
+}
+🎵 Audio-reactive parameters: {
+  volumePercent: 2,
+  energyPercent: 0,
+  pitchValue: 69,
+  centroidValue: 15
+}
+🎯 Generated prompt: Create a digital artwork inspired by audio visualization and sound reactive effects. 
+  
+  AUDIO PARAMETERS driving the visual: Vol:2% Energy:0% Pitch:69Hz Cent:15%
+  
+  Visual style: MINIMAL EFFECTS, very subtle changes, peaceful with SMOOTH GRADIENTS, soft transitions, minimal patterns and ORGANIC CURVES, flowing shapes, harmonic patterns
+  Color scheme: DEEP COOL: midnight blues, rich purples, metallic silvers
+  
+  Create a dynamic, futuristic composition that embodies these audio characteristics.
+  Style: Advanced digital art, cyberpunk aesthetics, electronic music visualization, holographic effects
+  Make it look like sound made visible - EXTREMELY responsive to the audio parameters above.
+  Ultra high quality, dramatic lighting, cutting-edge visual effects.
+  Seed: 206915
+🔄 Converting image to PNG format
+✅ Image converted to PNG
+📏 Final image dimensions: { width: 512, height: 343 }
+🎭 Creating strategic audio-reactive mask
+🎭 Mask saved for debugging: /tmp/debug_mask_1752842396731.png
+📏 Image file size: 304574
+📏 Mask file size: 4127
+🚀 Using DALL-E 3 for cutting-edge audio-reactive generation...
+🎵 Audio parameters driving DALL-E 3 generation: {
+  volume: 0.019327237340534074,
+  energy: 0.0036150794496532805,
+  pitch: 69,
+  centroid: 0.1513734017774473
+}
+✅ OpenAI transformation complete
+🌐 Image URL from OpenAI: https://oaidalleapiprodscus.blob.core.windows.net/private/org-aWRt1ujnznk5CtQ0ykEkXjur/user-vYEZcYN1KCW4dgOtD0ShyJgA/img-F766nNUn4FPwGyM7JEsaU8IK.png?st=2025-07-18T11%3A40%3A28Z&se=2025-07-18T13%3A40%3A28Z&sp=r&sv=2024-08-04&sr=b&rscd=inline&rsct=image/png&skoid=475fd488-6c59-44a5-9aa9-31c4db451bea&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-07-18T04%3A33%3A44Z&ske=2025-07-19T04%3A33%3A44Z&sks=b&skv=2024-08-04&sig=3IzA88DOxqSqQW93hsnOTETGaiXhOGQeUK8CrN52Vxg%3D
+📤 Sending DALL-E 3 generated image back to frontend, size: 2376684
+🔍 Data URL preview: data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAABAAAAAQACAIAAADwf7zUAAA3BmNhQlgAADcGanVtYgAAAB5qdW1kYz...
+📦 Response object keys: [ 'success', 'imageData', 'prompt' ]
+📦 Response success: true
+📦 Response imageData length: 2376706
+🎨 Image transformation request received
+📊 Image details: { originalSize: 24480, fileType: 'image/jpeg', fileName: 'image.png' }
+🎵 Audio features: {
+  volume: 0.019327237340534074,
+  pitch: 69,
+  energy: 0.0036150794496532805,
+  mode: 'realtime'
+}
+🎵 Audio-reactive parameters: {
+  volumePercent: 2,
+  energyPercent: 0,
+  pitchValue: 69,
+  centroidValue: 15
+}
+🎯 Generated prompt: Create a digital artwork inspired by audio visualization and sound reactive effects. 
+  
+  AUDIO PARAMETERS driving the visual: Vol:2% Energy:0% Pitch:69Hz Cent:15%
+  
+  Visual style: MINIMAL EFFECTS, very subtle changes, peaceful with SMOOTH GRADIENTS, soft transitions, minimal patterns and ORGANIC CURVES, flowing shapes, harmonic patterns
+  Color scheme: DEEP COOL: midnight blues, rich purples, metallic silvers
+  
+  Create a dynamic, futuristic composition that embodies these audio characteristics.
+  Style: Advanced digital art, cyberpunk aesthetics, electronic music visualization, holographic effects
+  Make it look like sound made visible - EXTREMELY responsive to the audio parameters above.
+  Ultra high quality, dramatic lighting, cutting-edge visual effects.
+  Seed: 206915
+🔄 Converting image to PNG format
+✅ Image converted to PNG
+📏 Final image dimensions: { width: 512, height: 343 }
+🎭 Creating strategic audio-reactive mask
+🎭 Mask saved for debugging: /tmp/debug_mask_1752842429739.png
+📏 Image file size: 304574
+📏 Mask file size: 4049
+🚀 Using DALL-E 3 for cutting-edge audio-reactive generation...
+🎵 Audio parameters driving DALL-E 3 generation: {
+  volume: 0.019327237340534074,
+  energy: 0.0036150794496532805,
+  pitch: 69,
+  centroid: 0.1513734017774473
+}
+✅ OpenAI transformation complete
+🌐 Image URL from OpenAI: https://oaidalleapiprodscus.blob.core.windows.net/private/org-aWRt1ujnznk5CtQ0ykEkXjur/user-vYEZcYN1KCW4dgOtD0ShyJgA/img-aI6c1KWboAKF2JxGvYNzrIoH.png?st=2025-07-18T11%3A40%3A56Z&se=2025-07-18T13%3A40%3A56Z&sp=r&sv=2024-08-04&sr=b&rscd=inline&rsct=image/png&skoid=475fd488-6c59-44a5-9aa9-31c4db451bea&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-07-18T05%3A37%3A34Z&ske=2025-07-19T05%3A37%3A34Z&sks=b&skv=2024-08-04&sig=4WNiFG5kfvOuaBKN8CVrDNB4400RhSlCGHhS0VY4X9M%3D
+📤 Sending DALL-E 3 generated image back to frontend, size: 2196596
+🔍 Data URL preview: data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAABAAAAAQACAIAAADwf7zUAAA3BmNhQlgAADcGanVtYgAAAB5qdW1kYz...
+📦 Response object keys: [ 'success', 'imageData', 'prompt' ]
+📦 Response success: true
+📦 Response imageData length: 2196618
+🎨 Image transformation request received
+📊 Image details: { originalSize: 24480, fileType: 'image/jpeg', fileName: 'image.png' }
+🎵 Audio features: {
+  volume: 0.019327237340534074,
+  pitch: 69,
+  energy: 0.0036150794496532805,
+  mode: 'realtime'
+}
+🎵 Audio-reactive parameters: {
+  volumePercent: 2,
+  energyPercent: 0,
+  pitchValue: 69,
+  centroidValue: 15
+}
+🎯 Generated prompt: Create a digital artwork inspired by audio visualization and sound reactive effects. 
+  
+  AUDIO PARAMETERS driving the visual: Vol:2% Energy:0% Pitch:69Hz Cent:15%
+  
+  Visual style: MINIMAL EFFECTS, very subtle changes, peaceful with SMOOTH GRADIENTS, soft transitions, minimal patterns and ORGANIC CURVES, flowing shapes, harmonic patterns
+  Color scheme: DEEP COOL: midnight blues, rich purples, metallic silvers
+  
+  Create a dynamic, futuristic composition that embodies these audio characteristics.
+  Style: Advanced digital art, cyberpunk aesthetics, electronic music visualization, holographic effects
+  Make it look like sound made visible - EXTREMELY responsive to the audio parameters above.
+  Ultra high quality, dramatic lighting, cutting-edge visual effects.
+  Seed: 206915
+🔄 Converting image to PNG format
+✅ Image converted to PNG
+📏 Final image dimensions: { width: 512, height: 343 }
+🎭 Creating strategic audio-reactive mask
+🎭 Mask saved for debugging: /tmp/debug_mask_1752842457487.png
+📏 Image file size: 304574
+📏 Mask file size: 4288
+🚀 Using DALL-E 3 for cutting-edge audio-reactive generation...
+🎵 Audio parameters driving DALL-E 3 generation: {
+  volume: 0.019327237340534074,
+  energy: 0.0036150794496532805,
+  pitch: 69,
+  centroid: 0.1513734017774473
+}
+✅ OpenAI transformation complete
+🌐 Image URL from OpenAI: https://oaidalleapiprodscus.blob.core.windows.net/private/org-aWRt1ujnznk5CtQ0ykEkXjur/user-vYEZcYN1KCW4dgOtD0ShyJgA/img-UiylbjwsjBrSudEFmjHKy32F.png?st=2025-07-18T11%3A41%3A23Z&se=2025-07-18T13%3A41%3A23Z&sp=r&sv=2024-08-04&sr=b&rscd=inline&rsct=image/png&skoid=475fd488-6c59-44a5-9aa9-31c4db451bea&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-07-18T11%3A10%3A32Z&ske=2025-07-19T11%3A10%3A32Z&sks=b&skv=2024-08-04&sig=pMGzogViEAHRiTnSOqqck61Im%2BaP34KSIrVVg7g%2BzE8%3D
+📤 Sending DALL-E 3 generated image back to frontend, size: 2456876
+🔍 Data URL preview: data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAABAAAAAQACAIAAADwf7zUAAA3BmNhQlgAADcGanVtYgAAAB5qdW1kYz...
+📦 Response object keys: [ 'success', 'imageData', 'prompt' ]
+📦 Response success: true
+📦 Response imageData length: 2456898
+🎨 Image transformation request received
+📊 Image details: { originalSize: 24480, fileType: 'image/jpeg', fileName: 'image.png' }
+🎵 Audio features: {
+  volume: 0.019327237340534074,
+  pitch: 69,
+  energy: 0.0036150794496532805,
+  mode: 'realtime'
+}
+🎵 Audio-reactive parameters: {
+  volumePercent: 2,
+  energyPercent: 0,
+  pitchValue: 69,
+  centroidValue: 15
+}
+🎯 Generated prompt: Create a digital artwork inspired by audio visualization and sound reactive effects. 
+  
+  AUDIO PARAMETERS driving the visual: Vol:2% Energy:0% Pitch:69Hz Cent:15%
+  
+  Visual style: MINIMAL EFFECTS, very subtle changes, peaceful with SMOOTH GRADIENTS, soft transitions, minimal patterns and ORGANIC CURVES, flowing shapes, harmonic patterns
+  Color scheme: DEEP COOL: midnight blues, rich purples, metallic silvers
+  
+  Create a dynamic, futuristic composition that embodies these audio characteristics.
+  Style: Advanced digital art, cyberpunk aesthetics, electronic music visualization, holographic effects
+  Make it look like sound made visible - EXTREMELY responsive to the audio parameters above.
+  Ultra high quality, dramatic lighting, cutting-edge visual effects.
+  Seed: 206915
+🔄 Converting image to PNG format
+✅ Image converted to PNG
+📏 Final image dimensions: { width: 512, height: 343 }
+🎭 Creating strategic audio-reactive mask
+🎭 Mask saved for debugging: /tmp/debug_mask_1752842485085.png
+📏 Image file size: 304574
+📏 Mask file size: 4230
+🚀 Using DALL-E 3 for cutting-edge audio-reactive generation...
+🎵 Audio parameters driving DALL-E 3 generation: {
+  volume: 0.019327237340534074,
+  energy: 0.0036150794496532805,
+  pitch: 69,
+  centroid: 0.1513734017774473
+}
+✅ OpenAI transformation complete
+🌐 Image URL from OpenAI: https://oaidalleapiprodscus.blob.core.windows.net/private/org-aWRt1ujnznk5CtQ0ykEkXjur/user-vYEZcYN1KCW4dgOtD0ShyJgA/img-47OnBrJ1BLoRtXxWoi1y1BpJ.png?st=2025-07-18T11%3A41%3A54Z&se=2025-07-18T13%3A41%3A54Z&sp=r&sv=2024-08-04&sr=b&rscd=inline&rsct=image/png&skoid=475fd488-6c59-44a5-9aa9-31c4db451bea&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-07-18T02%3A37%3A45Z&ske=2025-07-19T02%3A37%3A45Z&sks=b&skv=2024-08-04&sig=aKDDcvBJm9Csdqzqc3WoCL67KGG%2BiO7wJ9tRJ8Lvzwo%3D
+📤 Sending DALL-E 3 generated image back to frontend, size: 2417260
+🔍 Data URL preview: data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAABAAAAAQACAIAAADwf7zUAAA3BmNhQlgAADcGanVtYgAAAB5qdW1kYz...
+📦 Response object keys: [ 'success', 'imageData', 'prompt' ]
+📦 Response success: true
+📦 Response imageData length: 2417282
+🎨 Image transformation request received
+📊 Image details: { originalSize: 24480, fileType: 'image/jpeg', fileName: 'image.png' }
+🎵 Audio features: {
+  volume: 0.019327237340534074,
+  pitch: 69,
+  energy: 0.0036150794496532805,
+  mode: 'realtime'
+}
+🎵 Audio-reactive parameters: {
+  volumePercent: 2,
+  energyPercent: 0,
+  pitchValue: 69,
+  centroidValue: 15
+}
+🎯 Generated prompt: Create a digital artwork inspired by audio visualization and sound reactive effects. 
+  
+  AUDIO PARAMETERS driving the visual: Vol:2% Energy:0% Pitch:69Hz Cent:15%
+  
+  Visual style: MINIMAL EFFECTS, very subtle changes, peaceful with SMOOTH GRADIENTS, soft transitions, minimal patterns and ORGANIC CURVES, flowing shapes, harmonic patterns
+  Color scheme: DEEP COOL: midnight blues, rich purples, metallic silvers
+  
+  Create a dynamic, futuristic composition that embodies these audio characteristics.
+  Style: Advanced digital art, cyberpunk aesthetics, electronic music visualization, holographic effects
+  Make it look like sound made visible - EXTREMELY responsive to the audio parameters above.
+  Ultra high quality, dramatic lighting, cutting-edge visual effects.
+  Seed: 206915
+🔄 Converting image to PNG format
+✅ Image converted to PNG
+📏 Final image dimensions: { width: 512, height: 343 }
+🎭 Creating strategic audio-reactive mask
+🎭 Mask saved for debugging: /tmp/debug_mask_1752842516963.png
+📏 Image file size: 304574
+📏 Mask file size: 4122
+🚀 Using DALL-E 3 for cutting-edge audio-reactive generation...
+🎵 Audio parameters driving DALL-E 3 generation: {
+  volume: 0.019327237340534074,
+  energy: 0.0036150794496532805,
+  pitch: 69,
+  centroid: 0.1513734017774473
+}
+✅ OpenAI transformation complete
+🌐 Image URL from OpenAI: https://oaidalleapiprodscus.blob.core.windows.net/private/org-aWRt1ujnznk5CtQ0ykEkXjur/user-vYEZcYN1KCW4dgOtD0ShyJgA/img-NawbiZ6gFSSDiFN2muYneK6r.png?st=2025-07-18T11%3A42%3A31Z&se=2025-07-18T13%3A42%3A31Z&sp=r&sv=2024-08-04&sr=b&rscd=inline&rsct=image/png&skoid=475fd488-6c59-44a5-9aa9-31c4db451bea&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-07-18T05%3A41%3A36Z&ske=2025-07-19T05%3A41%3A36Z&sks=b&skv=2024-08-04&sig=hMDHt5K4qBN/qdXjHsA%2BsvB9n57uHbtqp4ZP/p5DQwk%3D
+📤 Sending DALL-E 3 generated image back to frontend, size: 2726560
+🔍 Data URL preview: data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAABAAAAAQACAIAAADwf7zUAAA3BmNhQlgAADcGanVtYgAAAB5qdW1kYz...
+📦 Response object keys: [ 'success', 'imageData', 'prompt' ]
+📦 Response success: true
+📦 Response imageData length: 2726582
+🎨 Image transformation request received
+📊 Image details: { originalSize: 24480, fileType: 'image/jpeg', fileName: 'image.png' }
+🎵 Audio features: {
+  volume: 0.001383336383210831,
+  pitch: 69,
+  energy: 0.0030141904952369564,
+  mode: 'realtime'
+}
+🎵 Audio-reactive parameters: {
+  volumePercent: 0,
+  energyPercent: 0,
+  pitchValue: 69,
+  centroidValue: 15
+}
+🎯 Generated prompt: Create a digital artwork inspired by audio visualization and sound reactive effects. 
+  
+  AUDIO PARAMETERS driving the visual: Vol:0% Energy:0% Pitch:69Hz Cent:15%
+  
+  Visual style: MINIMAL EFFECTS, very subtle changes, peaceful with SMOOTH GRADIENTS, soft transitions, minimal patterns and ORGANIC CURVES, flowing shapes, harmonic patterns
+  Color scheme: DEEP COOL: midnight blues, rich purples, metallic silvers
+  
+  Create a dynamic, futuristic composition that embodies these audio characteristics.
+  Style: Advanced digital art, cyberpunk aesthetics, electronic music visualization, holographic effects
+  Make it look like sound made visible - EXTREMELY responsive to the audio parameters above.
+  Ultra high quality, dramatic lighting, cutting-edge visual effects.
+  Seed: 006915
+🔄 Converting image to PNG format
+✅ Image converted to PNG
+📏 Final image dimensions: { width: 512, height: 343 }
+🎭 Creating strategic audio-reactive mask
+🎭 Mask saved for debugging: /tmp/debug_mask_1752842553386.png
+📏 Image file size: 304574
+📏 Mask file size: 4073
+🚀 Using DALL-E 3 for cutting-edge audio-reactive generation...
+🎵 Audio parameters driving DALL-E 3 generation: {
+  volume: 0.001383336383210831,
+  energy: 0.0030141904952369564,
+  pitch: 69,
+  centroid: 0.1504100327672213
+}
+✅ OpenAI transformation complete
+🌐 Image URL from OpenAI: https://oaidalleapiprodscus.blob.core.windows.net/private/org-aWRt1ujnznk5CtQ0ykEkXjur/user-vYEZcYN1KCW4dgOtD0ShyJgA/img-otr9P5VFcIBBRd6kSZOUcf3u.png?st=2025-07-18T11%3A42%3A59Z&se=2025-07-18T13%3A42%3A59Z&sp=r&sv=2024-08-04&sr=b&rscd=inline&rsct=image/png&skoid=475fd488-6c59-44a5-9aa9-31c4db451bea&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-07-18T06%3A15%3A34Z&ske=2025-07-19T06%3A15%3A34Z&sks=b&skv=2024-08-04&sig=/quCvXofD/DNexMFrDO9ajEQYzLl8NZRGG3kXXcwbFQ%3D
+📤 Sending DALL-E 3 generated image back to frontend, size: 2466332
+🔍 Data URL preview: data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAABAAAAAQACAIAAADwf7zUAAA3BmNhQlgAADcGanVtYgAAAB5qdW1kYz...
+📦 Response object keys: [ 'success', 'imageData', 'prompt' ]
+📦 Response success: true
+📦 Response imageData length: 2466354
+🎨 Image transformation request received
+📊 Image details: { originalSize: 24480, fileType: 'image/jpeg', fileName: 'image.png' }
+🎵 Audio features: {
+  volume: 0.001383336383210831,
+  pitch: 69,
+  energy: 0.0030141904952369564,
+  mode: 'realtime'
+}
+🎵 Audio-reactive parameters: {
+  volumePercent: 0,
+  energyPercent: 0,
+  pitchValue: 69,
+  centroidValue: 15
+}
+🎯 Generated prompt: Create a digital artwork inspired by audio visualization and sound reactive effects. 
+  
+  AUDIO PARAMETERS driving the visual: Vol:0% Energy:0% Pitch:69Hz Cent:15%
+  
+  Visual style: MINIMAL EFFECTS, very subtle changes, peaceful with SMOOTH GRADIENTS, soft transitions, minimal patterns and ORGANIC CURVES, flowing shapes, harmonic patterns
+  Color scheme: DEEP COOL: midnight blues, rich purples, metallic silvers
+  
+  Create a dynamic, futuristic composition that embodies these audio characteristics.
+  Style: Advanced digital art, cyberpunk aesthetics, electronic music visualization, holographic effects
+  Make it look like sound made visible - EXTREMELY responsive to the audio parameters above.
+  Ultra high quality, dramatic lighting, cutting-edge visual effects.
+  Seed: 006915
+🔄 Converting image to PNG format
+✅ Image converted to PNG
+📏 Final image dimensions: { width: 512, height: 343 }
+🎭 Creating strategic audio-reactive mask
+🎭 Mask saved for debugging: /tmp/debug_mask_1752842581120.png
+📏 Image file size: 304574
+📏 Mask file size: 4101
+🚀 Using DALL-E 3 for cutting-edge audio-reactive generation...
+🎵 Audio parameters driving DALL-E 3 generation: {
+  volume: 0.001383336383210831,
+  energy: 0.0030141904952369564,
+  pitch: 69,
+  centroid: 0.1504100327672213
+}
+✅ OpenAI transformation complete
+🌐 Image URL from OpenAI: https://oaidalleapiprodscus.blob.core.windows.net/private/org-aWRt1ujnznk5CtQ0ykEkXjur/user-vYEZcYN1KCW4dgOtD0ShyJgA/img-5MoARzNUddwussQi2xarSwiF.png?st=2025-07-18T11%3A43%3A30Z&se=2025-07-18T13%3A43%3A30Z&sp=r&sv=2024-08-04&sr=b&rscd=inline&rsct=image/png&skoid=475fd488-6c59-44a5-9aa9-31c4db451bea&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-07-17T13%3A35%3A08Z&ske=2025-07-18T13%3A35%3A08Z&sks=b&skv=2024-08-04&sig=%2BhGTf%2BipO6yuZ3iW24q6Vlfl7RfpZvkVA05uJVfiA/M%3D
+📤 Sending DALL-E 3 generated image back to frontend, size: 2579468
+🔍 Data URL preview: data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAABAAAAAQACAIAAADwf7zUAAA3BmNhQlgAADcGanVtYgAAAB5qdW1kYz...
+📦 Response object keys: [ 'success', 'imageData', 'prompt' ]
+📦 Response success: true
+📦 Response imageData length: 2579490
+🎨 Image transformation request received
+📊 Image details: { originalSize: 24480, fileType: 'image/jpeg', fileName: 'image.png' }
+🎵 Audio features: {
+  volume: 0.001383336383210831,
+  pitch: 69,
+  energy: 0.0030141904952369564,
+  mode: 'realtime'
+}
+🎵 Audio-reactive parameters: {
+  volumePercent: 0,
+  energyPercent: 0,
+  pitchValue: 69,
+  centroidValue: 15
+}
+🎯 Generated prompt: Create a digital artwork inspired by audio visualization and sound reactive effects. 
+  
+  AUDIO PARAMETERS driving the visual: Vol:0% Energy:0% Pitch:69Hz Cent:15%
+  
+  Visual style: MINIMAL EFFECTS, very subtle changes, peaceful with SMOOTH GRADIENTS, soft transitions, minimal patterns and ORGANIC CURVES, flowing shapes, harmonic patterns
+  Color scheme: DEEP COOL: midnight blues, rich purples, metallic silvers
+  
+  Create a dynamic, futuristic composition that embodies these audio characteristics.
+  Style: Advanced digital art, cyberpunk aesthetics, electronic music visualization, holographic effects
+  Make it look like sound made visible - EXTREMELY responsive to the audio parameters above.
+  Ultra high quality, dramatic lighting, cutting-edge visual effects.
+  Seed: 006915
+🔄 Converting image to PNG format
+✅ Image converted to PNG
+📏 Final image dimensions: { width: 512, height: 343 }
+🎭 Creating strategic audio-reactive mask
+🎭 Mask saved for debugging: /tmp/debug_mask_1752842612355.png
+📏 Image file size: 304574
+📏 Mask file size: 4195
+🚀 Using DALL-E 3 for cutting-edge audio-reactive generation...
+🎵 Audio parameters driving DALL-E 3 generation: {
+  volume: 0.001383336383210831,
+  energy: 0.0030141904952369564,
+  pitch: 69,
+  centroid: 0.1504100327672213
+}
+✅ OpenAI transformation complete
+🌐 Image URL from OpenAI: https://oaidalleapiprodscus.blob.core.windows.net/private/org-aWRt1ujnznk5CtQ0ykEkXjur/user-vYEZcYN1KCW4dgOtD0ShyJgA/img-9tTu8QVuVLywMdD7zQsmaq6V.png?st=2025-07-18T11%3A43%3A58Z&se=2025-07-18T13%3A43%3A58Z&sp=r&sv=2024-08-04&sr=b&rscd=inline&rsct=image/png&skoid=475fd488-6c59-44a5-9aa9-31c4db451bea&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-07-18T06%3A01%3A16Z&ske=2025-07-19T06%3A01%3A16Z&sks=b&skv=2024-08-04&sig=/1MKIhs1CXyy2NxUyjTotQiHSptUJNHTkCYkUA/C9p8%3D
+📤 Sending DALL-E 3 generated image back to frontend, size: 2313640
+🔍 Data URL preview: data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAABAAAAAQACAIAAADwf7zUAAA3BmNhQlgAADcGanVtYgAAAB5qdW1kYz...
+📦 Response object keys: [ 'success', 'imageData', 'prompt' ]
+📦 Response success: true
+📦 Response imageData length: 2313662
+🎨 Image transformation request received
+📊 Image details: { originalSize: 24480, fileType: 'image/jpeg', fileName: 'image.png' }
+🎵 Audio features: {
+  volume: 0.001383336383210831,
+  pitch: 69,
+  energy: 0.0030141904952369564,
+  mode: 'realtime'
+}
+🎵 Audio-reactive parameters: {
+  volumePercent: 0,
+  energyPercent: 0,
+  pitchValue: 69,
+  centroidValue: 15
+}
+🎯 Generated prompt: Create a digital artwork inspired by audio visualization and sound reactive effects. 
+  
+  AUDIO PARAMETERS driving the visual: Vol:0% Energy:0% Pitch:69Hz Cent:15%
+  
+  Visual style: MINIMAL EFFECTS, very subtle changes, peaceful with SMOOTH GRADIENTS, soft transitions, minimal patterns and ORGANIC CURVES, flowing shapes, harmonic patterns
+  Color scheme: DEEP COOL: midnight blues, rich purples, metallic silvers
+  
+  Create a dynamic, futuristic composition that embodies these audio characteristics.
+  Style: Advanced digital art, cyberpunk aesthetics, electronic music visualization, holographic effects
+  Make it look like sound made visible - EXTREMELY responsive to the audio parameters above.
+  Ultra high quality, dramatic lighting, cutting-edge visual effects.
+  Seed: 006915
+🔄 Converting image to PNG format
+✅ Image converted to PNG
+📏 Final image dimensions: { width: 512, height: 343 }
+🎭 Creating strategic audio-reactive mask
+🎭 Mask saved for debugging: /tmp/debug_mask_1752842639871.png
+📏 Image file size: 304574
+📏 Mask file size: 4119
+🚀 Using DALL-E 3 for cutting-edge audio-reactive generation...
+🎵 Audio parameters driving DALL-E 3 generation: {
+  volume: 0.001383336383210831,
+  energy: 0.0030141904952369564,
+  pitch: 69,
+  centroid: 0.1504100327672213
+}
+✅ OpenAI transformation complete
+🌐 Image URL from OpenAI: https://oaidalleapiprodscus.blob.core.windows.net/private/org-aWRt1ujnznk5CtQ0ykEkXjur/user-vYEZcYN1KCW4dgOtD0ShyJgA/img-nuJtWHiTZOimCyYqMYY0MRlE.png?st=2025-07-18T11%3A44%3A26Z&se=2025-07-18T13%3A44%3A26Z&sp=r&sv=2024-08-04&sr=b&rscd=inline&rsct=image/png&skoid=475fd488-6c59-44a5-9aa9-31c4db451bea&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-07-18T07%3A15%3A18Z&ske=2025-07-19T07%3A15%3A18Z&sks=b&skv=2024-08-04&sig=9KFmIaDtfJXx0wOMl6pEA0XlbcGJIjVm63743uOKksU%3D
+📤 Sending DALL-E 3 generated image back to frontend, size: 2183116
+🔍 Data URL preview: data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAABAAAAAQACAIAAADwf7zUAAA3BmNhQlgAADcGanVtYgAAAB5qdW1kYz...
+📦 Response object keys: [ 'success', 'imageData', 'prompt' ]
+📦 Response success: true
+📦 Response imageData length: 2183138
+🎨 Image transformation request received
+📊 Image details: { originalSize: 24480, fileType: 'image/jpeg', fileName: 'image.png' }
+🎵 Audio features: {
+  volume: 0.001383336383210831,
+  pitch: 69,
+  energy: 0.0030141904952369564,
+  mode: 'realtime'
+}
+🎵 Audio-reactive parameters: {
+  volumePercent: 0,
+  energyPercent: 0,
+  pitchValue: 69,
+  centroidValue: 15
+}
+🎯 Generated prompt: Create a digital artwork inspired by audio visualization and sound reactive effects. 
+  
+  AUDIO PARAMETERS driving the visual: Vol:0% Energy:0% Pitch:69Hz Cent:15%
+  
+  Visual style: MINIMAL EFFECTS, very subtle changes, peaceful with SMOOTH GRADIENTS, soft transitions, minimal patterns and ORGANIC CURVES, flowing shapes, harmonic patterns
+  Color scheme: DEEP COOL: midnight blues, rich purples, metallic silvers
+  
+  Create a dynamic, futuristic composition that embodies these audio characteristics.
+  Style: Advanced digital art, cyberpunk aesthetics, electronic music visualization, holographic effects
+  Make it look like sound made visible - EXTREMELY responsive to the audio parameters above.
+  Ultra high quality, dramatic lighting, cutting-edge visual effects.
+  Seed: 006915
+🔄 Converting image to PNG format
+✅ Image converted to PNG
+📏 Final image dimensions: { width: 512, height: 343 }
+🎭 Creating strategic audio-reactive mask
+🎭 Mask saved for debugging: /tmp/debug_mask_1752842669079.png
+📏 Image file size: 304574
+📏 Mask file size: 4071
+🚀 Using DALL-E 3 for cutting-edge audio-reactive generation...
+🎵 Audio parameters driving DALL-E 3 generation: {
+  volume: 0.001383336383210831,
+  energy: 0.0030141904952369564,
+  pitch: 69,
+  centroid: 0.1504100327672213
+}
+✅ OpenAI transformation complete
+🌐 Image URL from OpenAI: https://oaidalleapiprodscus.blob.core.windows.net/private/org-aWRt1ujnznk5CtQ0ykEkXjur/user-vYEZcYN1KCW4dgOtD0ShyJgA/img-903PWFEhp1vFNTI16U52RYKP.png?st=2025-07-18T11%3A44%3A54Z&se=2025-07-18T13%3A44%3A54Z&sp=r&sv=2024-08-04&sr=b&rscd=inline&rsct=image/png&skoid=475fd488-6c59-44a5-9aa9-31c4db451bea&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-07-18T10%3A21%3A33Z&ske=2025-07-19T10%3A21%3A33Z&sks=b&skv=2024-08-04&sig=ZBV3VSP1lL5kzu/Xxt4nD5cjBDnOlZoluuyBWeUMJNA%3D
+📤 Sending DALL-E 3 generated image back to frontend, size: 2563636
+🔍 Data URL preview: data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAABAAAAAQACAIAAADwf7zUAAA3BmNhQlgAADcGanVtYgAAAB5qdW1kYz...
+📦 Response object keys: [ 'success', 'imageData', 'prompt' ]
+📦 Response success: true
+📦 Response imageData length: 2563658
+🎨 Image transformation request received
+📊 Image details: { originalSize: 24480, fileType: 'image/jpeg', fileName: 'image.png' }
+🎵 Audio features: {
+  volume: 0.001383336383210831,
+  pitch: 69,
+  energy: 0.0030141904952369564,
+  mode: 'realtime'
+}
+🎵 Audio-reactive parameters: {
+  volumePercent: 0,
+  energyPercent: 0,
+  pitchValue: 69,
+  centroidValue: 15
+}
+🎯 Generated prompt: Create a digital artwork inspired by audio visualization and sound reactive effects. 
+  
+  AUDIO PARAMETERS driving the visual: Vol:0% Energy:0% Pitch:69Hz Cent:15%
+  
+  Visual style: MINIMAL EFFECTS, very subtle changes, peaceful with SMOOTH GRADIENTS, soft transitions, minimal patterns and ORGANIC CURVES, flowing shapes, harmonic patterns
+  Color scheme: DEEP COOL: midnight blues, rich purples, metallic silvers
+  
+  Create a dynamic, futuristic composition that embodies these audio characteristics.
+  Style: Advanced digital art, cyberpunk aesthetics, electronic music visualization, holographic effects
+  Make it look like sound made visible - EXTREMELY responsive to the audio parameters above.
+  Ultra high quality, dramatic lighting, cutting-edge visual effects.
+  Seed: 006915
+🔄 Converting image to PNG format
+✅ Image converted to PNG
+📏 Final image dimensions: { width: 512, height: 343 }
+🎭 Creating strategic audio-reactive mask
+🎭 Mask saved for debugging: /tmp/debug_mask_1752842696887.png
+📏 Image file size: 304574
+📏 Mask file size: 3954
+🚀 Using DALL-E 3 for cutting-edge audio-reactive generation...
+🎵 Audio parameters driving DALL-E 3 generation: {
+  volume: 0.001383336383210831,
+  energy: 0.0030141904952369564,
+  pitch: 69,
+  centroid: 0.1504100327672213
+}
+✅ OpenAI transformation complete
+🌐 Image URL from OpenAI: https://oaidalleapiprodscus.blob.core.windows.net/private/org-aWRt1ujnznk5CtQ0ykEkXjur/user-vYEZcYN1KCW4dgOtD0ShyJgA/img-3PxS3vZ0sRhuTE413LvmXdGp.png?st=2025-07-18T11%3A45%3A24Z&se=2025-07-18T13%3A45%3A24Z&sp=r&sv=2024-08-04&sr=b&rscd=inline&rsct=image/png&skoid=475fd488-6c59-44a5-9aa9-31c4db451bea&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-07-18T07%3A20%3A27Z&ske=2025-07-19T07%3A20%3A27Z&sks=b&skv=2024-08-04&sig=UcQYb1t87xxy6gkXyq87b6O36Iiyfqspf9GhCB4xXN0%3D
+📤 Sending DALL-E 3 generated image back to frontend, size: 3192756
+🔍 Data URL preview: data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAABAAAAAQACAIAAADwf7zUAAA3BmNhQlgAADcGanVtYgAAAB5qdW1kYz...
+📦 Response object keys: [ 'success', 'imageData', 'prompt' ]
+📦 Response success: true
+📦 Response imageData length: 3192778
+🎨 Image transformation request received
+📊 Image details: { originalSize: 24480, fileType: 'image/jpeg', fileName: 'image.png' }
+🎵 Audio features: {
+  volume: 0.001383336383210831,
+  pitch: 69,
+  energy: 0.0030141904952369564,
+  mode: 'realtime'
+}
+🎵 Audio-reactive parameters: {
+  volumePercent: 0,
+  energyPercent: 0,
+  pitchValue: 69,
+  centroidValue: 15
+}
+🎯 Generated prompt: Create a digital artwork inspired by audio visualization and sound reactive effects. 
+  
+  AUDIO PARAMETERS driving the visual: Vol:0% Energy:0% Pitch:69Hz Cent:15%
+  
+  Visual style: MINIMAL EFFECTS, very subtle changes, peaceful with SMOOTH GRADIENTS, soft transitions, minimal patterns and ORGANIC CURVES, flowing shapes, harmonic patterns
+  Color scheme: DEEP COOL: midnight blues, rich purples, metallic silvers
+  
+  Create a dynamic, futuristic composition that embodies these audio characteristics.
+  Style: Advanced digital art, cyberpunk aesthetics, electronic music visualization, holographic effects
+  Make it look like sound made visible - EXTREMELY responsive to the audio parameters above.
+  Ultra high quality, dramatic lighting, cutting-edge visual effects.
+  Seed: 006915
+🔄 Converting image to PNG format
+✅ Image converted to PNG
+📏 Final image dimensions: { width: 512, height: 343 }
+🎭 Creating strategic audio-reactive mask
+🎭 Mask saved for debugging: /tmp/debug_mask_1752842726088.png
+📏 Image file size: 304574
+📏 Mask file size: 4062
+🚀 Using DALL-E 3 for cutting-edge audio-reactive generation...
+🎵 Audio parameters driving DALL-E 3 generation: {
+  volume: 0.001383336383210831,
+  energy: 0.0030141904952369564,
+  pitch: 69,
+  centroid: 0.1504100327672213
+}
+✅ OpenAI transformation complete
+🌐 Image URL from OpenAI: https://oaidalleapiprodscus.blob.core.windows.net/private/org-aWRt1ujnznk5CtQ0ykEkXjur/user-vYEZcYN1KCW4dgOtD0ShyJgA/img-lO9M4WPeuZlSQCCUFpUyiZcY.png?st=2025-07-18T11%3A45%3A51Z&se=2025-07-18T13%3A45%3A51Z&sp=r&sv=2024-08-04&sr=b&rscd=inline&rsct=image/png&skoid=475fd488-6c59-44a5-9aa9-31c4db451bea&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-07-18T08%3A55%3A47Z&ske=2025-07-19T08%3A55%3A47Z&sks=b&skv=2024-08-04&sig=IqTktiA6XX6HKm6cGZcnty7kEU2UzF8mtZdZswbxwBo%3D
+📤 Sending DALL-E 3 generated image back to frontend, size: 2414928
+🔍 Data URL preview: data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAABAAAAAQACAIAAADwf7zUAAA3BmNhQlgAADcGanVtYgAAAB5qdW1kYz...
+📦 Response object keys: [ 'success', 'imageData', 'prompt' ]
+📦 Response success: true
+📦 Response imageData length: 2414950
+🎨 Image transformation request received
+📊 Image details: { originalSize: 24480, fileType: 'image/jpeg', fileName: 'image.png' }
+🎵 Audio features: {
+  volume: 0.001383336383210831,
+  pitch: 69,
+  energy: 0.0030141904952369564,
+  mode: 'realtime'
+}
+🎵 Audio-reactive parameters: {
+  volumePercent: 0,
+  energyPercent: 0,
+  pitchValue: 69,
+  centroidValue: 15
+}
+🎯 Generated prompt: Create a digital artwork inspired by audio visualization and sound reactive effects. 
+  
+  AUDIO PARAMETERS driving the visual: Vol:0% Energy:0% Pitch:69Hz Cent:15%
+  
+  Visual style: MINIMAL EFFECTS, very subtle changes, peaceful with SMOOTH GRADIENTS, soft transitions, minimal patterns and ORGANIC CURVES, flowing shapes, harmonic patterns
+  Color scheme: DEEP COOL: midnight blues, rich purples, metallic silvers
+  
+  Create a dynamic, futuristic composition that embodies these audio characteristics.
+  Style: Advanced digital art, cyberpunk aesthetics, electronic music visualization, holographic effects
+  Make it look like sound made visible - EXTREMELY responsive to the audio parameters above.
+  Ultra high quality, dramatic lighting, cutting-edge visual effects.
+  Seed: 006915
+🔄 Converting image to PNG format
+✅ Image converted to PNG
+📏 Final image dimensions: { width: 512, height: 343 }
+🎭 Creating strategic audio-reactive mask
+🎭 Mask saved for debugging: /tmp/debug_mask_1752842752578.png
+📏 Image file size: 304574
+📏 Mask file size: 4013
+🚀 Using DALL-E 3 for cutting-edge audio-reactive generation...
+🎵 Audio parameters driving DALL-E 3 generation: {
+  volume: 0.001383336383210831,
+  energy: 0.0030141904952369564,
+  pitch: 69,
+  centroid: 0.1504100327672213
+}
+✅ OpenAI transformation complete
+🌐 Image URL from OpenAI: https://oaidalleapiprodscus.blob.core.windows.net/private/org-aWRt1ujnznk5CtQ0ykEkXjur/user-vYEZcYN1KCW4dgOtD0ShyJgA/img-lVE9cTdmMLT3hkZ8Wlj9zkql.png?st=2025-07-18T11%3A46%3A20Z&se=2025-07-18T13%3A46%3A20Z&sp=r&sv=2024-08-04&sr=b&rscd=inline&rsct=image/png&skoid=475fd488-6c59-44a5-9aa9-31c4db451bea&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-07-18T06%3A54%3A44Z&ske=2025-07-19T06%3A54%3A44Z&sks=b&skv=2024-08-04&sig=aLUI4/ZjwNxSIu8dih9KtVtTUOQfC0RBnYa01YvEwos%3D
+📤 Sending DALL-E 3 generated image back to frontend, size: 2344568
+🔍 Data URL preview: data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAABAAAAAQACAIAAADwf7zUAAA3BmNhQlgAADcGanVtYgAAAB5qdW1kYz...
+📦 Response object keys: [ 'success', 'imageData', 'prompt' ]
+📦 Response success: true
+📦 Response imageData length: 2344590
+🎨 Image transformation request received
+📊 Image details: { originalSize: 24480, fileType: 'image/jpeg', fileName: 'image.png' }
+🎵 Audio features: {
+  volume: 0.001383336383210831,
+  pitch: 69,
+  energy: 0.0030141904952369564,
+  mode: 'realtime'
+}
+🎵 Audio-reactive parameters: {
+  volumePercent: 0,
+  energyPercent: 0,
+  pitchValue: 69,
+  centroidValue: 15
+}
+🎯 Generated prompt: Create a digital artwork inspired by audio visualization and sound reactive effects. 
+  
+  AUDIO PARAMETERS driving the visual: Vol:0% Energy:0% Pitch:69Hz Cent:15%
+  
+  Visual style: MINIMAL EFFECTS, very subtle changes, peaceful with SMOOTH GRADIENTS, soft transitions, minimal patterns and ORGANIC CURVES, flowing shapes, harmonic patterns
+  Color scheme: DEEP COOL: midnight blues, rich purples, metallic silvers
+  
+  Create a dynamic, futuristic composition that embodies these audio characteristics.
+  Style: Advanced digital art, cyberpunk aesthetics, electronic music visualization, holographic effects
+  Make it look like sound made visible - EXTREMELY responsive to the audio parameters above.
+  Ultra high quality, dramatic lighting, cutting-edge visual effects.
+  Seed: 006915
+🔄 Converting image to PNG format
+✅ Image converted to PNG
+📏 Final image dimensions: { width: 512, height: 343 }
+🎭 Creating strategic audio-reactive mask
+🎭 Mask saved for debugging: /tmp/debug_mask_1752842781888.png
+📏 Image file size: 304574
+📏 Mask file size: 3928
+🚀 Using DALL-E 3 for cutting-edge audio-reactive generation...
+🎵 Audio parameters driving DALL-E 3 generation: {
+  volume: 0.001383336383210831,
+  energy: 0.0030141904952369564,
+  pitch: 69,
+  centroid: 0.1504100327672213
+}
+✅ OpenAI transformation complete
+🌐 Image URL from OpenAI: https://oaidalleapiprodscus.blob.core.windows.net/private/org-aWRt1ujnznk5CtQ0ykEkXjur/user-vYEZcYN1KCW4dgOtD0ShyJgA/img-glGUwoxmAV4Gdbfsp1ij5oRu.png?st=2025-07-18T11%3A46%3A52Z&se=2025-07-18T13%3A46%3A52Z&sp=r&sv=2024-08-04&sr=b&rscd=inline&rsct=image/png&skoid=475fd488-6c59-44a5-9aa9-31c4db451bea&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-07-18T12%3A46%3A52Z&ske=2025-07-19T12%3A46%3A52Z&sks=b&skv=2024-08-04&sig=iUMuJVuf3oyRSHxq7L3ISSVsh3oHTZqdc60oYGMXrrQ%3D
+📤 Sending DALL-E 3 generated image back to frontend, size: 2480288
+🔍 Data URL preview: data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAABAAAAAQACAIAAADwf7zUAAA3BmNhQlgAADcGanVtYgAAAB5qdW1kYz...
+📦 Response object keys: [ 'success', 'imageData', 'prompt' ]
+📦 Response success: true
+📦 Response imageData length: 2480310
+🎨 Image transformation request received
+📊 Image details: { originalSize: 24480, fileType: 'image/jpeg', fileName: 'image.png' }
+🎵 Audio features: {
+  volume: 0.001383336383210831,
+  pitch: 69,
+  energy: 0.0030141904952369564,
+  mode: 'realtime'
+}
+🎵 Audio-reactive parameters: {
+  volumePercent: 0,
+  energyPercent: 0,
+  pitchValue: 69,
+  centroidValue: 15
+}
+🎯 Generated prompt: Create a digital artwork inspired by audio visualization and sound reactive effects. 
+  
+  AUDIO PARAMETERS driving the visual: Vol:0% Energy:0% Pitch:69Hz Cent:15%
+  
+  Visual style: MINIMAL EFFECTS, very subtle changes, peaceful with SMOOTH GRADIENTS, soft transitions, minimal patterns and ORGANIC CURVES, flowing shapes, harmonic patterns
+  Color scheme: DEEP COOL: midnight blues, rich purples, metallic silvers
+  
+  Create a dynamic, futuristic composition that embodies these audio characteristics.
+  Style: Advanced digital art, cyberpunk aesthetics, electronic music visualization, holographic effects
+  Make it look like sound made visible - EXTREMELY responsive to the audio parameters above.
+  Ultra high quality, dramatic lighting, cutting-edge visual effects.
+  Seed: 006915
+🔄 Converting image to PNG format
+✅ Image converted to PNG
+📏 Final image dimensions: { width: 512, height: 343 }
+🎭 Creating strategic audio-reactive mask
+🎭 Mask saved for debugging: /tmp/debug_mask_1752842814384.png
+📏 Image file size: 304574
+📏 Mask file size: 4272
+🚀 Using DALL-E 3 for cutting-edge audio-reactive generation...
+🎵 Audio parameters driving DALL-E 3 generation: {
+  volume: 0.001383336383210831,
+  energy: 0.0030141904952369564,
+  pitch: 69,
+  centroid: 0.1504100327672213
+}
+✅ OpenAI transformation complete
+🌐 Image URL from OpenAI: https://oaidalleapiprodscus.blob.core.windows.net/private/org-aWRt1ujnznk5CtQ0ykEkXjur/user-vYEZcYN1KCW4dgOtD0ShyJgA/img-qZwshiIM7TRprM4AiMnWtFi3.png?st=2025-07-18T11%3A47%3A21Z&se=2025-07-18T13%3A47%3A21Z&sp=r&sv=2024-08-04&sr=b&rscd=inline&rsct=image/png&skoid=475fd488-6c59-44a5-9aa9-31c4db451bea&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-07-18T10%3A42%3A38Z&ske=2025-07-19T10%3A42%3A38Z&sks=b&skv=2024-08-04&sig=lnOU08QGJfTw5Ehawu%2B1Z3f/N0ZLYE7uXf/NjVF5nRg%3D
+📤 Sending DALL-E 3 generated image back to frontend, size: 2576992
+🔍 Data URL preview: data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAABAAAAAQACAIAAADwf7zUAAA3BmNhQlgAADcGanVtYgAAAB5qdW1kYz...
+📦 Response object keys: [ 'success', 'imageData', 'prompt' ]
+📦 Response success: true
+📦 Response imageData length: 2577014
+🎨 Image transformation request received
+📊 Image details: { originalSize: 24480, fileType: 'image/jpeg', fileName: 'image.png' }
+🎵 Audio features: {
+  volume: 0.001383336383210831,
+  pitch: 69,
+  energy: 0.0030141904952369564,
+  mode: 'realtime'
+}
+🎵 Audio-reactive parameters: {
+  volumePercent: 0,
+  energyPercent: 0,
+  pitchValue: 69,
+  centroidValue: 15
+}
+🎯 Generated prompt: Create a digital artwork inspired by audio visualization and sound reactive effects. 
+  
+  AUDIO PARAMETERS driving the visual: Vol:0% Energy:0% Pitch:69Hz Cent:15%
+  
+  Visual style: MINIMAL EFFECTS, very subtle changes, peaceful with SMOOTH GRADIENTS, soft transitions, minimal patterns and ORGANIC CURVES, flowing shapes, harmonic patterns
+  Color scheme: DEEP COOL: midnight blues, rich purples, metallic silvers
+  
+  Create a dynamic, futuristic composition that embodies these audio characteristics.
+  Style: Advanced digital art, cyberpunk aesthetics, electronic music visualization, holographic effects
+  Make it look like sound made visible - EXTREMELY responsive to the audio parameters above.
+  Ultra high quality, dramatic lighting, cutting-edge visual effects.
+  Seed: 006915
+🔄 Converting image to PNG format
+✅ Image converted to PNG
+📏 Final image dimensions: { width: 512, height: 343 }
+🎭 Creating strategic audio-reactive mask
+🎭 Mask saved for debugging: /tmp/debug_mask_1752842843461.png
+📏 Image file size: 304574
+📏 Mask file size: 4033
+🚀 Using DALL-E 3 for cutting-edge audio-reactive generation...
+🎵 Audio parameters driving DALL-E 3 generation: {
+  volume: 0.001383336383210831,
+  energy: 0.0030141904952369564,
+  pitch: 69,
+  centroid: 0.1504100327672213
+}
+✅ OpenAI transformation complete
+🌐 Image URL from OpenAI: https://oaidalleapiprodscus.blob.core.windows.net/private/org-aWRt1ujnznk5CtQ0ykEkXjur/user-vYEZcYN1KCW4dgOtD0ShyJgA/img-zXe5aGcWAIbSjE2DFTqZconw.png?st=2025-07-18T11%3A47%3A52Z&se=2025-07-18T13%3A47%3A52Z&sp=r&sv=2024-08-04&sr=b&rscd=inline&rsct=image/png&skoid=475fd488-6c59-44a5-9aa9-31c4db451bea&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-07-18T06%3A21%3A53Z&ske=2025-07-19T06%3A21%3A53Z&sks=b&skv=2024-08-04&sig=T3DzYSUFQy5/aINzwstL0/bLbq8HVUP9l69p51sUlss%3D
+📤 Sending DALL-E 3 generated image back to frontend, size: 2697280
+🔍 Data URL preview: data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAABAAAAAQACAIAAADwf7zUAAA3BmNhQlgAADcGanVtYgAAAB5qdW1kYz...
+📦 Response object keys: [ 'success', 'imageData', 'prompt' ]
+📦 Response success: true
+📦 Response imageData length: 2697302
+🎨 Image transformation request received
+📊 Image details: { originalSize: 24480, fileType: 'image/jpeg', fileName: 'image.png' }
+🎵 Audio features: {
+  volume: 0.001383336383210831,
+  pitch: 69,
+  energy: 0.0030141904952369564,
+  mode: 'realtime'
+}
+🎵 Audio-reactive parameters: {
+  volumePercent: 0,
+  energyPercent: 0,
+  pitchValue: 69,
+  centroidValue: 15
+}
+🎯 Generated prompt: Create a digital artwork inspired by audio visualization and sound reactive effects. 
+  
+  AUDIO PARAMETERS driving the visual: Vol:0% Energy:0% Pitch:69Hz Cent:15%
+  
+  Visual style: MINIMAL EFFECTS, very subtle changes, peaceful with SMOOTH GRADIENTS, soft transitions, minimal patterns and ORGANIC CURVES, flowing shapes, harmonic patterns
+  Color scheme: DEEP COOL: midnight blues, rich purples, metallic silvers
+  
+  Create a dynamic, futuristic composition that embodies these audio characteristics.
+  Style: Advanced digital art, cyberpunk aesthetics, electronic music visualization, holographic effects
+  Make it look like sound made visible - EXTREMELY responsive to the audio parameters above.
+  Ultra high quality, dramatic lighting, cutting-edge visual effects.
+  Seed: 006915
+🔄 Converting image to PNG format
+✅ Image converted to PNG
+📏 Final image dimensions: { width: 512, height: 343 }
+🎭 Creating strategic audio-reactive mask
+🎭 Mask saved for debugging: /tmp/debug_mask_1752842873704.png
+📏 Image file size: 304574
+📏 Mask file size: 4045
+🚀 Using DALL-E 3 for cutting-edge audio-reactive generation...
+🎵 Audio parameters driving DALL-E 3 generation: {
+  volume: 0.001383336383210831,
+  energy: 0.0030141904952369564,
+  pitch: 69,
+  centroid: 0.1504100327672213
+}
+✅ OpenAI transformation complete
+🌐 Image URL from OpenAI: https://oaidalleapiprodscus.blob.core.windows.net/private/org-aWRt1ujnznk5CtQ0ykEkXjur/user-vYEZcYN1KCW4dgOtD0ShyJgA/img-AQnGjPKTYw2A1NDTEIg8uElK.png?st=2025-07-18T11%3A48%3A22Z&se=2025-07-18T13%3A48%3A22Z&sp=r&sv=2024-08-04&sr=b&rscd=inline&rsct=image/png&skoid=475fd488-6c59-44a5-9aa9-31c4db451bea&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-07-18T07%3A00%3A16Z&ske=2025-07-19T07%3A00%3A16Z&sks=b&skv=2024-08-04&sig=taI6uZ4nciUvgMXOCB%2BbM1tHGBFzOIJMXosWSSjgZEE%3D
+📤 Sending DALL-E 3 generated image back to frontend, size: 2471916
+🔍 Data URL preview: data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAABAAAAAQACAIAAADwf7zUAAA3BmNhQlgAADcGanVtYgAAAB5qdW1kYz...
+📦 Response object keys: [ 'success', 'imageData', 'prompt' ]
+📦 Response success: true
+📦 Response imageData length: 2471938
+🎨 Image transformation request received
+📊 Image details: { originalSize: 24480, fileType: 'image/jpeg', fileName: 'image.png' }
+🎵 Audio features: {
+  volume: 0.001383336383210831,
+  pitch: 69,
+  energy: 0.0030141904952369564,
+  mode: 'realtime'
+}
+🎵 Audio-reactive parameters: {
+  volumePercent: 0,
+  energyPercent: 0,
+  pitchValue: 69,
+  centroidValue: 15
+}
+🎯 Generated prompt: Create a digital artwork inspired by audio visualization and sound reactive effects. 
+  
+  AUDIO PARAMETERS driving the visual: Vol:0% Energy:0% Pitch:69Hz Cent:15%
+  
+  Visual style: MINIMAL EFFECTS, very subtle changes, peaceful with SMOOTH GRADIENTS, soft transitions, minimal patterns and ORGANIC CURVES, flowing shapes, harmonic patterns
+  Color scheme: DEEP COOL: midnight blues, rich purples, metallic silvers
+  
+  Create a dynamic, futuristic composition that embodies these audio characteristics.
+  Style: Advanced digital art, cyberpunk aesthetics, electronic music visualization, holographic effects
+  Make it look like sound made visible - EXTREMELY responsive to the audio parameters above.
+  Ultra high quality, dramatic lighting, cutting-edge visual effects.
+  Seed: 006915
+🔄 Converting image to PNG format
+✅ Image converted to PNG
+📏 Final image dimensions: { width: 512, height: 343 }
+🎭 Creating strategic audio-reactive mask
+🎭 Mask saved for debugging: /tmp/debug_mask_1752842904894.png
+📏 Image file size: 304574
+📏 Mask file size: 4283
+🚀 Using DALL-E 3 for cutting-edge audio-reactive generation...
+🎵 Audio parameters driving DALL-E 3 generation: {
+  volume: 0.001383336383210831,
+  energy: 0.0030141904952369564,
+  pitch: 69,
+  centroid: 0.1504100327672213
+}
+✅ OpenAI transformation complete
+🌐 Image URL from OpenAI: https://oaidalleapiprodscus.blob.core.windows.net/private/org-aWRt1ujnznk5CtQ0ykEkXjur/user-vYEZcYN1KCW4dgOtD0ShyJgA/img-pDSDumerPtQp0WX1XTbSyECD.png?st=2025-07-18T11%3A48%3A53Z&se=2025-07-18T13%3A48%3A53Z&sp=r&sv=2024-08-04&sr=b&rscd=inline&rsct=image/png&skoid=475fd488-6c59-44a5-9aa9-31c4db451bea&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-07-18T07%3A50%3A03Z&ske=2025-07-19T07%3A50%3A03Z&sks=b&skv=2024-08-04&sig=PXR82To8KBKFY4xSAg6q778TCcinf1Zc03lJnaJ9szg%3D
+📤 Sending DALL-E 3 generated image back to frontend, size: 2372428
+🔍 Data URL preview: data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAABAAAAAQACAIAAADwf7zUAAA3BmNhQlgAADcGanVtYgAAAB5qdW1kYz...
+📦 Response object keys: [ 'success', 'imageData', 'prompt' ]
+📦 Response success: true
+📦 Response imageData length: 2372450
+🎨 Image transformation request received
+📊 Image details: { originalSize: 24480, fileType: 'image/jpeg', fileName: 'image.png' }
+🎵 Audio features: {
+  volume: 0.001383336383210831,
+  pitch: 69,
+  energy: 0.0030141904952369564,
+  mode: 'realtime'
+}
+🎵 Audio-reactive parameters: {
+  volumePercent: 0,
+  energyPercent: 0,
+  pitchValue: 69,
+  centroidValue: 15
+}
+🎯 Generated prompt: Create a digital artwork inspired by audio visualization and sound reactive effects. 
+  
+  AUDIO PARAMETERS driving the visual: Vol:0% Energy:0% Pitch:69Hz Cent:15%
+  
+  Visual style: MINIMAL EFFECTS, very subtle changes, peaceful with SMOOTH GRADIENTS, soft transitions, minimal patterns and ORGANIC CURVES, flowing shapes, harmonic patterns
+  Color scheme: DEEP COOL: midnight blues, rich purples, metallic silvers
+  
+  Create a dynamic, futuristic composition that embodies these audio characteristics.
+  Style: Advanced digital art, cyberpunk aesthetics, electronic music visualization, holographic effects
+  Make it look like sound made visible - EXTREMELY responsive to the audio parameters above.
+  Ultra high quality, dramatic lighting, cutting-edge visual effects.
+  Seed: 006915
+🔄 Converting image to PNG format
+✅ Image converted to PNG
+📏 Final image dimensions: { width: 512, height: 343 }
+🎭 Creating strategic audio-reactive mask
+🎭 Mask saved for debugging: /tmp/debug_mask_1752842934385.png
+📏 Image file size: 304574
+📏 Mask file size: 4048
+🚀 Using DALL-E 3 for cutting-edge audio-reactive generation...
+🎵 Audio parameters driving DALL-E 3 generation: {
+  volume: 0.001383336383210831,
+  energy: 0.0030141904952369564,
+  pitch: 69,
+  centroid: 0.1504100327672213
+}
+✅ OpenAI transformation complete
+🌐 Image URL from OpenAI: https://oaidalleapiprodscus.blob.core.windows.net/private/org-aWRt1ujnznk5CtQ0ykEkXjur/user-vYEZcYN1KCW4dgOtD0ShyJgA/img-yU7ZvRuCcwkGzZjFbQyhAfl0.png?st=2025-07-18T11%3A49%3A20Z&se=2025-07-18T13%3A49%3A20Z&sp=r&sv=2024-08-04&sr=b&rscd=inline&rsct=image/png&skoid=475fd488-6c59-44a5-9aa9-31c4db451bea&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-07-18T07%3A20%3A37Z&ske=2025-07-19T07%3A20%3A37Z&sks=b&skv=2024-08-04&sig=yLAt4oyaebfrcpvLzb1ehvIzzW/m6gnwjijLsNaV3qE%3D
+📤 Sending DALL-E 3 generated image back to frontend, size: 2669804
+🔍 Data URL preview: data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAABAAAAAQACAIAAADwf7zUAAA3BmNhQlgAADcGanVtYgAAAB5qdW1kYz...
+📦 Response object keys: [ 'success', 'imageData', 'prompt' ]
+📦 Response success: true
+📦 Response imageData length: 2669826
+🎨 Image transformation request received
+📊 Image details: { originalSize: 24480, fileType: 'image/jpeg', fileName: 'image.png' }
+🎵 Audio features: {
+  volume: 0.001383336383210831,
+  pitch: 69,
+  energy: 0.0030141904952369564,
+  mode: 'realtime'
+}
+🎵 Audio-reactive parameters: {
+  volumePercent: 0,
+  energyPercent: 0,
+  pitchValue: 69,
+  centroidValue: 15
+}
+🎯 Generated prompt: Create a digital artwork inspired by audio visualization and sound reactive effects. 
+  
+  AUDIO PARAMETERS driving the visual: Vol:0% Energy:0% Pitch:69Hz Cent:15%
+  
+  Visual style: MINIMAL EFFECTS, very subtle changes, peaceful with SMOOTH GRADIENTS, soft transitions, minimal patterns and ORGANIC CURVES, flowing shapes, harmonic patterns
+  Color scheme: DEEP COOL: midnight blues, rich purples, metallic silvers
+  
+  Create a dynamic, futuristic composition that embodies these audio characteristics.
+  Style: Advanced digital art, cyberpunk aesthetics, electronic music visualization, holographic effects
+  Make it look like sound made visible - EXTREMELY responsive to the audio parameters above.
+  Ultra high quality, dramatic lighting, cutting-edge visual effects.
+  Seed: 006915
+🔄 Converting image to PNG format
+✅ Image converted to PNG
+📏 Final image dimensions: { width: 512, height: 343 }
+🎭 Creating strategic audio-reactive mask
+🎭 Mask saved for debugging: /tmp/debug_mask_1752842962018.png
+📏 Image file size: 304574
+📏 Mask file size: 4125
+🚀 Using DALL-E 3 for cutting-edge audio-reactive generation...
+🎵 Audio parameters driving DALL-E 3 generation: {
+  volume: 0.001383336383210831,
+  energy: 0.0030141904952369564,
+  pitch: 69,
+  centroid: 0.1504100327672213
+}
+✅ OpenAI transformation complete
+🌐 Image URL from OpenAI: https://oaidalleapiprodscus.blob.core.windows.net/private/org-aWRt1ujnznk5CtQ0ykEkXjur/user-vYEZcYN1KCW4dgOtD0ShyJgA/img-cAG4FB5Cau0p8kSrZUnsX9rF.png?st=2025-07-18T11%3A49%3A50Z&se=2025-07-18T13%3A49%3A50Z&sp=r&sv=2024-08-04&sr=b&rscd=inline&rsct=image/png&skoid=475fd488-6c59-44a5-9aa9-31c4db451bea&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-07-18T03%3A45%3A05Z&ske=2025-07-19T03%3A45%3A05Z&sks=b&skv=2024-08-04&sig=KLxx0yrI/Ed7%2BokRBc06a56CI8WlB7ohOnAzi/3DcAM%3D
+📤 Sending DALL-E 3 generated image back to frontend, size: 2917420
+🔍 Data URL preview: data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAABAAAAAQACAIAAADwf7zUAAA3BmNhQlgAADcGanVtYgAAAB5qdW1kYz...
+📦 Response object keys: [ 'success', 'imageData', 'prompt' ]
+📦 Response success: true
+📦 Response imageData length: 2917442
+🎨 Image transformation request received
+📊 Image details: { originalSize: 24480, fileType: 'image/jpeg', fileName: 'image.png' }
+🎵 Audio features: {
+  volume: 0.001383336383210831,
+  pitch: 69,
+  energy: 0.0030141904952369564,
+  mode: 'realtime'
+}
+🎵 Audio-reactive parameters: {
+  volumePercent: 0,
+  energyPercent: 0,
+  pitchValue: 69,
+  centroidValue: 15
+}
+🎯 Generated prompt: Create a digital artwork inspired by audio visualization and sound reactive effects. 
+  
+  AUDIO PARAMETERS driving the visual: Vol:0% Energy:0% Pitch:69Hz Cent:15%
+  
+  Visual style: MINIMAL EFFECTS, very subtle changes, peaceful with SMOOTH GRADIENTS, soft transitions, minimal patterns and ORGANIC CURVES, flowing shapes, harmonic patterns
+  Color scheme: DEEP COOL: midnight blues, rich purples, metallic silvers
+  
+  Create a dynamic, futuristic composition that embodies these audio characteristics.
+  Style: Advanced digital art, cyberpunk aesthetics, electronic music visualization, holographic effects
+  Make it look like sound made visible - EXTREMELY responsive to the audio parameters above.
+  Ultra high quality, dramatic lighting, cutting-edge visual effects.
+  Seed: 006915
+🔄 Converting image to PNG format
+✅ Image converted to PNG
+📏 Final image dimensions: { width: 512, height: 343 }
+🎭 Creating strategic audio-reactive mask
+🎭 Mask saved for debugging: /tmp/debug_mask_1752842992524.png
+📏 Image file size: 304574
+📏 Mask file size: 4030
+🚀 Using DALL-E 3 for cutting-edge audio-reactive generation...
+🎵 Audio parameters driving DALL-E 3 generation: {
+  volume: 0.001383336383210831,
+  energy: 0.0030141904952369564,
+  pitch: 69,
+  centroid: 0.1504100327672213
+}
+✅ OpenAI transformation complete
+🌐 Image URL from OpenAI: https://oaidalleapiprodscus.blob.core.windows.net/private/org-aWRt1ujnznk5CtQ0ykEkXjur/user-vYEZcYN1KCW4dgOtD0ShyJgA/img-RoGRUrJpZknEiYm3VZZaVG7m.png?st=2025-07-18T11%3A50%3A21Z&se=2025-07-18T13%3A50%3A21Z&sp=r&sv=2024-08-04&sr=b&rscd=inline&rsct=image/png&skoid=475fd488-6c59-44a5-9aa9-31c4db451bea&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-07-17T18%3A33%3A08Z&ske=2025-07-18T18%3A33%3A08Z&sks=b&skv=2024-08-04&sig=LlaUAIP9cX52tZzEffVzqEuCZ%2BDxPt2NOa%2B1VnGXHvA%3D
+📤 Sending DALL-E 3 generated image back to frontend, size: 2159936
+🔍 Data URL preview: data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAABAAAAAQACAIAAADwf7zUAAA3BmNhQlgAADcGanVtYgAAAB5qdW1kYz...
+📦 Response object keys: [ 'success', 'imageData', 'prompt' ]
+📦 Response success: true
+📦 Response imageData length: 2159958
+🎨 Image transformation request received
+📊 Image details: { originalSize: 24480, fileType: 'image/jpeg', fileName: 'image.png' }
+🎵 Audio features: {
+  volume: 0.001383336383210831,
+  pitch: 69,
+  energy: 0.0030141904952369564,
+  mode: 'realtime'
+}
+🎵 Audio-reactive parameters: {
+  volumePercent: 0,
+  energyPercent: 0,
+  pitchValue: 69,
+  centroidValue: 15
+}
+🎯 Generated prompt: Create a digital artwork inspired by audio visualization and sound reactive effects. 
+  
+  AUDIO PARAMETERS driving the visual: Vol:0% Energy:0% Pitch:69Hz Cent:15%
+  
+  Visual style: MINIMAL EFFECTS, very subtle changes, peaceful with SMOOTH GRADIENTS, soft transitions, minimal patterns and ORGANIC CURVES, flowing shapes, harmonic patterns
+  Color scheme: DEEP COOL: midnight blues, rich purples, metallic silvers
+  
+  Create a dynamic, futuristic composition that embodies these audio characteristics.
+  Style: Advanced digital art, cyberpunk aesthetics, electronic music visualization, holographic effects
+  Make it look like sound made visible - EXTREMELY responsive to the audio parameters above.
+  Ultra high quality, dramatic lighting, cutting-edge visual effects.
+  Seed: 006915
+🔄 Converting image to PNG format
+✅ Image converted to PNG
+📏 Final image dimensions: { width: 512, height: 343 }
+🎭 Creating strategic audio-reactive mask
+🎭 Mask saved for debugging: /tmp/debug_mask_1752843022506.png
+📏 Image file size: 304574
+📏 Mask file size: 4192
+🚀 Using DALL-E 3 for cutting-edge audio-reactive generation...
+🎵 Audio parameters driving DALL-E 3 generation: {
+  volume: 0.001383336383210831,
+  energy: 0.0030141904952369564,
+  pitch: 69,
+  centroid: 0.1504100327672213
+}
+✅ OpenAI transformation complete
+🌐 Image URL from OpenAI: https://oaidalleapiprodscus.blob.core.windows.net/private/org-aWRt1ujnznk5CtQ0ykEkXjur/user-vYEZcYN1KCW4dgOtD0ShyJgA/img-oeYP4Yue17HHxZJ0WTiRK3ti.png?st=2025-07-18T11%3A50%3A48Z&se=2025-07-18T13%3A50%3A48Z&sp=r&sv=2024-08-04&sr=b&rscd=inline&rsct=image/png&skoid=475fd488-6c59-44a5-9aa9-31c4db451bea&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-07-18T06%3A53%3A00Z&ske=2025-07-19T06%3A53%3A00Z&sks=b&skv=2024-08-04&sig=NX5iMCwBX24MgsJwQlmc6wEHH1UNiHBkCtd6oXQFYIQ%3D
+📤 Sending DALL-E 3 generated image back to frontend, size: 2722524
+🔍 Data URL preview: data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAABAAAAAQACAIAAADwf7zUAAA3BmNhQlgAADcGanVtYgAAAB5qdW1kYz...
+📦 Response object keys: [ 'success', 'imageData', 'prompt' ]
+📦 Response success: true
+📦 Response imageData length: 2722546
+🎨 Image transformation request received
+📊 Image details: { originalSize: 24480, fileType: 'image/jpeg', fileName: 'image.png' }
+🎵 Audio features: {
+  volume: 0.001662220687000844,
+  pitch: 5,
+  energy: 0.0009085733391413823,
+  mode: 'realtime'
+}
+🎵 Audio-reactive parameters: {
+  volumePercent: 0,
+  energyPercent: 0,
+  pitchValue: 5,
+  centroidValue: 14
+}
+🎯 Generated prompt: Create a digital artwork inspired by audio visualization and sound reactive effects. 
+  
+  AUDIO PARAMETERS driving the visual: Vol:0% Energy:0% Pitch:5Hz Cent:14%
+  
+  Visual style: MINIMAL EFFECTS, very subtle changes, peaceful with SMOOTH GRADIENTS, soft transitions, minimal patterns and HEAVY TEXTURES, grounded elements, solid foundations
+  Color scheme: DEEP COOL: midnight blues, rich purples, metallic silvers
+  
+  Create a dynamic, futuristic composition that embodies these audio characteristics.
+  Style: Advanced digital art, cyberpunk aesthetics, electronic music visualization, holographic effects
+  Make it look like sound made visible - EXTREMELY responsive to the audio parameters above.
+  Ultra high quality, dramatic lighting, cutting-edge visual effects.
+  Seed: 00514
+🔄 Converting image to PNG format
+✅ Image converted to PNG
+📏 Final image dimensions: { width: 512, height: 343 }
+🎭 Creating strategic audio-reactive mask
+🎭 Mask saved for debugging: /tmp/debug_mask_1752843049802.png
+📏 Image file size: 304574
+📏 Mask file size: 4022
+🚀 Using DALL-E 3 for cutting-edge audio-reactive generation...
+🎵 Audio parameters driving DALL-E 3 generation: {
+  volume: 0.001662220687000844,
+  energy: 0.0009085733391413823,
+  pitch: 5,
+  centroid: 0.1447876803529929
+}
+✅ OpenAI transformation complete
+🌐 Image URL from OpenAI: https://oaidalleapiprodscus.blob.core.windows.net/private/org-aWRt1ujnznk5CtQ0ykEkXjur/user-vYEZcYN1KCW4dgOtD0ShyJgA/img-yqiH7ahM9c7W5oWxfIKUqM8p.png?st=2025-07-18T11%3A51%3A18Z&se=2025-07-18T13%3A51%3A18Z&sp=r&sv=2024-08-04&sr=b&rscd=inline&rsct=image/png&skoid=475fd488-6c59-44a5-9aa9-31c4db451bea&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-07-18T06%3A27%3A18Z&ske=2025-07-19T06%3A27%3A18Z&sks=b&skv=2024-08-04&sig=DIfD4RjopUaAZu/KrrirLH44X8gdwfiXU1VSB8w1NU4%3D
+📤 Sending DALL-E 3 generated image back to frontend, size: 2681992
+🔍 Data URL preview: data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAABAAAAAQACAIAAADwf7zUAAA3BmNhQlgAADcGanVtYgAAAB5qdW1kYz...
+📦 Response object keys: [ 'success', 'imageData', 'prompt' ]
+📦 Response success: true
+📦 Response imageData length: 2682014
+🎨 Image transformation request received
+📊 Image details: { originalSize: 24480, fileType: 'image/jpeg', fileName: 'image.png' }
+🎵 Audio features: {
+  volume: 0.11330580730385567,
+  pitch: 12,
+  energy: 0.05367648442332551,
+  mode: 'realtime'
+}
+🎵 Audio-reactive parameters: {
+  volumePercent: 11,
+  energyPercent: 5,
+  pitchValue: 12,
+  centroidValue: 3
+}
+🎯 Generated prompt: Create a digital artwork inspired by audio visualization and sound reactive effects. 
+  
+  AUDIO PARAMETERS driving the visual: Vol:11% Energy:5% Pitch:12Hz Cent:3%
+  
+  Visual style: MINIMAL EFFECTS, very subtle changes, peaceful with FLOWING STREAMS, gentle waves, rhythmic patterns and HEAVY TEXTURES, grounded elements, solid foundations
+  Color scheme: DEEP COOL: midnight blues, rich purples, metallic silvers
+  
+  Create a dynamic, futuristic composition that embodies these audio characteristics.
+  Style: Advanced digital art, cyberpunk aesthetics, electronic music visualization, holographic effects
+  Make it look like sound made visible - EXTREMELY responsive to the audio parameters above.
+  Ultra high quality, dramatic lighting, cutting-edge visual effects.
+  Seed: 115123
+🔄 Converting image to PNG format
+✅ Image converted to PNG
+📏 Final image dimensions: { width: 512, height: 343 }
+🎭 Creating strategic audio-reactive mask
+🎭 Mask saved for debugging: /tmp/debug_mask_1752843087779.png
+📏 Image file size: 304574
+📏 Mask file size: 3989
+🚀 Using DALL-E 3 for cutting-edge audio-reactive generation...
+🎵 Audio parameters driving DALL-E 3 generation: {
+  volume: 0.11330580730385567,
+  energy: 0.05367648442332551,
+  pitch: 12,
+  centroid: 0.030148486343667846
+}
+✅ OpenAI transformation complete
+🌐 Image URL from OpenAI: https://oaidalleapiprodscus.blob.core.windows.net/private/org-aWRt1ujnznk5CtQ0ykEkXjur/user-vYEZcYN1KCW4dgOtD0ShyJgA/img-cguaTdpg6Ll2FAS2hAA2EdwQ.png?st=2025-07-18T11%3A51%3A58Z&se=2025-07-18T13%3A51%3A58Z&sp=r&sv=2024-08-04&sr=b&rscd=inline&rsct=image/png&skoid=475fd488-6c59-44a5-9aa9-31c4db451bea&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-07-17T15%3A41%3A47Z&ske=2025-07-18T15%3A41%3A47Z&sks=b&skv=2024-08-04&sig=xg99Xn/prR%2BNhR34EjDqjmZ8iZYvrt99LRBAAF3kOns%3D
+📤 Sending DALL-E 3 generated image back to frontend, size: 2181012
+🔍 Data URL preview: data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAABAAAAAQACAIAAADwf7zUAAA3BmNhQlgAADcGanVtYgAAAB5qdW1kYz...
+📦 Response object keys: [ 'success', 'imageData', 'prompt' ]
+📦 Response success: true
+📦 Response imageData length: 2181034
+🎨 Image transformation request received
+📊 Image details: { originalSize: 24480, fileType: 'image/jpeg', fileName: 'image.png' }
+🎵 Audio features: {
+  volume: 0.6998878397287377,
+  pitch: 8,
+  energy: 0.09256945490194651,
+  mode: 'realtime'
+}
+🎵 Audio-reactive parameters: {
+  volumePercent: 70,
+  energyPercent: 9,
+  pitchValue: 8,
+  centroidValue: 2
+}
+🎯 Generated prompt: Create a digital artwork inspired by audio visualization and sound reactive effects. 
+  
+  AUDIO PARAMETERS driving the visual: Vol:70% Energy:9% Pitch:8Hz Cent:2%
+  
+  Visual style: INTENSE ENERGY, heavy distortion, dramatic transforms with FLOWING STREAMS, gentle waves, rhythmic patterns and HEAVY TEXTURES, grounded elements, solid foundations
+  Color scheme: DEEP COOL: midnight blues, rich purples, metallic silvers
+  
+  Create a dynamic, futuristic composition that embodies these audio characteristics.
+  Style: Advanced digital art, cyberpunk aesthetics, electronic music visualization, holographic effects
+  Make it look like sound made visible - EXTREMELY responsive to the audio parameters above.
+  Ultra high quality, dramatic lighting, cutting-edge visual effects.
+  Seed: 70982
+🔄 Converting image to PNG format
+✅ Image converted to PNG
+📏 Final image dimensions: { width: 512, height: 343 }
+🎭 Creating strategic audio-reactive mask
+🎭 Mask saved for debugging: /tmp/debug_mask_1752843119737.png
+📏 Image file size: 304574
+📏 Mask file size: 5944
+🚀 Using DALL-E 3 for cutting-edge audio-reactive generation...
+🎵 Audio parameters driving DALL-E 3 generation: {
+  volume: 0.6998878397287377,
+  energy: 0.09256945490194651,
+  pitch: 8,
+  centroid: 0.023311771490677542
+}
+✅ OpenAI transformation complete
+🌐 Image URL from OpenAI: https://oaidalleapiprodscus.blob.core.windows.net/private/org-aWRt1ujnznk5CtQ0ykEkXjur/user-vYEZcYN1KCW4dgOtD0ShyJgA/img-0S27PC4Kxj448qtaEI4K4RK6.png?st=2025-07-18T11%3A52%3A29Z&se=2025-07-18T13%3A52%3A29Z&sp=r&sv=2024-08-04&sr=b&rscd=inline&rsct=image/png&skoid=475fd488-6c59-44a5-9aa9-31c4db451bea&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-07-17T13%3A48%3A37Z&ske=2025-07-18T13%3A48%3A37Z&sks=b&skv=2024-08-04&sig=dwikCoV8vw6qZ0VBjtfWSW6/3SlNFfGZqJCAb1c4Nuk%3D
+📤 Sending DALL-E 3 generated image back to frontend, size: 2301024
+🔍 Data URL preview: data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAABAAAAAQACAIAAADwf7zUAAA3BmNhQlgAADcGanVtYgAAAB5qdW1kYz...
+📦 Response object keys: [ 'success', 'imageData', 'prompt' ]
+📦 Response success: true
+📦 Response imageData length: 2301046
