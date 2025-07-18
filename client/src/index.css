@@ -1,0 +1,138 @@
+@import "tailwindcss";
+
+/* Tailwind v4 theme configuration */
+@theme {
+  --color-norway-black: #000000;
+  --color-norway-white: #ffffff;
+  --color-norway-green: #2d5016;
+  --color-norway-green-bright: #4a7c2c;
+  --color-norway-gray: #808080;
+  
+  --font-family-pixel: Monaco, Menlo, 'Ubuntu Mono', monospace;
+  --font-family-mono: 'SF Mono', Monaco, Inconsolata, 'Roboto Mono', monospace;
+  
+  --spacing-pixel: 1px;
+  --spacing-2px: 2px;
+  --spacing-4px: 4px;
+  --spacing-8px: 8px;
+  --spacing-16px: 16px;
+  --spacing-24px: 24px;
+  --spacing-32px: 32px;
+  --spacing-48px: 48px;
+  --spacing-64px: 64px;
+  
+  --animate-pixel-pulse: pixel-pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+  --animate-glitch: glitch 0.3s ease-in-out infinite;
+  --animate-scan-line: scan-line 1s linear infinite;
+}
+
+/* Keyframes */
+@keyframes pixel-pulse {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.3; }
+}
+
+@keyframes glitch {
+  0% { transform: translate(0); }
+  20% { transform: translate(-1px, 1px); }
+  40% { transform: translate(-1px, -1px); }
+  60% { transform: translate(1px, 1px); }
+  80% { transform: translate(1px, -1px); }
+  100% { transform: translate(0); }
+}
+
+@keyframes scan-line {
+  0% { transform: translateY(-100vh); }
+  100% { transform: translateY(100vh); }
+}
+
+/* Norway-inspired pixel perfect styles */
+* {
+  /* Crisp pixel rendering */
+  image-rendering: pixelated;
+  image-rendering: -moz-crisp-edges;
+  image-rendering: crisp-edges;
+}
+
+html {
+  /* Prevent sub-pixel rendering */
+  -webkit-font-smoothing: none;
+  -moz-osx-font-smoothing: grayscale;
+  font-smoothing: never;
+  text-rendering: optimizeSpeed;
+}
+
+body {
+  background-color: black;
+  color: white;
+  font-family: var(--font-family-mono);
+  /* Pixel-perfect grid alignment */
+  background-image: 
+    linear-gradient(rgba(45, 80, 22, 0.1) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(45, 80, 22, 0.1) 1px, transparent 1px);
+  background-size: 8px 8px;
+  margin: 0;
+  overflow-x: hidden;
+}
+
+/* Pixel UI components */
+.pixel-border {
+  border: 1px solid currentColor;
+  border-image: url("data:image/svg+xml,%3csvg width='100' height='100' xmlns='http://www.w3.org/2000/svg'%3e%3cpath d='m0 0h8v8h-8z' fill='%23ffffff'/%3e%3c/svg%3e") 1;
+}
+
+.pixel-button {
+  border: 1px solid currentColor;
+  background-color: black;
+  color: white;
+  padding: 0.5rem 1rem;
+  transition: none; /* No smooth transitions, keep it crisp */
+}
+
+.pixel-button:hover {
+  background-color: rgb(34 197 94);
+  color: black;
+}
+
+.pixel-button:active {
+  transform: translate(0.125rem, 0.125rem);
+}
+
+.scan-line {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 1px;
+  background: rgba(74, 124, 44, 0.8);
+  animation: var(--animate-scan-line);
+  pointer-events: none;
+  z-index: 9999;
+}
+
+.crt-effect::before {
+  content: '';
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: 
+    repeating-linear-gradient(
+      0deg,
+      transparent,
+      transparent 2px,
+      rgba(0, 0, 0, 0.1) 2px,
+      rgba(0, 0, 0, 0.1) 4px
+    );
+  pointer-events: none;
+  z-index: 1000;
+}
+
+.text-norway-green-glow {
+  color: var(--color-norway-green-bright);
+  text-shadow: 
+    0 0 2px var(--color-norway-green-bright),
+    0 0 4px var(--color-norway-green-bright),
+    0 0 8px var(--color-norway-green-bright);
+}
