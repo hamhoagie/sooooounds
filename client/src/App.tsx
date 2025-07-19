@@ -146,38 +146,37 @@ function App() {
   // Realtime transformer handles audio updates internally now
 
   return (
-    <div className="min-h-screen bg-black text-white font-mono crt-effect">
-      {/* Scan line effect */}
-      <div className="scan-line" />
+    <div className="min-h-screen bg-white text-black font-helvetica">
       
       {/* Header */}
-      <header className="fixed top-0 left-0 right-0 z-50 p-4 bg-black bg-opacity-90 border-b border-green-600">
-        <div className="flex items-center justify-between max-w-6xl mx-auto">
-          <h1 className="text-2xl font-bold text-green-400">soooounds</h1>
-          
-          <div className="flex items-center gap-2">
-            <div className={`w-2 h-2 ${isListening ? 'bg-green-500 animate-pulse' : 'bg-gray-500'}`} />
-            <span className="text-sm">{isListening ? 'LISTENING' : 'SILENT'}</span>
-          </div>
-        </div>
+      <header className="retro-header fixed top-0 left-0 right-0 z-50">
+        <h1 className="raygun-title">
+            <span style={{ transform: 'translateY(-3px) rotate(3deg)', display: 'inline-block' }}>s</span>
+            <span style={{ transform: 'translateY(2px) rotate(-2deg)', display: 'inline-block', marginLeft: '-8px' }}>o</span>
+            <span style={{ transform: 'translateY(-1px) rotate(1deg)', display: 'inline-block', marginLeft: '-6px' }}>o</span>
+            <span style={{ transform: 'translateY(4px) rotate(-4deg)', display: 'inline-block', marginLeft: '-7px' }}>o</span>
+            <span style={{ transform: 'translateY(-2px) rotate(2deg)', display: 'inline-block', marginLeft: '-5px' }}>o</span>
+            <span style={{ transform: 'translateY(1px) rotate(-1deg)', display: 'inline-block', marginLeft: '-9px' }}>u</span>
+            <span style={{ transform: 'translateY(-4px) rotate(3deg)', display: 'inline-block', marginLeft: '-8px' }}>n</span>
+            <span style={{ transform: 'translateY(3px) rotate(-3deg)', display: 'inline-block', marginLeft: '-10px' }}>d</span>
+            <span style={{ transform: 'translateY(-1px) rotate(1deg)', display: 'inline-block', marginLeft: '-11px' }}>s</span>
+          </h1>
       </header>
 
       {/* Main content */}
-      <main className="pt-20 pb-8">
-        <div className="max-w-6xl mx-auto px-4">
+      <main className="swiss-content">
+        <div className="swiss-grid">
           
-          {/* Simple Real-Time Interface */}
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 mb-8">
-            
-            {/* Left: Setup */}
-            <div className="space-y-6">
+          {/* Left: Setup */}
+          <div className="grid-col-6">
               {/* Audio Control */}
-              <div className="pixel-border bg-norway-black bg-opacity-30 p-6">
-                <h3 className="text-xl mb-4 text-norway-green-bright">AUDIO INPUT</h3>
+              <div className="retro-panel mb-6">
+                <h3 className="retro-subtitle retro-text-accent">AUDIO INPUT</h3>
                 
                 <button
                   onClick={isListening ? stopListening : startListening}
-                  className={`pixel-button w-full py-4 text-lg mb-4 ${isListening ? 'bg-norway-green text-black' : ''}`}
+                  className="retro-button w-full py-3 mb-4"
+                  style={{ backgroundColor: isListening ? '#e6f0ff' : undefined }}
                 >
                   {isListening ? '■ STOP AUDIO' : '▶ START AUDIO'}
                 </button>
@@ -194,13 +193,17 @@ function App() {
                         return (
                           <div
                             key={i}
-                            className="bg-norway-green flex-1 transition-none"
-                            style={{ height: `${normalizedHeight}%` }}
+                            className="flex-1 transition-none"
+                            style={{ 
+                              height: `${normalizedHeight}%`,
+                              backgroundColor: '#0066cc',
+                              border: '1px solid #000'
+                            }}
                           />
                         );
                       })}
                     </div>
-                    <div className="text-center text-norway-gray">
+                    <div className="text-center retro-body" style={{ color: '#666666' }}>
                       <div>VOLUME: {(audioFeatures.volume * 100).toFixed(0)}%</div>
                       <div>PITCH: {audioFeatures.pitch.toFixed(0)} | ENERGY: {audioFeatures.energy.toFixed(0)}</div>
                     </div>
@@ -209,8 +212,8 @@ function App() {
               </div>
               
               {/* Image Upload */}
-              <div className="pixel-border bg-norway-black bg-opacity-30 p-6">
-                <h3 className="text-xl mb-4 text-norway-green-bright">IMAGE INPUT</h3>
+              <div className="retro-panel">
+                <h3 className="retro-subtitle retro-text-accent">IMAGE INPUT</h3>
                 
                 <input
                   type="file"
@@ -221,7 +224,7 @@ function App() {
                 />
                 <label
                   htmlFor="image-upload"
-                  className="pixel-button cursor-pointer inline-block text-center w-full py-4 text-lg mb-4"
+                  className="retro-button cursor-pointer inline-block text-center w-full py-3 mb-4"
                 >
                   {uploadedImage ? 'CHANGE IMAGE' : 'UPLOAD IMAGE'}
                 </label>
@@ -230,44 +233,46 @@ function App() {
                   <img
                     src={uploadedImage}
                     alt="Uploaded"
-                    className="w-full h-40 object-cover pixel-border"
+                    className="w-full h-40 object-cover retro-border"
                   />
                 )}
               </div>
-            </div>
+          </div>
             
-            {/* Right: Real-Time Transform */}
-            <div className="pixel-border bg-norway-black bg-opacity-30 p-6">
-              <h3 className="text-xl mb-4 text-norway-green-bright">REAL-TIME TRANSFORM</h3>
+          {/* Right: Real-Time Transform */}
+          <div className="grid-col-6">
+            <div className="retro-panel">
+              <h3 className="retro-subtitle retro-text-accent">REAL-TIME TRANSFORM</h3>
               
               <button
                 onClick={toggleRealtimeMode}
                 disabled={!isListening || !uploadedImage}
-                className={`pixel-button w-full py-4 text-lg mb-4 ${
-                  !isListening || !uploadedImage ? 'opacity-50 cursor-not-allowed' : ''
-                } ${isRealtimeActive ? 'bg-red-600' : 'bg-green-600'}`}
+                className="retro-button w-full py-3 mb-4"
+                style={{
+                  backgroundColor: isRealtimeActive ? '#ffcccc' : (!isListening || !uploadedImage ? undefined : '#ccffcc')
+                }}
               >
                 {isRealtimeActive ? '■ STOP LIVE MODE' : '▶ START LIVE MODE'}
               </button>
               
               {isRealtimeActive && (
-                <div className="text-center text-sm text-green-400 mb-4">
+                <div className="text-center retro-body mb-4" style={{ color: '#0066cc' }}>
                   <div className="flex items-center justify-center gap-2">
-                    <div className="w-2 h-2 bg-red-500 animate-pulse rounded-full"></div>
+                    <div className="retro-status-indicator retro-status-active"></div>
                     LIVE • Transforms every 8 seconds
                   </div>
                 </div>
               )}
               
               {isTransforming && (
-                <div className="text-center text-yellow-400 mb-4">
+                <div className="text-center retro-body mb-4" style={{ color: '#ff9900', fontWeight: 'bold' }}>
                   ⏳ Transforming with AI...
                 </div>
               )}
               
               {transformedImage && (
                 <div>
-                  <div className="text-sm text-norway-gray mb-2">AI TRANSFORMED IMAGE (Length: {transformedImage.length})</div>
+                  <div className="retro-body mb-2" style={{ color: '#666666' }}>AI TRANSFORMED IMAGE</div>
                   <div className="relative">
                     <img
                       key={`transformed-${transformedImage?.substring(30, 50)}-${Date.now()}`}
@@ -279,26 +284,16 @@ function App() {
                         console.error('❌ Image src length:', transformedImage?.length);
                         console.error('❌ Image src preview:', transformedImage?.substring(0, 100));
                       }}
+                      className="w-full h-auto retro-border"
                       style={{ 
-                        border: '2px solid red',
-                        width: '100%',
-                        height: 'auto',
                         minHeight: '200px',
-                        backgroundColor: '#333',
-                        display: 'block',
-                        opacity: 1,
-                        visibility: 'visible',
-                        zIndex: 1
+                        display: 'block'
                       }}
                     />
-                    {/* Debug: Show if image exists */}
-                    <div className="absolute top-2 left-2 bg-black bg-opacity-70 text-white px-2 py-1 text-xs">
-                      {transformedImage ? 'HAS IMAGE DATA' : 'NO IMAGE DATA'}
-                    </div>
                   </div>
                   <button 
                     onClick={downloadImage}
-                    className="pixel-button w-full py-2 mb-2"
+                    className="retro-button w-full py-2 mb-2"
                   >
                     📥 DOWNLOAD
                   </button>
@@ -309,7 +304,7 @@ function App() {
                         newWindow.document.write(`<img src="${transformedImage}" style="max-width: 100%; height: auto;" />`);
                       }
                     }}
-                    className="pixel-button w-full py-2"
+                    className="retro-button w-full py-2"
                   >
                     🔍 VIEW IN NEW TAB
                   </button>
@@ -318,21 +313,14 @@ function App() {
             </div>
           </div>
           
-          
           {/* 3D Logo Visualization */}
-          <div className="h-64 w-full mb-8">
+          <div className="grid-col-12 h-64">
             <AudioReactiveLogo audioFeatures={audioFeatures} />
           </div>
           
         </div>
       </main>
 
-      {/* Footer */}
-      <footer className="fixed bottom-0 left-0 right-0 p-4 bg-norway-black bg-opacity-90 border-t border-norway-green">
-        <div className="text-center text-sm text-norway-gray">
-          Web Audio API • Three.js • React • DALL-E • Made with ♥ in Norway style
-        </div>
-      </footer>
     </div>
   );
 }

@@ -5,14 +5,18 @@ const { OpenAI } = require('openai');
 require('dotenv').config();
 
 const app = express();
-const port = 3001;
+const port = process.env.PORT || 3001;
 
 // Configure multer for file uploads
 const upload = multer({ storage: multer.memoryStorage() });
 
 // Enable CORS for frontend
+const allowedOrigins = process.env.NODE_ENV === 'production' 
+  ? [process.env.FRONTEND_URL, 'https://soooounds-web.ondigitalocean.app']
+  : ['http://localhost:8000', 'http://localhost:3000', 'http://localhost:5173'];
+
 app.use(cors({
-  origin: ['http://localhost:8000', 'http://localhost:3000', 'http://localhost:5173'],
+  origin: allowedOrigins,
   credentials: true
 }));
 
@@ -63,9 +67,9 @@ app.post('/transform-image', upload.single('image'), async (req, res) => {
       mode: mode
     });
     
-    // Generate audio-reactive prompt
-    const prompt = generateAudioPrompt(audioFeatures, mode);
-    console.log('🎯 Generated prompt:', prompt);
+    // Generate audio-reactive prompt (this is not used when GPT-4o is active)
+    const basicPrompt = generateAudioPrompt(audioFeatures, mode);
+    console.log('🎯 Basic prompt (not used):', basicPrompt);
     
     // Convert image to PNG format if needed
     const sharp = require('sharp');
@@ -140,7 +144,8 @@ app.post('/transform-image', upload.single('image'), async (req, res) => {
     });
     
     const imageDescription = visionResponse.choices[0]?.message?.content || "digital artwork";
-    console.log('📝 Image analysis:', imageDescription);
+    console.log('📝 Image analysis from GPT-4o:', imageDescription);
+    console.log('🔍 Full GPT-4o response:', JSON.stringify(visionResponse.choices[0], null, 2));
     
     // Generate audio-reactive prompt based on the image analysis
     const smartPrompt = generateSmartAudioPrompt(audioFeatures, mode, imageDescription);
@@ -194,7 +199,9 @@ app.post('/transform-image', upload.single('image'), async (req, res) => {
     const responseData = {
       success: true,
       imageData: dataUrl,
-      prompt: prompt
+      prompt: smartPrompt,
+      imageAnalysis: imageDescription,
+      audioFeatures: audioFeatures
     };
     
     console.log('📦 Response object keys:', Object.keys(responseData));
@@ -226,6 +233,9 @@ function generateSmartAudioPrompt(audioFeatures, mode, imageDescription) {
   const intensity = volume > 0.7 ? "intense, dramatic" :
                    volume > 0.4 ? "moderate, dynamic" :
                    "subtle, gentle";
+  
+  // Log the actual energy value
+  console.log('🎵 Audio energy value:', energy);
   
   const movement = energy > 0.1 ? "swirling energy, flowing motion" :
                   energy > 0.05 ? "gentle movement, soft dynamics" :

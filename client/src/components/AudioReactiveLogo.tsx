@@ -54,10 +54,10 @@ function LogoMesh({ audioFeatures }: LogoMeshProps) {
     }
     positions.needsUpdate = true;
     
-    // Color shift based on pitch
+    // Color shift based on pitch - early 2000's blue/gray palette
     if (meshRef.current.material instanceof THREE.MeshStandardMaterial) {
-      const hue = (pitch / 256) * 0.3; // Map pitch to green spectrum
-      meshRef.current.material.color.setHSL(hue, 0.8, 0.6);
+      const hue = 0.6 + (pitch / 256) * 0.2; // Map pitch to blue spectrum
+      meshRef.current.material.color.setHSL(hue, 0.6, 0.5);
     }
   });
 
@@ -67,10 +67,10 @@ function LogoMesh({ audioFeatures }: LogoMeshProps) {
       <mesh ref={meshRef} position={[0, 0, 0]}>
         <boxGeometry args={[2, 2, 2]} />
         <meshStandardMaterial 
-          color="#4a7c2c" 
+          color="#0066cc" 
           wireframe={true}
           transparent={true}
-          opacity={0.8}
+          opacity={0.7}
         />
       </mesh>
       
@@ -86,10 +86,10 @@ function LogoMesh({ audioFeatures }: LogoMeshProps) {
           />
         </bufferGeometry>
         <pointsMaterial
-          color="#4a7c2c"
-          size={0.05}
+          color="#0066cc"
+          size={0.08}
           transparent={true}
-          opacity={0.6}
+          opacity={0.5}
         />
       </points>
       
@@ -97,7 +97,7 @@ function LogoMesh({ audioFeatures }: LogoMeshProps) {
       <Text
         position={[0, -3, 0]}
         fontSize={0.5}
-        color="#ffffff"
+        color="#000000"
         anchorX="center"
         anchorY="middle"
       >
@@ -118,14 +118,14 @@ export function AudioReactiveLogo({ audioFeatures, className = '' }: AudioReacti
       <Canvas
         camera={{ position: [0, 0, 8], fov: 60 }}
         gl={{ 
-          antialias: false, // Keep it pixelated
+          antialias: true, // Smooth rendering for early 2000's look
           alpha: true,
           powerPreference: "high-performance"
         }}
       >
-        <ambientLight intensity={0.2} />
-        <pointLight position={[10, 10, 10]} intensity={1} color="#4a7c2c" />
-        <pointLight position={[-10, -10, -10]} intensity={0.5} color="#ffffff" />
+        <ambientLight intensity={0.3} />
+        <pointLight position={[10, 10, 10]} intensity={0.8} color="#0066cc" />
+        <pointLight position={[-10, -10, -10]} intensity={0.4} color="#cccccc" />
         
         <LogoMesh audioFeatures={audioFeatures} />
       </Canvas>

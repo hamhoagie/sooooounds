@@ -88,7 +88,8 @@ export async function transformImageWithAI(options: TransformationOptions): Prom
     console.log('🚀 Sending to backend proxy...');
     
     // Call backend proxy
-    const backendResponse = await fetch('http://localhost:3001/transform-image', {
+    const apiUrl = import.meta.env.VITE_API_URL || 'http://localhost:3001';
+    const backendResponse = await fetch(`${apiUrl}/transform-image`, {
       method: 'POST',
       body: formData
     });
@@ -114,6 +115,8 @@ export async function transformImageWithAI(options: TransformationOptions): Prom
     console.log('📨 Received image data from backend, length:', result.imageData?.length || 'undefined');
     console.log('📨 Image data starts with:', result.imageData?.substring(0, 50) || 'undefined');
     console.log('🎨 Transformation prompt used:', result.prompt);
+    console.log('🔍 Image analysis from GPT-4o:', result.imageAnalysis);
+    console.log('🎵 Audio features used:', result.audioFeatures);
     return result.imageData;
     
   } catch (error) {

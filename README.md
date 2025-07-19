@@ -31,7 +31,20 @@ A web application that transforms images based on real-time audio input using AI
 - **Canvas** for audio-reactive mask generation
 - **Multer** for file uploads
 
-## Setup
+## Deployment
+
+### Production (DigitalOcean App Platform)
+
+1. **Fork or clone this repository**
+2. **Create a DigitalOcean App Platform app** connected to your GitHub repo
+3. **Set environment variables** in the App Platform dashboard:
+   - `OPENAI_API_KEY` - Your OpenAI API key
+   - `NODE_ENV` - Set to `production`
+4. **Deploy** - The app will automatically build and deploy both frontend and backend
+
+The included `.do/app.yaml` configures the deployment automatically.
+
+## Setup (Local Development)
 
 ### Prerequisites
 - Node.js (v18 or higher)
@@ -141,6 +154,8 @@ soooounds/
 │   ├── index.js     # Main server file
 │   ├── package.json
 │   └── .env         # Environment variables
+├── .do/             # DigitalOcean App Platform config
+│   └── app.yaml
 └── README.md
 ```
 
@@ -149,6 +164,7 @@ soooounds/
 - `client/src/hooks/useAudioAnalyzer.ts` - Audio analysis logic
 - `client/src/services/aiImageTransform.ts` - API communication
 - `server/index.js` - Express server with OpenAI integration
+- `.do/app.yaml` - DigitalOcean deployment configuration
 
 ## Contributing
 1. Fork the repository

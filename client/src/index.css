@@ -1,138 +1,252 @@
 @import "tailwindcss";
 
-/* Tailwind v4 theme configuration */
+/* Tailwind v4 theme configuration - Early 2000's Web App Style */
 @theme {
-  --color-norway-black: #000000;
-  --color-norway-white: #ffffff;
-  --color-norway-green: #2d5016;
-  --color-norway-green-bright: #4a7c2c;
-  --color-norway-gray: #808080;
+  --color-primary-white: #ffffff;
+  --color-primary-black: #000000;
+  --color-gray-light: #f5f5f5;
+  --color-gray-medium: #cccccc;
+  --color-gray-dark: #666666;
+  --color-blue-classic: #0066cc;
+  --color-blue-light: #e6f0ff;
   
-  --font-family-pixel: Monaco, Menlo, 'Ubuntu Mono', monospace;
-  --font-family-mono: 'SF Mono', Monaco, Inconsolata, 'Roboto Mono', monospace;
+  /* Adobe Fonts - Replace PROJECT_ID with your Adobe Fonts project ID */
+  /* Font choices: helvetica-now-display, helvetica-now-text, neue-haas-grotesk-display */
+  --font-family-helvetica: "helvetica-now-display", "neue-haas-grotesk-display", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  --font-family-system: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
   
-  --spacing-pixel: 1px;
-  --spacing-2px: 2px;
-  --spacing-4px: 4px;
-  --spacing-8px: 8px;
-  --spacing-16px: 16px;
-  --spacing-24px: 24px;
-  --spacing-32px: 32px;
-  --spacing-48px: 48px;
-  --spacing-64px: 64px;
+  --border-width-thick: 3px;
+  --border-style-dashed: dashed;
+  --spacing-xs: 4px;
+  --spacing-sm: 8px;
+  --spacing-md: 16px;
+  --spacing-lg: 24px;
+  --spacing-xl: 32px;
+  --spacing-xxl: 48px;
   
-  --animate-pixel-pulse: pixel-pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
-  --animate-glitch: glitch 0.3s ease-in-out infinite;
-  --animate-scan-line: scan-line 1s linear infinite;
+  --animate-fade-in: fade-in 0.3s ease-in;
+  --animate-button-press: button-press 0.1s ease-out;
 }
 
-/* Keyframes */
-@keyframes pixel-pulse {
+/* Keyframes - Early 2000's Style */
+@keyframes fade-in {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+@keyframes button-press {
+  0% { transform: translateY(0); }
+  50% { transform: translateY(1px); }
+  100% { transform: translateY(0); }
+}
+
+@keyframes pulse {
   0%, 100% { opacity: 1; }
-  50% { opacity: 0.3; }
+  50% { opacity: 0.7; }
 }
 
-@keyframes glitch {
-  0% { transform: translate(0); }
-  20% { transform: translate(-1px, 1px); }
-  40% { transform: translate(-1px, -1px); }
-  60% { transform: translate(1px, 1px); }
-  80% { transform: translate(1px, -1px); }
-  100% { transform: translate(0); }
-}
-
-@keyframes scan-line {
-  0% { transform: translateY(-100vh); }
-  100% { transform: translateY(100vh); }
-}
-
-/* Norway-inspired pixel perfect styles */
+/* Early 2000's Web App Base Styles */
 * {
-  /* Crisp pixel rendering */
-  image-rendering: pixelated;
-  image-rendering: -moz-crisp-edges;
-  image-rendering: crisp-edges;
+  box-sizing: border-box;
 }
 
 html {
-  /* Prevent sub-pixel rendering */
-  -webkit-font-smoothing: none;
+  /* Smooth text rendering for early 2000's look */
+  -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  font-smoothing: never;
-  text-rendering: optimizeSpeed;
+  text-rendering: optimizeLegibility;
 }
 
 body {
-  background-color: black;
-  color: white;
-  font-family: var(--font-family-mono);
-  /* Pixel-perfect grid alignment */
-  background-image: 
-    linear-gradient(rgba(45, 80, 22, 0.1) 1px, transparent 1px),
-    linear-gradient(90deg, rgba(45, 80, 22, 0.1) 1px, transparent 1px);
-  background-size: 8px 8px;
+  background-color: var(--color-primary-white);
+  color: var(--color-primary-black);
+  font-family: var(--font-family-helvetica);
+  font-size: 12px;
+  line-height: 1.4;
   margin: 0;
+  padding: 0;
   overflow-x: hidden;
+  /* Classic early 2000's subtle background */
+  background-image: none;
 }
 
-/* Pixel UI components */
-.pixel-border {
-  border: 1px solid currentColor;
-  border-image: url("data:image/svg+xml,%3csvg width='100' height='100' xmlns='http://www.w3.org/2000/svg'%3e%3cpath d='m0 0h8v8h-8z' fill='%23ffffff'/%3e%3c/svg%3e") 1;
+/* Utility classes for font families */
+.font-helvetica {
+  font-family: var(--font-family-helvetica);
 }
 
-.pixel-button {
-  border: 1px solid currentColor;
-  background-color: black;
-  color: white;
-  padding: 0.5rem 1rem;
-  transition: none; /* No smooth transitions, keep it crisp */
+/* Swiss Grid System */
+.swiss-grid {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  gap: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
 }
 
-.pixel-button:hover {
-  background-color: rgb(34 197 94);
-  color: black;
+.grid-col-6 {
+  grid-column: span 6;
 }
 
-.pixel-button:active {
-  transform: translate(0.125rem, 0.125rem);
+.grid-col-12 {
+  grid-column: span 12;
 }
 
-.scan-line {
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  height: 1px;
-  background: rgba(74, 124, 44, 0.8);
-  animation: var(--animate-scan-line);
-  pointer-events: none;
-  z-index: 9999;
+.grid-col-4 {
+  grid-column: span 4;
 }
 
-.crt-effect::before {
-  content: '';
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background: 
-    repeating-linear-gradient(
-      0deg,
-      transparent,
-      transparent 2px,
-      rgba(0, 0, 0, 0.1) 2px,
-      rgba(0, 0, 0, 0.1) 4px
-    );
-  pointer-events: none;
-  z-index: 1000;
+.grid-col-8 {
+  grid-column: span 8;
 }
 
-.text-norway-green-glow {
-  color: var(--color-norway-green-bright);
+/* Swiss grid alignment */
+.swiss-content {
+  margin-top: 45vh; /* 45% down from top (25% + 20% additional spacing) */
+}
+
+/* Early 2000's UI Components */
+.retro-border {
+  border: var(--border-width-thick) var(--border-style-dashed) var(--color-primary-black);
+  border-radius: 0;
+  background-color: var(--color-primary-white);
+}
+
+.retro-button {
+  border: var(--border-width-thick) var(--border-style-dashed) var(--color-primary-black);
+  background-color: var(--color-gray-light);
+  color: var(--color-primary-black);
+  padding: 8px 16px;
+  font-family: var(--font-family-helvetica);
+  font-size: 11px;
+  font-weight: bold;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: all 0.1s ease;
+  border-radius: 0;
+}
+
+.retro-button:hover {
+  background-color: var(--color-blue-light);
+  border-color: var(--color-blue-classic);
+}
+
+.retro-button:active {
+  animation: var(--animate-button-press);
+  background-color: var(--color-gray-medium);
+}
+
+.retro-button:disabled {
+  background-color: var(--color-gray-medium);
+  color: var(--color-gray-dark);
+  cursor: not-allowed;
+  opacity: 0.6;
+}
+
+/* Early 2000's Visual Effects */
+.retro-panel {
+  background-color: var(--color-gray-light);
+  border: var(--border-width-thick) var(--border-style-dashed) var(--color-primary-black);
+  padding: var(--spacing-md);
+  margin: var(--spacing-sm);
+}
+
+.retro-header {
+  background-color: var(--color-primary-white);
+  border-bottom: var(--border-width-thick) var(--border-style-dashed) var(--color-primary-black);
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  height: 20vh; /* Header takes up 20% of viewport */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.retro-text-accent {
+  color: var(--color-blue-classic);
+  font-weight: bold;
+}
+
+.retro-status-indicator {
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  border: 1px solid var(--color-primary-black);
+  margin-right: var(--spacing-xs);
+}
+
+.retro-status-active {
+  background-color: #00ff00;
+  animation: pulse 1s infinite;
+}
+
+.retro-status-inactive {
+  background-color: var(--color-gray-medium);
+}
+
+/* Typography */
+.retro-title {
+  font-family: var(--font-family-helvetica);
+  font-size: 24px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin: 0;
+}
+
+/* Raygun Magazine Style Title - David Carson Chaos */
+.raygun-title {
+  font-family: var(--font-family-helvetica);
+  font-size: clamp(64px, 12vw, 140px);
+  font-weight: 900;
+  text-transform: uppercase;
+  letter-spacing: -0.08em;
+  margin: 0;
+  line-height: 0.65;
+  color: var(--color-primary-black);
+  text-align: center;
+  
+  /* David Carson-style distortion */
+  transform: 
+    scaleX(1.4) 
+    scaleY(0.95) 
+    rotate(-2deg) 
+    skewX(-8deg);
+  
+  /* Brutally distressed */
+  filter: 
+    contrast(1.5) 
+    blur(0.3px);
+  
+  /* Chaotic overlapping shadows for illegibility */
   text-shadow: 
-    0 0 2px var(--color-norway-green-bright),
-    0 0 4px var(--color-norway-green-bright),
-    0 0 8px var(--color-norway-green-bright);
+    2px 2px 0 rgba(0,0,0,0.3),
+    -1px -1px 0 rgba(0,0,0,0.2),
+    4px -2px 0 rgba(0,0,0,0.1),
+    -3px 4px 0 rgba(0,0,0,0.15),
+    6px 1px 0 rgba(255,255,255,0.8),
+    -5px 3px 0 rgba(255,255,255,0.6),
+    1px -4px 0 rgba(0,0,0,0.4),
+    0 0 10px rgba(0,0,0,0.1);
+  
+  /* Mix-blend for more chaos */
+  mix-blend-mode: multiply;
+  opacity: 0.92;
+}
+
+.retro-subtitle {
+  font-family: var(--font-family-helvetica);
+  font-size: 14px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin: 0 0 var(--spacing-sm) 0;
+}
+
+.retro-body {
+  font-family: var(--font-family-helvetica);
+  font-size: 11px;
+  line-height: 1.4;
 }
