@@ -1,1 +1,1 @@
-web: cd server && npm install && node index.js
+web: echo "Starting server..." && cd server && echo "In server directory" && ls -la && echo "Installing deps..." && npm install && echo "Starting node..." && node index.js
