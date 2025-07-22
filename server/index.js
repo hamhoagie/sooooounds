@@ -29,6 +29,10 @@ app.use((req, res, next) => {
   next();
 });
 
+// Serve React app static files
+const path = require('path');
+app.use(express.static(path.join(__dirname, '../client/dist')));
+
 // Initialize OpenAI
 const openai = new OpenAI({
   apiKey: process.env.OPENAI_API_KEY,
@@ -440,6 +444,11 @@ async function applyAudioEffects(imageBuffer, audioFeatures) {
   // Convert to buffer
   return await processedImage.png().toBuffer();
 }
+
+// Catch-all handler: send back React's index.html file for any non-API routes
+app.get('*', (req, res) => {
+  res.sendFile(path.join(__dirname, '../client/dist/index.html'));
+});
 
 app.listen(port, '0.0.0.0', () => {
   console.log(`🚀 Soooounds backend server running on http://0.0.0.0:${port}`);

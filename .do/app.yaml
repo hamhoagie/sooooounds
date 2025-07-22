@@ -1,21 +1,17 @@
 name: soooounds
 region: nyc
 services:
-- name: api
+- name: web
   github:
     repo: hamhoagie/sooooounds
     branch: main
     deploy_on_push: true
-  source_dir: server
-  build_command: npm install
-  run_command: npm start
+  source_dir: .
+  build_command: cd server && npm install && cd ../client && npm install && npm run build
+  run_command: cd server && npm start
   http_port: 8080
   instance_count: 1
   instance_size_slug: basic-xxs
-  routes:
-  - path: /api
-  - path: /health
-  - path: /transform-image
   envs:
   - key: NODE_ENV
     value: production
@@ -25,20 +21,3 @@ services:
     type: SECRET
   - key: REPLICATE_API_TOKEN
     type: SECRET
-
-static_sites:
-- name: web
-  github:
-    repo: hamhoagie/sooooounds
-    branch: main
-    deploy_on_push: true
-  source_dir: client
-  build_command: npm install && npm run build
-  output_dir: dist
-  routes:
-  - path: /
-  envs:
-  - key: NODE_ENV
-    value: production
-  - key: VITE_API_URL
-    value: ${api.PUBLIC_URL}
