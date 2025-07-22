@@ -7,12 +7,15 @@ services:
     branch: main
     deploy_on_push: true
   source_dir: server
-  build_command: npm install && npm run build || echo "No build script"
+  build_command: npm install
+  run_command: npm start
   http_port: 8080
   instance_count: 1
   instance_size_slug: basic-xxs
   routes:
   - path: /api
+  - path: /transform-image
+  - path: /health
   envs:
   - key: NODE_ENV
     value: production
