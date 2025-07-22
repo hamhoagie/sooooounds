@@ -23,6 +23,12 @@ app.use(cors({
 app.use(express.json({ limit: '10mb' }));
 app.use(express.urlencoded({ extended: true, limit: '10mb' }));
 
+// Request logging middleware
+app.use((req, res, next) => {
+  console.log(`📥 ${new Date().toISOString()} - ${req.method} ${req.path} - Headers:`, req.headers);
+  next();
+});
+
 // Initialize OpenAI
 const openai = new OpenAI({
   apiKey: process.env.OPENAI_API_KEY,
@@ -437,6 +443,8 @@ async function applyAudioEffects(imageBuffer, audioFeatures) {
 
 app.listen(port, '0.0.0.0', () => {
   console.log(`🚀 Soooounds backend server running on http://0.0.0.0:${port}`);
+  console.log(`🌍 PORT environment variable: ${process.env.PORT}`);
   console.log(`🎨 OpenAI API Key: ${process.env.OPENAI_API_KEY ? 'Found' : 'Missing'}`);
   console.log(`🔄 Replicate API Token: ${process.env.REPLICATE_API_TOKEN ? 'Found' : 'Missing'}`);
+  console.log(`📡 Server ready to accept connections on all interfaces`);
 });
