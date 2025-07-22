@@ -1,5 +1,12 @@
 name: soooounds
 region: nyc
+ingress:
+  rules:
+  - component:
+      name: web
+    match:
+      path:
+        prefix: /
 services:
 - name: web
   github:
@@ -21,5 +28,4 @@ services:
     type: SECRET
   - key: REPLICATE_API_TOKEN
     type: SECRET
-  routes:
-  - path: /
+  http_path: /
