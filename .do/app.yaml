@@ -21,3 +21,5 @@ services:
     type: SECRET
   - key: REPLICATE_API_TOKEN
     type: SECRET
+  routes:
+  - path: /

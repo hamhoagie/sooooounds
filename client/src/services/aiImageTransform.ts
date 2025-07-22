@@ -88,7 +88,8 @@ export async function transformImageWithAI(options: TransformationOptions): Prom
     console.log('🚀 Sending to backend proxy...');
     
     // Call backend proxy
-    const apiUrl = import.meta.env.VITE_API_URL || 'http://localhost:3001';
+    // Use relative URL in production to work with any base path
+    const apiUrl = import.meta.env.PROD ? '' : (import.meta.env.VITE_API_URL || 'http://localhost:3001');
     const backendResponse = await fetch(`${apiUrl}/transform-image`, {
       method: 'POST',
       body: formData
