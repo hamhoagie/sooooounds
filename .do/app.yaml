@@ -21,6 +21,9 @@ services:
   - key: OPENAI_API_KEY
     scope: RUN_TIME
     type: SECRET
+  - key: REPLICATE_API_TOKEN
+    scope: RUN_TIME
+    type: SECRET
 
 - name: web
   source_dir: /client
