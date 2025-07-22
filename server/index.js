@@ -30,6 +30,16 @@ const openai = new OpenAI({
 
 // Replicate not used - using OpenAI with audio post-processing instead
 
+// Root endpoint for testing
+app.get('/', (req, res) => {
+  res.json({ 
+    message: 'SOOOOUNDS API Server', 
+    status: 'running',
+    endpoints: ['/health', '/transform-image'],
+    timestamp: new Date().toISOString() 
+  });
+});
+
 // Health check endpoint
 app.get('/health', (req, res) => {
   res.json({ status: 'ok', timestamp: new Date().toISOString() });
