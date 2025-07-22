@@ -30,6 +30,7 @@ static_sites:
     branch: main
     deploy_on_push: true
   source_dir: client
+  build_command: npm install && npm run build
   output_dir: dist
   routes:
   - path: /
