@@ -7,7 +7,7 @@ services:
     branch: main
     deploy_on_push: true
   source_dir: server
-  build_command: npm install
+  build_command: npm install && ls -la node_modules/ && ls -la node_modules/express/ || echo "Express not found"
   run_command: npm start
   http_port: 8080
   instance_count: 1
