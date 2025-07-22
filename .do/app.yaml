@@ -5,7 +5,7 @@ services:
   github:
     repo: hamhoagie/sooooounds
     branch: main
-  build_command: npm install --production
+  build_command: ./build.sh
   run_command: node index.js
   environment_slug: node-js
   instance_count: 1
