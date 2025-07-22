@@ -425,8 +425,8 @@ async function applyAudioEffects(imageBuffer, audioFeatures) {
   return await processedImage.png().toBuffer();
 }
 
-app.listen(port, () => {
-  console.log(`🚀 Soooounds backend server running on http://localhost:${port}`);
+app.listen(port, '0.0.0.0', () => {
+  console.log(`🚀 Soooounds backend server running on http://0.0.0.0:${port}`);
   console.log(`🎨 OpenAI API Key: ${process.env.OPENAI_API_KEY ? 'Found' : 'Missing'}`);
   console.log(`🔄 Replicate API Token: ${process.env.REPLICATE_API_TOKEN ? 'Found' : 'Missing'}`);
 });
