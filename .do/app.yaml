@@ -7,6 +7,7 @@ services:
     branch: main
     deploy_on_push: true
   source_dir: server
+  build_command: npm install && npm run build || echo "No build script"
   http_port: 8080
   instance_count: 1
   instance_size_slug: basic-xxs
