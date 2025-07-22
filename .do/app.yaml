@@ -13,9 +13,7 @@ services:
   instance_count: 1
   instance_size_slug: basic-xxs
   routes:
-  - path: /api
-  - path: /transform-image
-  - path: /health
+  - path: /
   envs:
   - key: NODE_ENV
     value: production
