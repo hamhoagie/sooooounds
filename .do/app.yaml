@@ -32,8 +32,6 @@ static_sites:
   source_dir: client
   build_command: npm install && npm run build
   output_dir: dist
-  routes:
-  - path: /
   envs:
   - key: VITE_API_URL
     value: ${server.PUBLIC_URL}
