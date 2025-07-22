@@ -1,0 +1,41 @@
+name: soooounds
+services:
+- name: api
+  source_dir: /server
+  github:
+    repo: hamhoagie/sooooounds
+    branch: main
+  run_command: npm start
+  environment_slug: node-js
+  instance_count: 1
+  instance_size_slug: basic-xxs
+  routes:
+  - path: /api
+  - path: /transform-image
+  - path: /health
+  envs:
+  - key: NODE_ENV
+    value: production
+  - key: PORT
+    value: "8080"
+  - key: OPENAI_API_KEY
+    scope: RUN_TIME
+    type: SECRET
+
+- name: web
+  source_dir: /client
+  github:
+    repo: hamhoagie/sooooounds
+    branch: main
+  build_command: npm run build
+  run_command: npm run preview
+  environment_slug: node-js
+  instance_count: 1
+  instance_size_slug: basic-xxs
+  routes:
+  - path: /
+  envs:
+  - key: NODE_ENV
+    value: production
+  - key: VITE_API_URL
+    value: ${api.PUBLIC_URL}
