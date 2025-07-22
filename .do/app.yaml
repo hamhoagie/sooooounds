@@ -5,7 +5,7 @@ services:
   github:
     repo: hamhoagie/sooooounds
     branch: main
-  build_command: npm install
+  build_command: npm install --production
   run_command: node index.js
   environment_slug: node-js
   instance_count: 1
@@ -27,6 +27,8 @@ services:
     value: production
   - key: PORT
     value: "8080"
+  - key: NPM_CONFIG_PRODUCTION
+    value: "true"
   - key: OPENAI_API_KEY
     scope: RUN_TIME
     type: SECRET
