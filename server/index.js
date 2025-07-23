@@ -29,6 +29,15 @@ app.use((req, res, next) => {
   next();
 });
 
+// Strip /sooooounds prefix for DigitalOcean routing
+app.use((req, res, next) => {
+  if (req.path.startsWith('/sooooounds')) {
+    req.url = req.url.replace('/sooooounds', '');
+    console.log(`🔄 Rewriting path from ${req.path} to ${req.url}`);
+  }
+  next();
+});
+
 // Serve React app static files
 const path = require('path');
 app.use(express.static(path.join(__dirname, '../client/dist')));
