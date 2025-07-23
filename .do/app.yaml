@@ -1,15 +1,7 @@
 name: soooounds
 region: nyc
-ingress:
-  rules:
-  - component:
-      name: web
-      rewrite: /
-    match:
-      path:
-        prefix: /
 services:
-- name: web
+- name: soooounds
   github:
     repo: hamhoagie/sooooounds
     branch: main
