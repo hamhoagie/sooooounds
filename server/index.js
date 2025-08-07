@@ -42,10 +42,10 @@ app.use((req, res, next) => {
 const path = require('path');
 app.use(express.static(path.join(__dirname, '../client/dist')));
 
-// Initialize OpenAI
-const openai = new OpenAI({
-  apiKey: process.env.OPENAI_API_KEY,
-});
+// Initialize OpenAI only if an API key is available
+const openai = process.env.OPENAI_API_KEY
+  ? new OpenAI({ apiKey: process.env.OPENAI_API_KEY })
+  : null;
 
 // Replicate not used - using OpenAI with audio post-processing instead
 
@@ -459,10 +459,14 @@ app.get('*', (req, res) => {
   res.sendFile(path.join(__dirname, '../client/dist/index.html'));
 });
 
-app.listen(port, '0.0.0.0', () => {
-  console.log(`🚀 Soooounds backend server running on http://0.0.0.0:${port}`);
-  console.log(`🌍 PORT environment variable: ${process.env.PORT}`);
-  console.log(`🎨 OpenAI API Key: ${process.env.OPENAI_API_KEY ? 'Found' : 'Missing'}`);
-  console.log(`🔄 Replicate API Token: ${process.env.REPLICATE_API_TOKEN ? 'Found' : 'Missing'}`);
-  console.log(`📡 Server ready to accept connections on all interfaces`);
-});
+if (require.main === module) {
+  app.listen(port, '0.0.0.0', () => {
+    console.log(`🚀 Soooounds backend server running on http://0.0.0.0:${port}`);
+    console.log(`🌍 PORT environment variable: ${process.env.PORT}`);
+    console.log(`🎨 OpenAI API Key: ${process.env.OPENAI_API_KEY ? 'Found' : 'Missing'}`);
+    console.log(`🔄 Replicate API Token: ${process.env.REPLICATE_API_TOKEN ? 'Found' : 'Missing'}`);
+    console.log(`📡 Server ready to accept connections on all interfaces`);
+  });
+}
+
+module.exports = { app, generateAudioPrompt, applyAudioEffects };
